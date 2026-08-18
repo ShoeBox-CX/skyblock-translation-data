@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-08-18T17:56:14Z",
+  "generated": "2026-08-18T17:56:23Z",
   "notice": "Add cloud translation sync (/sbtranslate reload, cloud on|off|update|restore)",
   "files": {
     "vocab.json": {"sha256": "c2aa9ab5b8b1630b1e7c92491ca2496cf8894e8db8b7a020c072baf7b25d97e2", "size": 270262},
