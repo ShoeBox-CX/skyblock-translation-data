@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-08-18T17:50:40Z",
-  "notice": "Initial cloud sync publish.",
+  "generated": "2026-08-18T17:56:14Z",
+  "notice": "Add cloud translation sync (/sbtranslate reload, cloud on|off|update|restore)",
   "files": {
     "vocab.json": {"sha256": "c2aa9ab5b8b1630b1e7c92491ca2496cf8894e8db8b7a020c072baf7b25d97e2", "size": 270262},
     "engine.json": {"sha256": "8f2a9e3d78816a685c589c8c5ffc2eea73cb74c51851921da7cb2fe2068e7775", "size": 591},
