@@ -1,0 +1,37 @@
+{
+  "_comment": "記分板(右側 sidebar)面向。Hypixel 用隊伍的 prefix+suffix 拼出每一行，所以到這裡時已經是完整的一行，跟 hologram 同樣是「單獨一行」的鍵，不會跨行合併。側欄標題(SKYBLOCK 那行)也查這張表。底下可自由巢狀分類以便瀏覽，讀取時會攤平。用取鍵鍵(預設 J)抓取。字彙與佔位符見 vocab.json。",
+
+  "scoreboard": {
+    " {month} {0}st": " {month} {0}號",
+    " {month} {0}nd": " {month} {0}號",
+    " {month} {0}rd": " {month} {0}號",
+    " {month} {0}th": " {month} {0}號",
+    " {0}:{1}am {2}": " 上午 {0}：{1} {2}",
+    " {0}:{1}pm {2}": " 下午 {0}：{1} {2}",
+    " {0}:{1}am": " 上午 {0}：{1}",
+    " {0}:{1}pm": " 下午 {0}：{1}",
+    " {0} {island}": " {0} {island}",
+    " {0} {area}": " {0} {area}",
+    "Purse: {0}": "錢包：{0}",
+    "Purse: {0} §e({1})": "錢包：{0} §e({1})",
+    "Piggy: {0}": "撲滿：{0}",
+    "Piggy: {0} §e({1})": "撲滿：{0} §e({1})",
+    "Bits: {0}": "Bits：{0}",
+
+    "{stats}: {0}{1}": "{stats}：{0}{1}",
+    "{resource}: {0}": "{resource}：{0}",
+
+    "Slayer Quest": "獵殺任務",
+    "{boss} {roman}": "{boss} {roman}",
+    " ({0}{1}{2}) Combat XP": "（{0}{1}{2}）戰鬥經驗",
+    " {0}{1}{2} Kills": " {0}{1}{2} 擊殺數",
+    "Year {0} Votes": "第 {0} 年公投",
+    "{event} {0}:{1}": "{event} {0}:{1}",
+
+    "Objective": "目標",
+    "§fObjective {0}": "目標 {0}",
+    "Break a log": "破壞一塊原木",
+
+    "Captured Mobs: {0}": "已捕捉生物：{0}"
+  }
+}

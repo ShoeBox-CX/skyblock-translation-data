@@ -1,0 +1,10 @@
+{
+  "_comment": "畫面中央大標題(title / subtitle)面向。標題與副標題各是一則完整字串，共用這張表——同一句話兩邊出現時只需寫一條。跟其他面向一樣是「單獨一行」的鍵，不會合併。用取鍵鍵(預設 J)抓取(標題只顯示幾秒，會被記錄下來供事後抓取)。字彙與佔位符見 vocab.json。",
+
+  "title": {
+    "{island}": "{island}",
+    "{area}": "{area}",
+    "NEW AREA DISCOVERED!": "發現新區域！",
+    "Inventory full!": "物品欄已滿！"
+  }
+}

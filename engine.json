@@ -1,0 +1,37 @@
+{
+  "_comment": "引擎設定：全域行為旗標與參數(不屬於任何單一翻譯面向)。",
+
+  "template_first": true,
+
+  "ignore_case": [],
+
+  "group_numbers": false,
+
+  "highlight_spans": false,
+
+  "auto_stats": true,
+
+  "repeat_on": ["event"],
+
+  "bar_suffixes": ["XP"],
+
+  "number_units": ["k", "m", "b", "t"],
+
+  "bar_sentence_end": [".", "!", "?"],
+
+  "base_color_prefer": [],
+
+  "base_colors": {},
+
+  "icon_stats_include_item_only": false,
+
+  "literal_symbols": [],
+
+  "time_units": {
+    "y": "年",
+    "d": "天",
+    "h": "小時",
+    "m": "分鐘",
+    "s": "秒"
+  }
+}

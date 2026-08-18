@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "generated": "2026-08-18T17:50:40Z",
+  "notice": "Initial cloud sync publish.",
+  "files": {
+    "vocab.json": {"sha256": "c2aa9ab5b8b1630b1e7c92491ca2496cf8894e8db8b7a020c072baf7b25d97e2", "size": 270262},
+    "engine.json": {"sha256": "8f2a9e3d78816a685c589c8c5ffc2eea73cb74c51851921da7cb2fe2068e7775", "size": 591},
+    "tooltips.json": {"sha256": "b95e84bb18cccbef6b9285a9f84a353efff3d151de807c98a5d2a6f74e2bafe9", "size": 170113},
+    "guiname.json": {"sha256": "3cc0e69118cc57157f417a508d82901859c4804dba6e63bc884411126306da4b", "size": 3445},
+    "holograms.json": {"sha256": "33a2bfab48988ec28dc50a5371a99705b6b643e20ea0d777f4995bb21ed1f2ad", "size": 4138},
+    "scoreboard.json": {"sha256": "29d46a6c6f92a5b85a8d310d2f694bdce39135dbb7fc3d6db4b62c47ba630b52", "size": 1550},
+    "chat.json": {"sha256": "f9369df26b3b55e144465b581ae4a2893462cba325cdc7892717a0e39aecbc6e", "size": 16185},
+    "title.json": {"sha256": "6ca8d7c6b312b377922a044cf9c8cade7677bc26c06a62916fca3662b08af066", "size": 536}
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "_comment": "浮空文字(hologram)面向。Hypixel 的 hologram 是一個個獨立的隱形盔甲座，每一行都是自己的實體——沒有 tooltip 那種行與行的上下文，所以這裡的每個鍵都是「單獨一行」的完整內容，不會有跨行合併。鍵的格式與其他面向相同(佔位符正規化後的字串)，用 hologram 取鍵鍵(預設 J)抓取。字彙與佔位符見 vocab.json。",
+
+  "holograms": {
+    "{0}§7Lv{1}{2} {pet}": "{0}§7等級{1}{2} {pet}",
+    "{0}§7Lv{1}{2} {pet} {3}": "{0}§7等級{1}{2} {pet} {3}",
+    "{0} {mob} {1}{2}": "{0} {mob} {1}{2}",
+    "{0}§7Lv{1}{2} {3} {mob} {4}{5}{6}{7}": "{0}§7等級{1}{2} {3} {mob} {4}{5}{6}{7}",
+    "{0}§7Lv{1}{2} {3}{4} {mob} {5}{6}{7}{8}": "{0}§7等級{1}{2} {3}{4} {mob} {5}{6}{7}{8}",
+    "{0}§7Lv{1}{2} {3}{4}{5} {mob} {6}{7}{8}{9}": "{0}§7等級{1}{2} {3}{4}{5} {mob} {6}{7}{8}{9}",
+    "{0}§7Lv{1}{2} {3} {mob}": "{0}§7等級{1}{2} {3} {mob}",
+    "{0}§7Lv{1}{2} {3}{4} {mob}": "{0}§7等級{1}{2} {3}{4} {mob}",
+    "{0}§7Lv{1}{2} {3}{4}{5} {mob}": "{0}§7等級{1}{2} {3}{4}{5} {mob}",
+    "{0} {1}§7Lv{2}{3} {4} {mob} {5}{6}{7}{8} {9}": "{0} {1}§7等級{2}{3} {4} {mob} {5}{6}{7}{8} {9}",
+    "{0} {1}§7Lv{2}{3} {4}{5} {mob} {6}{7}{8}{9} {10}": "{0} {1}§7等級{2}{3} {4}{5} {mob} {6}{7}{8}{9} {10}",
+    "{0} {1}§7Lv{2}{3} {4}{5}{6} {mob} {7}{8}{9}{10} {11}": "{0} {1}§7等級{2}{3} {4}{5}{6} {mob} {7}{8}{9}{10} {11}",
+    "{0} {1}§7Lv{2}{3} {4} §5§ka§r§5§lMage Outlaw§r§5§ka {5}{6}{7}{8} {9}": "{0} {1}§7等級{2}{3} {4} §5§ka§r§5§l亡命法師§r§5§ka {5}{6}{7}{8} {9}",
+    "{0} {1}§7Lv{2}{3} {4} {mob} {5} {6}": "{0} {1}§7等級{2}{3} {4} {mob} {5} {6}",
+    "{0} {mob}": "{0} {mob}",
+    "{0}{1} {mob}": "{0}{1} {mob}",
+    "{0}{1}{2} {mob}": "{0}{1}{2} {mob}",
+    "{mob}": "{mob}",
+
+    "{npc}": "{npc}",
+    "Mayor {npc}": "{npc}市長",
+    "Minister {npc}": "{npc}部長",
+    "{island}": "{island}",
+    "{area}": "{area}",
+    "{event}": "{event}",
+    "NEW UPDATE": "新更新",
+    "NEW UPDATE!": "新更新！",
+    "STAY SAFE!": "注意安全",
+    "CITY PROJECT": "城市計畫",
+    "COMMUNITY SHOP": "社區商店",
+    "COSMETIC SHOP": "造型商店",
+    "MAYOR ELECTIONS": "市長選舉",
+    "STARLYN CONTESTS": "絲忒琳競賽",
+    "BOOSTER UPGRADES": "加成器升級",
+    "ISLAND GUIDE": "島嶼指南",
+    "TORRHUS CHAPTERS": "托赫斯篇章",
+    "Candidate": "候選人",
+    "Starter Gear": "初心者裝備",
+    "SHARD TRADING": "碎片交易",
+
+    "SAFARI ESSENCE SHOP": "獵遊精華商店",
+
+    "Honeyhive": "蜂巢",
+
+    "{0} DELIVERIES": "{0} 個包裹",
+    "{0} GUIDES": "{0} 各項指南",
+    "{0} {category} GUIDE": "{0} {category}指南",
+    "{0} SEA CREATURE GUIDE": "{0} 海怪指南",
+    "{0} BLOCK GUIDE": "{0} 方塊指南",
+    "{0} ENCHANTMENT GUIDE": "{0} 附魔指南",
+
+    "Travel to:": "前往至：",
+    "{0} Warp To {area}": "{0} 傳送至 {area}",
+    "Time left: {timer}": "剩餘時間：{timer}",
+    "Opens in: {timer}": "即將開啟：{timer}",
+    "Year {0}": "第 {0} 年",
+    "{0}ST {event}": "第 {0} 屆 {event}",
+    "{0}ND {event}": "第 {0} 屆 {event}",
+    "{0}RD {event}": "第 {0} 屆 {event}",
+    "{0}TH {event}": "第 {0} 屆 {event}",
+    "Calendar Event": "月曆活動",
+    "{0}§a pt. §7per {resource}": "§7每取得一個{resource} {0}§a 點",
+    "{0}§a pts. §7per {resource}": "§7每取得一個{resource} {0}§a 點",
+    "Collect points to earn §6spooky rewards§r!": "收集點數以獲得§6驚悚獎勵§r！",
+
+    "My storage is full! :(": "我的存儲已滿！ :(",
+
+    "FIG TREE {0}": "無花果樹 {0}",
+    "MANGROVE TREE {0}": "紅樹林木 {0}",
+    "HELIX TREE {0}": "螺旋樹 {0}",
+
+    "EXPERIMENTATION TABLE": "實驗台",
+
+    "REEL": "拉繩",
+    "CAPTURING": "捕捉中",
+    "HUNTING HOTSPOT": "狩獵熱點",
+
+    "Click to open!": "點擊開啟！",
+
+    "CLICK": "點擊",
+    "CLICK TO VOTE": "點擊投票",
+    "CLICK TO BUY": "點擊購買",
+    "Click HERE to remove": "點擊此處移除",
+    "Click to view rewards!": "點擊查看獎勵！"
+  }
+}
