@@ -218,11 +218,10 @@
       "Applicable on: §9Axe": "可附加於：§9斧",
       "Applicable on: §9Farming Tool": "可附加於：§9農具",
       "Applicable on: §9Mining Tool": "可附加於：§9挖掘工具",
-      "Applicable on: §9": "可附加於：§9",
-      "Applicable on: §9": "可附加於：§9",
-      "Applicable on: §9": "可附加於：§9",
-      "Applicable on: §9": "可附加於：§9",
-      "Applicable on: §9": "可附加於：§9"
+
+      "§7Enriches an accessory with the power of {0}{stats} §7when applied to a §6Legendary §7or §dMythic §7accessory.": "§7此道具附加於§6傳奇§7或§d神話§7飾品時，將 {0}{stats} 的能量增強至飾品上。",
+      "§7Only §lONE §r§7enrichment can be applied to a given accessory.": "§7飾品最多只能被施加§l一個§r§7增強效果。",
+      "§7Swaps all §9enriched §7accessories in your accessory bag to another enrichment.": "§7將飾品袋中所有§9已被增強§7的飾品切換至另一種增強效果。"
     },
     "Reforge Stone": {},
     "Power Stone": {
@@ -326,7 +325,7 @@
       "§6Hunting Traps §7can be placed near the spawn location of a §9Shard §7creature, with time it will eventually catch it.": "§7可以將§6狩獵陷阱§7放置在§9碎片§7生物的棲息地，陷阱終有一時會捕獲碎片的。",
       "Reduces the time to capture by {0}.": "捕獲的等待時間減少 {0}。",
       "§7Throw the Lasso at {area} creatures and hold them still until they lose all their §9stamina§7.": "§7向{area}生物投出套索並束縛住牠們，直至牠們耗盡§9體力§7。",
-      "§7Reel in creatures caught by the Lasso each time their §9stamina §7depletes.": "§7每當套住的生物§9體力§7見底時，進行收繩的動作。",
+      "§7Reel in creatures caught by the Lasso each time their §9stamina §7depletes.": "§7當套住的生物§9體力§7見底時，進行拉繩的動作。",
       "{mob_type} lose stamina {0} faster.": "{mob_type} 損失體力的速度加快 {0}。",
       "§7Grants {0}{stats} on §2Forest Shards §7caught with this Lasso.": "§7使用該套索捕捉§2森林碎片§7時獲得 {0}{stats}。",
       "This weapon lets you absorb {0} of the basic combat stats of any weapon.": "此武器能合併任何武器 {0} 的戰鬥數值至自身。",
@@ -500,6 +499,7 @@
       "Catacombs RNG Meters": "地下陵墓 RNG 保底條",
       "Catacombs Profile": "地下陵墓檔案",
 
+      "{item} Recipes": "{item}配方",
       "{collections_res} {roman}": "{collections_res} {roman}",
       "{resource} {roman}": "{resource} {roman}",
       "{boss} {roman}": "{boss} {roman}",
@@ -513,6 +513,7 @@
       "{item} x{0}": "{item} x{0}",
       "{resource} x{0}": "{resource} x{0}",
       "{collections_res} x{0}": "{collections_res} x{0}",
+      "{0} {1}{2}{3} {item}": "{0} {1}{2}{3} {item}",
 
       "Your SkyBlock Level Ranking": "你的 Skyblock 等級排行",
       "Level {0}": "等級 {0}",
@@ -1011,8 +1012,11 @@
             "{0} {item} §8x{1}": "{0} {item} §8x{1}",
             "{0} {item} §8x{1}{2}": "{0} {item} §8x{1}{2}",
             "{0} {item} §8({1}§8)": "{0} {item} §8({1}§8)",
-            "{0} {collections_res} §8x{1}": "",
+            "{0} {collections_res} §8x{1}": "{0} {collections_res} §8x{1}",
             "{0} {collections_res} §8x{1}{2}": "{0} {collections_res} §8x{1}{2}",
+            "{0} {resource} §8x{1}": "{0} {resource} §8x{1}",
+            "{0} {resource} §8x{1}{2}": "{0} {resource} §8x{1}{2}",
+            "{0} {item}§f ({enchantment} {roman}) §8({1})": "{0} {item}§f ({enchantment} {roman}) §8({1})",
             "{0} {1}§7Lvl {2}{3} {pet}": "{0} {1}§7等級 {2}{3} {pet}",
             "{0} {1}§7Lvl {2}{3} {pet} §8({4}§8)": "{0} {1}§7等級 {2}{3} {pet} §8({4}§8)"
           },
@@ -2001,6 +2005,7 @@
           "§eRight-click to §cdisable§e!": "§e右鍵以§c禁用§e！",
           "§eRight-click to §aenable§e!": "§e右鍵以§a啟用§e！",
           "Right-Click to set amount!": "右鍵以設定數量！",
+          "Right-click to open menu!": "右鍵以開啟目錄！",
 
           "Shift Left-click to toggle as favorite!": "Shift 左鍵以新增或移除最愛！",
           "Shift Right-click to move all!": "Shift 右鍵以移送全部！",

@@ -21,6 +21,7 @@
     "{0}{1}{2} {mob}": "{0}{1}{2} {mob}",
     "{mob}": "{mob}",
 
+    "{item}": "{item}",
     "{npc}": "{npc}",
     "Mayor {npc}": "{npc}市長",
     "Minister {npc}": "{npc}部長",
@@ -52,6 +53,7 @@
     "{0} SEA CREATURE GUIDE": "{0} 海怪指南",
     "{0} BLOCK GUIDE": "{0} 方塊指南",
     "{0} ENCHANTMENT GUIDE": "{0} 附魔指南",
+    "{0} HONEY GUIDE": "{0} 蜂蜜指南",
 
     "Travel to:": "前往至：",
     "{0} Warp To {area}": "{0} 傳送至 {area}",

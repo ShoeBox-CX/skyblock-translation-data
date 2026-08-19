@@ -1,5 +1,14 @@
 {
-  "_comment": "聊天室訊息面向。每筆訊息是一個完整的鍵(不跨訊息合併)。⚠ Hypixel 把公會/組隊/群島聊天也當成系統訊息送出，所以「玩家自己打的字」也會經過這張表——只有正規化後完全相同的鍵才會被翻譯，因此請避免寫出過於通用的鍵(例如只有佔位符、或短到像日常對話的句子)，否則可能誤翻玩家的發言。用取鍵鍵(預設 J)抓取。字彙與佔位符見 vocab.json。",
+  "_comment": "聊天室訊息面向。每筆訊息是一個完整的鍵(不跨訊息合併)。⚠ Hypixel 把公會/組隊/群島聊天也當成系統訊息送出，所以「玩家自己打的字」也會經過這張表——只有正規化後完全相同的鍵才會被翻譯，因此請避免寫出過於通用的鍵(例如只有佔位符、或短到像日常對話的句子)，否則可能誤翻玩家的發言。用取鍵鍵(預設 J)抓取。字彙與佔位符見 vocab.json。玩家頻道訊息(公會/隊伍/群島聊天、私訊)不受此限——冒號前的頻道標籤獨立翻譯，見下方 chat_channels，冒號後玩家打的字原封不動接回去，永遠不進這張表、不進 M 取鍵、不進未翻譯記錄。",
+
+  "chat_channels": {
+    "Guild >": "§2公會 >",
+    "Officer >": "§2幹部 >",
+    "Party >": "§9隊伍 >",
+    "Co-op >": "§b群島 >",
+    "From": "§d來自",
+    "To": "§d傳給"
+  },
 
   "chat": {
     "§eWelcome to §aHypixel SkyBlock§e!": "§e歡迎來到 §aHypixel SkyBlock§e！",
@@ -18,8 +27,13 @@
     "There was an error queuing into SkyBlock!": "當你列隊進入 SkyBlock 時發生了錯誤！",
     "Try again in a moment!": "稍等再進行嘗試！",
     "Oops! Couldn't find a SkyBlock server for you! Try again later!": "噢！無法為你找到 SkyBlock 伺服器！稍後再進行嘗試！",
-    "This ability is on cooldown for {timer}.": "此技能還有 {timer} 冷卻。",
 
+    "This ability is on cooldown for {timer}.": "此技能還有 {timer} 冷卻。",
+    "Inventory full? Don't forget to check out your Storage inside the SkyBlock Menu!": "物品欄已滿？別忘了使用 SkyBlock 目錄中的倉庫功能！",
+
+    "{rarity} DROP! {item}": "{rarity}掉落！{item}",
+    "{rarity} DROP! {collections_res}": "{rarity}掉落！{collections_res}",
+    "{rarity} DROP! {resource}": "{rarity}掉落！{resource}",
     "{rarity} DROP! {collections_res} §b({0} {stats})": "{rarity}掉落！{collections_res} §b({0} {stats})",
     "{rarity} DROP! {resource} §b({0} {stats})": "{rarity}掉落！{resource} §b({0} {stats})",
     "{rarity} DROP! {resource} §8x{0} §e({1}{2})": "{rarity}掉落！{resource} §8x{0} §e({1}{2})",
@@ -42,6 +56,7 @@
     "You have {0} materials stashed away!": "你有 {0} 個材料被暫存了！",
     "(This totals {0} type of material stashed!)": "（總計有 {0} 種材料被暫存！）",
     "(This totals {0} type of materials stashed!)": "（總計有 {0} 種材料被暫存！）",
+    "(This totals {0} types of materials stashed!)": "（總計有 {0} 種材料被暫存！）",
     "{0} §3§lCLICK HERE§r§b to pick them up! {1}": "{0} §3§l點擊此處§r§b以將其取出！ {1}",
     "From stash: {collections_res}": "來自暫存空間：{collections_res}",
     "From stash: {resource}": "來自暫存空間：{resource}",
@@ -187,18 +202,62 @@
     "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回了 {collections_res}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
     "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回了 {collections_res}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
 
+    "{event} §ehas begun! Help {npc} find his §6Chocolate Rabbit Eggs §eacross SkyBlock each day during the {month}!": "{event}§e開始了！在這個{month}幫助{npc}在 SkyBlock 各處尋回他的§6巧克力兔子蛋§e吧！",
     "{event} The event starts in {0} days!": "{event} 活動將於 {0} 天後開始！",
     "{event} The event starts in {0} day!": "{event} 活動將於 {0} 天後開始！",
     "§d§lYum! §r§eYou gain {0}{stats} for {1} hours!": "§d§l美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
     "§d§lBig Yum! §r§eYou refresh {0}{stats} for {1} hours!": "§d§l超級美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
 
+    "§6§lBESTIARY": "§6§l怪物圖鑑",
+    "{mob} {roman} {0} {roman2}": "{mob} {roman} {0} {roman2}",
+    "{0} {mob} {stats}": "{0} {mob} {stats}",
+    "{0} {mob} coins": "{0} {mob} 遊戲幣",
+    "{0} chance for extra XP orbs": "{0} 機率獲得額外經驗球",
+    "{0} coin gain": "{0} 遊戲幣掉落",
+    "{0} chance for {1} XP orbs": "{0} 機率掉落 {1} 經驗球",
+    "§6§lBESTIARY MILESTONE": "§6§l怪物圖鑑里程碑",
+    "{roman}{0}{roman2}": "{roman}{0}{roman2}",
+
     "§bNew day! §eYour §2Sky Mall §ebuff changed!": "§b新的一天！§e你§2空島商城§e的加成更換了！",
 
     "TREE GIFT": "樹之餽贈",
+    "BONUS GIFT": "額外餽贈",
     "{0}§e rewards gained! §8(hover)": "§e獲得 {0} 項獎勵！§8（細項）",
     "A {mob} fell from the Tree!": "一隻{mob}從樹中出現了！",
     "{item}§f ({enchantment} {roman}) §8({0})": "{item}§f（{enchantment} {roman}）§8（{0}）",
+    "§7You helped cut {0} §7of the §6Helix Tree§7.": "§7你協助砍伐了 {0} 的§6螺旋樹§7。",
+    "§2§lWOODPECKER! §r§fYou felled the entire §aTree§f!": "§2§lWOODPECKER！§r§f你一口氣砍倒了整株§a樹§f！",
+    "§a§lTIMBER! §r§fYou felled the entire §aTree§f!": "§a§lTIMBER！§r§f你一口氣砍倒了整株§a樹§f！",
+    "§2§lPETALFALL! §r§fYou felled the entire §aTree§f!": "§2§l落瓣！§r§f你一口氣砍倒了整株§a樹§f！",
+    "§d§lKARMA! §r§fYour §2Tree Gift §fcontained double loot!": "§d§l業力！§r§f你的§2樹之餽贈§f包含了兩份獎勵！",
 
-    "§aYou caught §7x{0} {mob} §aShards!": "你補獲了§7x{0} {mob}§a碎片！"
+    "§aYou caught §7x{0} {mob} §aShards!": "你補獲了 {mob} §a碎片 §7x{0}！",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "§9Fig Tree Gift. §7You helped cut {0} and gained {1}§e rewards§a!": "§9無花果樹之餽贈。§7你協助砍伐了 {0} 並獲得了 {1}§e 項獎勵！",
+    "§9Mangrove Tree Gift. §7You helped cut {0} and gained {1}§e rewards§a!": "§9紅樹林木之餽贈。§7你協助砍伐了 {0} 並獲得了 {1}§e 項獎勵！",
+    "§9Helix Tree Gift. §7You helped cut {0} and gained {1}§e rewards§a!": "§9螺旋樹之餽贈。§7你協助砍伐了 {0} 並獲得了 {1}§e 項獎勵！"
   }
 }

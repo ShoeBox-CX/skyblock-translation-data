@@ -3,6 +3,8 @@
 
   "template_first": true,
 
+  "chat_template_first": false,
+
   "ignore_case": [],
 
   "group_numbers": false,
