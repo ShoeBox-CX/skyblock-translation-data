@@ -219,6 +219,9 @@
       "Applicable on: §9Farming Tool": "可附加於：§9農具",
       "Applicable on: §9Mining Tool": "可附加於：§9挖掘工具",
 
+      "Applies the {stats} booster when combined with Foraging Armor, Equipment, or Axes.": "綁定在伐木類防具、副裝或斧頭時，將 {stats} 加成器附加上去。",
+      "Grants {stats}.": "獲得 {stats}。",
+
       "§7Enriches an accessory with the power of {0}{stats} §7when applied to a §6Legendary §7or §dMythic §7accessory.": "§7此道具附加於§6傳奇§7或§d神話§7飾品時，將 {0}{stats} 的能量增強至飾品上。",
       "§7Only §lONE §r§7enrichment can be applied to a given accessory.": "§7飾品最多只能被施加§l一個§r§7增強效果。",
       "§7Swaps all §9enriched §7accessories in your accessory bag to another enrichment.": "§7將飾品袋中所有§9已被增強§7的飾品切換至另一種增強效果。"
@@ -378,6 +381,8 @@
 
   "ui": {
     "name": {
+      "{item} ({enchantment} {roman})": "{item}（{enchantment} {roman}）",
+
       "Back": "返回",
       "Go Back": "返回",
       "Close": "關閉介面",
@@ -569,7 +574,53 @@
       "Tier {0}": "第 {0} 階",
       "Crystal Hollows Crystals": "水晶礦谷的眾水晶",
       "Crystal Nucleus RNG Meter": "水晶礦谷 RNG 保底條",
-      "Reset Heart of the Mountain": "重置礦山之心"
+      "Reset Heart of the Mountain": "重置礦山之心",
+      "Mining Speed": "挖掘速度",
+      "Mining Speed Boost": "挖掘速度加成",
+      "Precision Mining": "精準挖掘",
+      "Mining Fortune": "挖掘幸運",
+      "Titanium Insanium": "鈦瘋狂啦",
+      "Pickobulus": "鎬球爆破",
+      "Luck of the Cave": "洞窟幸運",
+      "Efficient Miner": "高效礦工",
+      "Quick Forge": "迅捷冶煉",
+      "Sky Mall": "空島商城",
+      "Old-School": "老派作風",
+      "Professional": "專業人士",
+      "Mole": "鼴鼠",
+      "Gem Lover": "寶石愛好者",
+      "Seasoned Mineman": "老練礦工",
+      "Front Loaded": "先發優勢",
+      "Daily Grind": "每日磨礪",
+      "Core of the Mountain": "礦山之核",
+      "Daily Powder": "每日粉末",
+      "Tunnel Vision": "隧道視野",
+      "Blockhead": "方塊腦袋",
+      "Subterranean Fisher": "地下漁夫",
+      "Keep It Cool": "保持冷靜",
+      "Lonesome Miner": "孤獨礦工",
+      "Great Explorer": "偉大探險家",
+      "Maniac Miner": "狂熱礦工",
+      "Speedy Mineman": "迅捷礦工",
+      "Powder Buff": "粉末加成",
+      "Fortunate Mineman": "幸運礦工",
+      "Miner's Blessing": "礦工的祝福",
+      "No Stone Unturned": "掘地三尺",
+      "Strong Arm": "強壯臂力",
+      "Steady Hand": "穩健之手",
+      "Warm Heart": "溫暖之心",
+      "Surveyor": "勘測員",
+      "Mineshaft Mayhem": "礦井狂亂",
+      "Metal Head": "金屬狂人",
+      "Rags to Riches": "白手起家",
+      "Eager Adventurer": "熱切冒險家",
+      "Gemstone Infusion": "寶石灌注",
+      "Crystalline": "結晶化",
+      "Gifts from the Departed": "死者的餽贈",
+      "Mining Master": "挖掘大師",
+      "Dead Man's Chest": "死者的寶箱",
+      "Vanguard Seeker": "先鋒探尋者",
+      "Sheer Force": "純粹蠻力"
     },
 
     "describe": {
@@ -601,7 +652,16 @@
         "Consumes on Cast": "使用後會被消耗",
 
         "{0} None": "{0} 無",
-        "And {0} more options": "以及另外 {0} 個選項"
+        "And {0} more options": "以及另外 {0} 個選項",
+
+        "{0} §cRequires §aCombat Skill {1}§c.": "{0} §c需達到 §a戰鬥等級 {1}§c。",
+        "{0} §cRequires §aFarmig Skill {1}§c.": "{0} §c需達到 §a農耕等級 {1}§c。",
+        "{0} §cRequires §aMining Skill {1}§c.": "{0} §c需達到 §a挖掘等級 {1}§c。",
+        "{0} §cRequires §aForaging Skill {1}§c.": "{0} §c需達到 §a伐木等級 {1}§c。",
+        "{0} §cRequires §aFishing Skill {1}§c.": "{0} §c需達到 §a釣魚等級 {1}§c。",
+        "{0} §cRequires §aHunting Skill {1}§c.": "{0} §c需達到 §a狩獵等級 {1}§c。",
+        "{0} §cRequires §aTaming Skill {1}§c.": "{0} §c需達到 §a馴養等級 {1}§c。",
+        "{0} §cRequires §aSocial Skill {1}§c.": "{0} §c需達到 §a社交等級 {1}§c。"
       },
 
       "UI Button": {
@@ -633,6 +693,7 @@
         "Farming Tool": "農耕工具",
         "Hunting Tool": "狩獵工具",
         "Lava Rod": "熔岩釣竿",
+        "Drill Part": "鑽頭部件",
         "Fishing Bait": "魚餌",
         "Garden Chip": "花園晶片",
         "Ship Part": "船隻零件",
@@ -1134,6 +1195,7 @@
             "Level {0}{1}{2}": "等級 {0}{1}{2}",
             "Level {0}": "等級 {0}",
             "§cYou don't have enough §5Token of the Mountain§c!": "§c你沒有足夠的§5礦山之證§c！",
+            "Requires {mining.perk}": "須具備 {mining.perk}",
 
             "{0}§c Pickaxe Ability Level": "{0}§c 挖掘技能等級",
             "{0}§a Commission Slot": "{0}§a 委託欄位",
@@ -1540,9 +1602,9 @@
           "Acts as Superboom TNT!": "可充當 Superboom TNT！",
           "Unleash a Thunderstorm, striking enemies in a {0} block radius for {1} seconds, dealing damage based on your Mage level!": "釋放雷霆之力，{1} 秒內對 {0} 格範圍內的敵人降下雷擊，傷害隨著你的法師等級提升！",
           "{0} Pop-up Wall": "{0} 障壁創造",
-          "{0} Fireball": "{0} 火球",
+          "{0} Fireball": "{0} 火球術",
           "{0} Ghost Ability: Instant Wall": "{0} 幽靈技能：障壁創造",
-          "{0} Ghost Ability: Fireball": "{0} 幽靈技能：火球",
+          "{0} Ghost Ability: Fireball": "{0} 幽靈技能：火球術",
           "Create a {0}x{1} wall at the block you are looking at which lasts for {2} seconds.": "在你瞄準的方塊上創建一道 {0}x{1} 的牆壁，存在持續 {2} 秒。",
           "Shoots a fireball, dealing damage based on your Mage level!": "發射一發火球，傷害隨著你的法師等級提升！",
           "{0} {1} Reduction": "{0} 冷卻減免",
@@ -1788,7 +1850,69 @@
         }
       },
 
-      "Calendar & Events": {},
+      "Calendar & Events": {
+        "Mayor Perks": {
+          "Foxy": {
+            "Sweet Benevolence": "甜蜜恩澤",
+            "§7Earn {0} §7more §dCandy§7, §cGifts §7and §6Chocolate §7from duplicate rabbits during their respective events.": "§7在各自的活動期間，§d糖果§7、§c禮物§7和重複兔子給予的§6巧克力§7增加 {0}§7。",
+
+            "Extra Event": "額外活動",
+            "§7Schedules an extra {event} §7event during the year.": "§7在這一年中額外安排一場{event}§7活動。",
+
+            "A Time for Giving": "贈禮時節",
+            "§7Spawn §dParty Chests §7by killing mobs during the {event} §7and collect §bParty Gifts §7from {island}§7.": "§7在{event}§7期間擊殺怪物以生成§d派對寶箱§7，並於{island}§7收集§b派對禮物§7。",
+
+            "Chivalrous Carnival": "騎士嘉年華",
+            "§7Schedules a {event} §7in the hub, active throughout the §bentire year§7.": "§7在大廳安排一場{event}§7，並持續§b一整年§7。"
+          },
+          "Aatrox": {
+            "SLASHED Pricing": "斬價優惠",
+            "§7Starting slayer quests is §ehalf price§7.": "§7接取獵殺任務只需§e半價§7。",
+
+            "Slayer XP Buff": "獵殺經驗加成",
+            "§7Earn {0} §7more Slayer XP.": "§7獲得的獵殺經驗增加 {0}§7。",
+
+            "Pathfinder": "開路先鋒",
+            "§7Gain rare drops {0} §7more often.": "§7獲得稀有掉落物的頻率增加 {0}§7。"
+          },
+          "Diana": {
+            "Huntress' Intuition": "女獵手的直覺",
+            "§7Gain {0}{stats}§7.": "§7獲得 {0}{stats}§7。",
+
+            "Mythological Ritual": "神話儀式",
+            "§7Mayor {npc} will sell the {pet} §7pet, which lets you find §2Mythological Creatures §7and tons of §eunique items§7.": "§7{npc}§7市長將販售{pet}§7寵物，讓你能夠找到§2神話生物§7以及大量§e獨特物品§7。",
+
+            "Pet XP Buff": "寵物經驗加成",
+            "§7Gain {0} §7more pet XP.": "§7獲得的寵物經驗增加 {0}§7。",
+
+            "Sharing is Caring": "分享即關懷",
+            "§7Unlocks {0} §7more {item} §7slots in your pets menu and increases the {item2} §7rate by {1}§7!": "§7在寵物選單中額外解鎖 {0} §7個{item}§7欄位，並使{item2}§7的速率提升 {1}§7！"
+          },
+          "Cole": {
+            "Prospection": "探勘",
+            "§7Mining minions work {0} §7faster.": "§7挖掘工人的工作速度加快 {0}§7。",
+
+            "Mining XP Buff": "挖掘經驗加成",
+            "§7Get {0}{stats} §7on public islands.": "§7在公共島嶼上獲得 {0}{stats}§7。",
+
+            "Mining Fiesta": "礦工狂歡節",
+            "§7Schedules {0} §6Mining Fiestas §7throughout the year! During these events gain {1}{stats}§7, collect {resource} §7and {resource2}§7, and earn {2} drops §7from mining!": "§7在這一年中安排 {0} 場§6礦工狂歡節§7！活動期間獲得 {1}{stats}§7、收集{resource}§7與{resource2}§7，並從挖掘中獲得 {2} 掉落物！",
+
+            "Molten Forge": "熔融冶煉",
+            "§7Decrease the time it takes to §6forge §7items by {0}§7.": "§7§6冶煉§7物品所需的時間減少 {0}§7。"
+          },
+          "Paul": {
+            "Marauder": "掠奪者",
+            "§7Dungeon reward chests are {0} §7cheaper.": "§7地下城獎勵寶箱的開啟花費降低 {0}§7。",
+
+            "EZPZ": "輕輕鬆鬆",
+            "§7Gain {0} §7bonus score on dungeon runs.": "§7在地下城中額外獲得 {0} §7分數。",
+
+            "Benediction": "祝禱",
+            "§7Blessings are {0} §7stronger.": "§7祝福的效果增強 {0}§7。"
+          }
+        }
+      },
 
       "Storage": {
         "Store global items you can access anywhere in your ender chest.": "你可以將任何物品存在終界箱並在任何時候拿出他們。",
@@ -1856,10 +1980,479 @@
         },
 
         "Perk Name": {
-          "Hive": "蜂巢",
-          "Busy Buzz Buzz": "忙碌嗡嗡嗡",
-          "Honey Harvester": "採蜜者",
-          "Powered by Pollen": "花粉驅動"
+          "Bee": {
+            "Hive": "蜂巢",
+            "Busy Buzz Buzz": "忙碌嗡嗡",
+            "Honey Harvester": "採蜜者",
+            "Powered by Pollen": "花粉驅動"
+          },
+          "Chicken": {
+            "Free Range": "放養",
+            "Eggstra Loot": "蛋外收穫",
+            "Light Feet": "輕盈步伐"
+          },
+          "Elephant": {
+            "Stomp": "重踏",
+            "Walking Fortress": "行走堡壘",
+            "Trunk Efficiency": "象鼻效率",
+            "Abundant Harvest": "豐盈收成"
+          },
+          "Hedgehog": {
+            "Spiky Quills": "尖刺棘毛",
+            "Fearsome Farmer": "可畏農夫",
+            "Hunter's Insight": "獵人的洞察"
+          },
+          "Mooshroom Cow": {
+            "Mushroom Eater": "蘑菇食客",
+            "Farming Strength": "農耕力量",
+            "Bovine Blessing": "牛之祝福"
+          },
+          "Mosquito": {
+            "Smooth Jazz": "悠揚爵士",
+            "Buzzin' Barterer": "嗡嗡商販",
+            "Bloodsucker's Betrayal": "吸血者的背叛"
+          },
+          "Orchid Mantis": {
+            "Intelligent Specimen": "聰慧標本",
+            "Swift Sickles": "迅捷鐮刀",
+            "Orchid Nectar": "蘭花花蜜"
+          },
+          "Pig": {
+            "Hamfisted": "豬手笨腳",
+            "Shining Stampede": "閃耀奔騰",
+            "Pig Parade": "豬之遊行"
+          },
+          "Rabbit": {
+            "Happy Feet": "快樂腳",
+            "Farming Wisdom Boost": "農耕智慧增幅",
+            "Efficient Farming": "高效農耕",
+            "Chocolate Injections": "巧克力注射"
+          },
+          "Rose Dragon": {
+            "Garden Power": "花園之力",
+            "Rosy Scales": "玫瑰鱗片",
+            "Dragon's Gluttony": "巨龍的貪食",
+            "Spiritual Perfection": "靈性完美",
+            "Symbiosis": "共生"
+          },
+          "Slug": {
+            "Slow and Steady": "慢而穩",
+            "Pest Friends": "害蟲之友",
+            "Repugnant Aroma": "惡臭氣味"
+          },
+
+          "Armadillo": {
+            "Ridable": "可騎乘",
+            "Tunneller": "開鑿者",
+            "Rolling Miner": "滾動礦工",
+            "Long Claws": "長爪",
+            "Well-Worked": "熟能生巧"
+          },
+          "Bal": {
+            "Furnace": "熔爐",
+            "Dispersion": "消散",
+            "Cannibal": "同族相食"
+          },
+          "Bat": {
+            "Candy Lover": "糖果愛好者",
+            "Nightmare": "夢魘",
+            "Wings of Steel": "鋼鐵之翼",
+            "Sonar": "聲納"
+          },
+          "Endermite": {
+            "More Stonks": "石來運轉",
+            "Daily Commuter": "每日通勤",
+            "Mite Bait": "蠹魚誘餌",
+            "Sacrificer": "獻祭者"
+          },
+          "Glacite Golem": {
+            "Powder-powered": "粉塵動力",
+            "Iceborn": "冰雪之子",
+            "Frozen Perfection": "冰封完美"
+          },
+          "Goblin": {
+            "Grunt Work": "苦力活",
+            "Fetid Thief": "惡臭竊賊",
+            "Free-range Eggs": "放養鮮蛋"
+          },
+          "Mithril Golem": {
+            "Mithril Affinity": "祕銀親和",
+            "Subterranean Battler": "地底戰士",
+            "The Smell Of Powder": "粉塵的氣味",
+            "Refined Senses": "敏銳感官"
+          },
+          "Mole": {
+            "Archaeologist": "考古學家",
+            "Magnetic Nose": "磁性鼻子",
+            "Nucleic Explorer": "核心探險家"
+          },
+          "Rock": {
+            "Rideable": "可騎乘",
+            "Sailing Stone": "漂移巨石",
+            "Fortify": "加固",
+            "Steady Ground": "穩固地基"
+          },
+          "Scatha": {
+            "Burrowing": "挖洞",
+            "Drill Infusion": "鑽頭灌注",
+            "Bejeweled Eyes": "寶石之眼"
+          },
+          "Silverfish": {
+            "Magnetic": "磁力",
+            "Experienced Burrower": "熟練鑽掘者",
+            "Dexterity": "靈巧"
+          },
+          "Snail": {
+            "Red Sand Enjoyer": "紅沙愛好者",
+            "Slow and Steady": "慢而穩",
+            "Slimy Reach": "黏液伸展"
+          },
+          "Wither Skeleton": {
+            "Stronger Bones": "堅韌骨骼",
+            "Wither Blood": "凋零之血",
+            "Death's Touch": "死神之觸"
+          },
+
+          "Ankylosaurus": {
+            "Armored Tank": "裝甲坦克",
+            "Unyielding": "堅毅不屈",
+            "Clubbed Tail": "棒尾重擊"
+          },
+          "Black Cat": {
+            "Hunter": "獵手",
+            "Omen": "預兆",
+            "Supernatural": "超自然",
+            "Looting": "掠奪"
+          },
+          "Blaze": {
+            "Nether Embodiment": "地獄化身",
+            "Bling Armor": "閃耀盔甲",
+            "Fusion-Style Potato": "融合風馬鈴薯"
+          },
+          "Crow": {
+            "Quick Hands": "快手",
+            "Camouflage": "偽裝",
+            "Insightful": "洞察"
+          },
+          "Eerie": {
+            "Fearnesy": "恐懼餘韻",
+            "Fearama": "恐懼狂潮",
+            "Fearcreasing": "恐懼遞增"
+          },
+          "Ender Dragon": {
+            "End Strike": "終界打擊",
+            "One with the Dragons": "與龍同心",
+            "Superior": "卓越"
+          },
+          "Enderman": {
+            "Enderian": "終界之軀",
+            "Teleport Savvy": "傳送精通",
+            "Zealot Madness": "狂熱者瘋狂",
+            "Enderman Slayer": "終界使者獵人"
+          },
+          "Ghoul": {
+            "Undead Slayer": "不死族獵人",
+            "Army of the Dead": "亡者大軍",
+            "Reaper Soul": "死神之魂"
+          },
+          "Golden Dragon": {
+            "Gold's Power": "黃金之力",
+            "Shining Scales": "閃耀鱗片",
+            "Dragon's Greed": "巨龍的貪婪",
+            "Legendary Treasure": "傳奇寶藏",
+            "Symbiosis": "共生"
+          },
+          "Golem": {
+            "Last Stand": "背水一戰",
+            "Ricochet": "跳彈",
+            "Toss": "拋擲"
+          },
+          "Grandma Wolf": {
+            "Kill Combo": "擊殺連段"
+          },
+          "Griffin": {
+            "Odyssey": "奧德賽",
+            "Sacred Strength": "神聖力量",
+            "King of Kings": "萬王之王",
+            "Ancient Earth": "遠古大地"
+          },
+          "Horse": {
+            "High Stride": "高步幅",
+            "Stampede": "奔騰",
+            "Trample": "踐踏"
+          },
+          "Hound": {
+            "Scavenger": "拾荒",
+            "Finder": "尋覓者",
+            "Pack Slayer": "狼群獵人"
+          },
+          "Jerry": {
+            "Jerry": "傑瑞"
+          },
+          "Kuudra": {
+            "Wither Bait": "凋零誘餌",
+            "Trophy Bait": "獎盃誘餌",
+            "Crimson": "猩紅",
+            "Kuudra Fortune": "庫德拉幸運",
+            "Kuudra Specialist": "庫德拉專家"
+          },
+          "Magma Cube": {
+            "Slimy Minions": "黏液工人",
+            "Salt Blade": "鹽之刃",
+            "Hot Ember": "熾熱餘燼"
+          },
+          "Mammoth": {
+            "Wooly Coat": "厚毛外衣",
+            "Tusk Luck": "象牙好運",
+            "Corpse Crusher": "屍骸粉碎者"
+          },
+          "Phoenix": {
+            "Rekindle": "浴火重燃",
+            "Fourth Flare": "第四道燃焰",
+            "Magic Bird": "魔法鳥",
+            "Eternal Coins": "永恆金幣"
+          },
+          "Pigman": {
+            "Bacon Farmer": "培根農夫",
+            "Pork Master": "豬肉大師",
+            "Giant Slayer": "巨人殺手"
+          },
+          "Precursor Drone": {
+            "Contraband": "走私品",
+            "Grungle": "擲斧狂魔",
+            "Mining Off Camera": "鏡頭外的挖掘"
+          },
+          "Rat": {
+            "Morph": "變身",
+            "CHEESE!": "起司！",
+            "Rat's Blessing": "老鼠的祝福",
+            "Extreme Speed": "極速狂飆"
+          },
+          "Rift Ferret": {
+            "Orbs are Fun": "經驗球真有趣"
+          },
+          "Skeleton": {
+            "Bone Arrows": "骨箭",
+            "Combo": "窮追猛打",
+            "Skeletal Defense": "骷髏防禦"
+          },
+          "Skeleton Horse": {
+            "High Stride": "高步幅",
+            "Stampede": "奔騰",
+            "Trample": "踐踏"
+          },
+          "Snowman": {
+            "Blizzard": "暴風雪",
+            "Frostbite": "凍傷",
+            "Snow Cannon": "雪球砲",
+            "Ouch!": "好痛！"
+          },
+          "Spider": {
+            "One With The Spider": "與蜘蛛同心",
+            "Web-weaver": "織網者",
+            "Spider Whisperer": "蜘蛛低語者",
+            "Web Battlefield": "蛛網戰場"
+          },
+          "Spirit": {
+            "Spirit Assistance": "靈魂協助",
+            "Spirit Cooldowns": "靈魂冷卻",
+            "Half Life": "半條命"
+          },
+          "T-Rex": {
+            "Close Combat": "近身戰鬥",
+            "Ferocious Roar": "兇猛咆哮",
+            "Tyrant": "暴君"
+          },
+          "Tarantula": {
+            "Webbed Cells": "蛛網牢籠",
+            "Eight Legs": "八足",
+            "Arachnid Slayer": "蛛形獵人",
+            "Web Battlefield": "蛛網戰場"
+          },
+          "Tiger": {
+            "Merciless Swipe": "無情揮擊",
+            "Hemorrhage": "大出血",
+            "Apex Predator": "頂級掠食者"
+          },
+          "Turtle": {
+            "Turtle Tactics": "龜甲戰術",
+            "Genius Amniote": "天才羊膜動物",
+            "Unflippable": "不可翻覆",
+            "Turtle Shell": "龜殼"
+          },
+          "Wolf": {
+            "Alpha Dog": "頭狼",
+            "Pack Leader": "狼群領袖",
+            "Combat Wisdom Boost": "戰鬥智慧增幅"
+          },
+          "Zombie": {
+            "Bite Shield": "咬擊護盾",
+            "Rotten Blade": "腐爛之刃",
+            "Living Dead": "活死人"
+          },
+
+          "Frog": {
+            "Hop": "彈跳",
+            "Happy Tree Friends": "快樂樹朋友",
+            "Hunting Enjoyer": "狩獵愛好者",
+            "Home Sweet Home": "甜蜜的家"
+          },
+          "Giraffe": {
+            "Good Heart": "善良之心",
+            "Higher Ground": "居高臨下",
+            "Long Neck": "長頸"
+          },
+          "Jade Dragon": {
+            "Forest Power": "森林之力",
+            "Jade Scale": "翡翠鱗片",
+            "Dragon's Pride": "巨龍的驕傲",
+            "Apex Predator": "頂級掠食者",
+            "Symbiosis": "共生"
+          },
+          "Lion": {
+            "Primal Force": "原始之力",
+            "First Pounce": "首次撲擊",
+            "King of the Jungle": "叢林之王"
+          },
+          "Monkey": {
+            "Treeborn": "樹木之子",
+            "Vine Swing": "藤蔓擺盪",
+            "Evolved Axes": "進化之斧"
+          },
+          "Ocelot": {
+            "Foraging Wisdom Boost": "伐木智慧增幅",
+            "Tree Hugger": "抱樹者",
+            "Tree Essence": "樹之精華"
+          },
+          "Sloth": {
+            "Slow Start": "慢熱起步",
+            "Stronk Arm": "大力臂",
+            "Starlyn's Favorite": "史塔琳的最愛"
+          },
+
+          "Ammonite": {
+            "Heart of the Sea": "海洋之心",
+            "Expert Cave Fisher": "洞穴釣魚專家",
+            "Gift of the Ammonite": "菊石的贈禮"
+          },
+          "Baby Yeti": {
+            "Yeti Fury": "雪怪之怒",
+            "Cold Breeze": "凜冽寒風",
+            "Frosty Familiarity": "霜寒熟稔",
+            "Family Gathering": "家族聚會"
+          },
+          "Blue Whale": {
+            "Ingest": "吞噬",
+            "Bulk": "龐然巨軀",
+            "Archimedes": "阿基米德"
+          },
+          "Dolphin": {
+            "Pod Tactics": "群體戰術",
+            "Echolocation": "回聲定位",
+            "Splash Surprise": "水花驚喜"
+          },
+          "Flying Fish": {
+            "Quick Reel": "快速收線",
+            "Water Bender": "御水者",
+            "Deep Sea Diver": "深海潛水員",
+            "Lava Bender": "御熔岩者",
+            "Magmatic Diver": "熔岩潛水員",
+            "Rapid Decay": "急速衰變"
+          },
+          "Hermit Crab": {
+            "Comfort Zone": "舒適圈",
+            "Seafloor Scalper": "海底黃牛",
+            "Crab Rave": "螃蟹狂歡",
+            "Hotspot Hazard": "熱點危機"
+          },
+          "Megalodon": {
+            "Blood Scent": "血腥嗅覺",
+            "Enhanced Scales": "強化鱗片",
+            "Feeding Frenzy": "攝食狂潮"
+          },
+          "Penguin": {
+            "Thick Blubber": "厚實脂肪",
+            "Chilly Reception": "冷淡接待",
+            "Subzero Hero": "零下英雄"
+          },
+          "Reindeer": {
+            "Winter Sprint": "冬季衝刺",
+            "Infused": "灌注",
+            "Snow Power": "白雪之力",
+            "Icy Wind": "冰冷寒風"
+          },
+          "Seal": {
+            "Showboater": "愛現者",
+            "Peak Performance": "巔峰表現",
+            "Amphibious": "兩棲"
+          },
+          "Spinosaurus": {
+            "Sharp Attitude": "銳利態度",
+            "Pursuit": "追擊",
+            "Primordial Fisher": "原始漁夫"
+          },
+          "Squid": {
+            "More Ink": "更多墨汁",
+            "Ink Specialty": "墨汁專精",
+            "Fishing Wisdom Boost": "釣魚智慧增幅"
+          },
+
+          "Jellyfish": {
+            "Radiant Scyphozoa": "光輝缽水母",
+            "Stored Energy": "儲存能量",
+            "Powerful Potions": "強效藥水"
+          },
+          "Parrot": {
+            "Flamboyant": "華麗炫目",
+            "Repeat": "複誦",
+            "Bird Discourse": "鳥語傳情",
+            "Parrot Feather Infusion": "鸚鵡羽毛灌注"
+          },
+          "Sheep": {
+            "Mana Saver": "魔力節約",
+            "Overheal": "過量治療",
+            "Dungeon Wizard": "地下城巫師"
+          },
+          "Witch": {
+            "Toil and Trouble": "辛勞與麻煩",
+            "Alchemism": "煉金之術",
+            "Witching Hour": "巫魔時刻"
+          },
+
+          "Guardian": {
+            "Lazerbeam": "雷射光束",
+            "Enchanting Wisdom Boost": "附魔智慧增幅",
+            "Mana Pool": "魔力池",
+            "Lucky Seven": "幸運七"
+          },
+
+          "Owl": {
+            "Training Refunds": "訓練退款",
+            "Efficient Trainer": "高效訓練師",
+            "Fast Learner": "學習高手"
+          },
+
+          "Bingo": {
+            "Lucky Looting": "幸運戰利",
+            "Climber": "攀登者",
+            "Fast Learner": "學習高手",
+            "Chimera": "奇美拉",
+            "Scavenger": "拾荒",
+            "Consumer": "消耗者",
+            "Power Of Completion": "完成之力"
+          },
+          "Montezuma": {
+            "Nine Lives": "九命",
+            "Trickery": "詭計"
+          },
+          "Wisp": {
+            "Drophammer": "落錘",
+            "Bulwark": "壁壘",
+            "Blaze Slayer": "烈焰獵人",
+            "Extinguish": "熄滅",
+            "Ephemeral Stability": "短暫穩定",
+            "Icehammer": "冰錘"
+          }
         },
 
         "Perk Describe": {

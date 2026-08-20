@@ -231,6 +231,8 @@
     "§2§lPETALFALL! §r§fYou felled the entire §aTree§f!": "§2§l落瓣！§r§f你一口氣砍倒了整株§a樹§f！",
     "§d§lKARMA! §r§fYour §2Tree Gift §fcontained double loot!": "§d§l業力！§r§f你的§2樹之餽贈§f包含了兩份獎勵！",
 
+    "§aYou caught a {mob} §aShard!": "你補獲了一個 {mob} §a碎片！",
+    "§aYou caught an {mob} §aShard!": "你補獲了一個 {mob} §a碎片！",
     "§aYou caught §7x{0} {mob} §aShards!": "你補獲了 {mob} §a碎片 §7x{0}！",
 
 

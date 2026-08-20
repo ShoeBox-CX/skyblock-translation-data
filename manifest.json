@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated": "2026-08-19T16:32:38Z",
-  "notice": "Translations: fill the itemNames gap (593 entries) + hand edits across four aspects",
+  "generated": "2026-08-20T17:27:11Z",
+  "notice": "Placeholder group ties: declarative priority, name-path retry, visibility, lint",
   "files": {
-    "vocab.json": {"sha256": "531da9799c9a06168303b8997c73f8161ca2f96a7f13e2dc6947d86c8c6464f9", "size": 306629},
-    "engine.json": {"sha256": "2cfac98ee61731f76a0c1706635a64429626d4615cc7d9a3ddbfe120738a9127", "size": 624},
-    "tooltips.json": {"sha256": "760f25d65e580ad1fc50ad62e1ace3710d17b1db8412bfcfb923fd478a7ab6ad", "size": 170857},
+    "vocab.json": {"sha256": "37cac07dc55c5ab38220694f0ca7e3d33b5ee5b074af150f84a502e3b9963a1f", "size": 316490},
+    "engine.json": {"sha256": "bea15d4d5025982d8d9eb96da65bee3bb23f7cefc8d18f69176ec8abc742b6fc", "size": 1088},
+    "tooltips.json": {"sha256": "ea7848ea6d5008ecb7d81be461fcd70fbd065ab4eefabd4964c4fe50acd389e4", "size": 193229},
     "guiname.json": {"sha256": "3cc0e69118cc57157f417a508d82901859c4804dba6e63bc884411126306da4b", "size": 3445},
     "holograms.json": {"sha256": "441c7fd5f8159515894e8bd1d5f86275707e5b1d9f250a71903ee192d3b19290", "size": 4205},
     "scoreboard.json": {"sha256": "0145d63e2818535a327e28ccd72d9032a4841e30c71a9544576bf01581eb83e0", "size": 1612},
-    "chat.json": {"sha256": "b413c2736e085125822f10eebb9a79ba781cb0183d22b0b51a396062820dc9ad", "size": 19022},
+    "chat.json": {"sha256": "df38d830650861076081f2b5de37023aa9c0575a9db8bed7c5911c6a11265f08", "size": 19183},
     "title.json": {"sha256": "6ca8d7c6b312b377922a044cf9c8cade7677bc26c06a62916fca3662b08af066", "size": 536}
   }
 }

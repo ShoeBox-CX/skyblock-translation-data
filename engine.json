@@ -7,6 +7,12 @@
 
   "ignore_case": [],
 
+  "_comment_protect": "必須整段視為字面文字的詞組；任何佔位符都不能在其內部觸發。",
+  "protect": ["Healing Aura"],
+
+  "_comment_group_priority": "兩個 placeholders 群組搶到完全相同的一段文字時的勝負順序；未列出的群組排在所有列出的之後。空陣列＝維持今天的行為（依 JSON 宣告順序）。用 K dump 的 [keydiff:group_priority] 預覽再決定要不要填。",
+  "group_priority": [],
+
   "group_numbers": false,
 
   "highlight_spans": false,
