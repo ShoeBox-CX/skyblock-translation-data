@@ -531,6 +531,7 @@
 
       "Chapters": "篇章",
       "Quest Log": "任務日誌",
+      "Chapter {roman}": "第 {roman} 章",
 
       "Ender Chest": "終界箱",
       "Backpacks": "隨身背包",
@@ -703,6 +704,7 @@
         "Consumable": "消耗品",
         "Furniture": "家具",
         "Colored": "可上色",
+        "{island}": "{island}",
 
         "Minion Skin": "工人造型",
         "Minion Fuel": "工人燃料",
@@ -2034,7 +2036,7 @@
           "Rose Dragon": {
             "Garden Power": "花園之力",
             "Rosy Scales": "玫瑰鱗片",
-            "Dragon's Gluttony": "巨龍的貪食",
+            "Dragon's Gluttony": "龍之暴食",
             "Spiritual Perfection": "靈性完美",
             "Symbiosis": "共生"
           },
@@ -2161,7 +2163,7 @@
           "Golden Dragon": {
             "Gold's Power": "黃金之力",
             "Shining Scales": "閃耀鱗片",
-            "Dragon's Greed": "巨龍的貪婪",
+            "Dragon's Greed": "龍之貪婪",
             "Legendary Treasure": "傳奇寶藏",
             "Symbiosis": "共生"
           },
@@ -2308,7 +2310,7 @@
           "Jade Dragon": {
             "Forest Power": "森林之力",
             "Jade Scale": "翡翠鱗片",
-            "Dragon's Pride": "巨龍的驕傲",
+            "Dragon's Pride": "龍之傲慢",
             "Apex Predator": "頂級掠食者",
             "Symbiosis": "共生"
           },
@@ -2481,7 +2483,10 @@
       },
 
       "Loadouts": {},
-      "Bank Menu": {},
+      "Bank Menu": {
+        "Account: §3Luxurious": "帳戶：§3奢華",
+        "Balance: {0}": "存款：{0}"
+      },
       "Fast Travel": {
         "Explore more of SkyBlock to find this location!": "繼續探索 Skyblock 來尋找這些地區！",
         "§7Main skill: §bFarming": "§7主題技能：§b農耕",
@@ -2495,7 +2500,10 @@
       "Game Settings": {},
       "Booster Cookie": {},
       "Merchant Menu": {
-        "Click items in your inventory to sell them to this Shop!": "點擊物品欄中的物品以將其售出至商店！"
+        "Click items in your inventory to sell them to this Shop!": "點擊物品欄中的物品以將其售出至商店！",
+        "Sell price: {0} coins": "售價：{0}§6 遊戲幣",
+        "Buy price: {0} coins": "買價：{0}§6 遊戲幣",
+        "{0} products": "{0} 項商品"
       },
       "Tips": {
         "Command Tips": {
@@ -2559,6 +2567,9 @@
           "Click to confirm!": "點擊以確認！",
           "Click to select!": "點擊以選擇！",
           "Click to get store info!": "點擊以取得商城資訊！",
+          "Click to view details!": "點擊查看詳情！",
+          "Click to browse!": "點擊瀏覽！",
+          "Click to view products!": "點擊查看商品！",
 
           "Left-click to scroll!": "左鍵以滑動",
           "§eLeft-click §7to scroll up!": "§e左鍵§7以向上滑動！",

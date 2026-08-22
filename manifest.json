@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated": "2026-08-22T15:37:31Z",
-  "notice": "Bind the master translation key to Z by default, not Left Shift",
+  "generated": "2026-08-22T15:41:48Z",
+  "notice": "Promote reviewed machine translations, clear the staging backlog",
   "files": {
     "vocab.json": {"sha256": "37cac07dc55c5ab38220694f0ca7e3d33b5ee5b074af150f84a502e3b9963a1f", "size": 316490},
     "engine.json": {"sha256": "bea15d4d5025982d8d9eb96da65bee3bb23f7cefc8d18f69176ec8abc742b6fc", "size": 1088},
-    "tooltips.json": {"sha256": "bad3bef17fcfb8d85c8f358c0781f657ceecbefa43342d5968318a4f3c16e004", "size": 193386},
+    "tooltips.json": {"sha256": "3e6bfb003af964b904e2cf3915a477e816d7b97edb556aab11ca669c660b226e", "size": 193890},
     "guiname.json": {"sha256": "4e6ed133d4c4e4b44e4cc232f461965934ac0d9eb1901c74d4413cc840fb8d77", "size": 6625},
     "holograms.json": {"sha256": "ad6dccb9ace8f1fd34fa9c6adb39dc32e05059ba95f6aff8a0bb9505f9fd54da", "size": 6548},
     "scoreboard.json": {"sha256": "a4f9f3d13d5d9640b56177f50e04c63e5dd86085f26c987adefcb7460fa53761", "size": 2799},
     "chat.json": {"sha256": "cc944b232a37f4acb45e864b13ef1d69b368b80e4d76f57b12d15990a39f52c0", "size": 20340},
-    "title.json": {"sha256": "45a5c75d04c9f721e5e0f02a2592534a995983b39146183f307d6be9d39300e2", "size": 774}
+    "title.json": {"sha256": "652b9d616ef1ce54bde4d8d7e3f9a6ed56182f146f049938cbfa2c7c42f4194f", "size": 829}
   }
 }
