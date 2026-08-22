@@ -5,6 +5,11 @@
     "{island}": "{island}",
     "{area}": "{area}",
     "NEW AREA DISCOVERED!": "發現新區域！",
-    "Inventory full!": "物品欄已滿！"
+    "Inventory full!": "物品欄已滿！",
+
+    "SERVER REBOOT!": "伺服器重新啟動！",
+    "Scheduled Reboot (in {0}:{1})": "排定重新啟動（{0}：{1} 後）",
+    "Move around to return to the lobby.": "移動以返回大廳。",
+    "You are AFK": "你正在掛機"
   }
 }

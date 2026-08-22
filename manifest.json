@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated": "2026-08-20T17:27:11Z",
-  "notice": "Placeholder group ties: declarative priority, name-path retry, visibility, lint",
+  "generated": "2026-08-22T15:37:31Z",
+  "notice": "Bind the master translation key to Z by default, not Left Shift",
   "files": {
     "vocab.json": {"sha256": "37cac07dc55c5ab38220694f0ca7e3d33b5ee5b074af150f84a502e3b9963a1f", "size": 316490},
     "engine.json": {"sha256": "bea15d4d5025982d8d9eb96da65bee3bb23f7cefc8d18f69176ec8abc742b6fc", "size": 1088},
-    "tooltips.json": {"sha256": "ea7848ea6d5008ecb7d81be461fcd70fbd065ab4eefabd4964c4fe50acd389e4", "size": 193229},
-    "guiname.json": {"sha256": "3cc0e69118cc57157f417a508d82901859c4804dba6e63bc884411126306da4b", "size": 3445},
-    "holograms.json": {"sha256": "441c7fd5f8159515894e8bd1d5f86275707e5b1d9f250a71903ee192d3b19290", "size": 4205},
-    "scoreboard.json": {"sha256": "0145d63e2818535a327e28ccd72d9032a4841e30c71a9544576bf01581eb83e0", "size": 1612},
-    "chat.json": {"sha256": "df38d830650861076081f2b5de37023aa9c0575a9db8bed7c5911c6a11265f08", "size": 19183},
-    "title.json": {"sha256": "6ca8d7c6b312b377922a044cf9c8cade7677bc26c06a62916fca3662b08af066", "size": 536}
+    "tooltips.json": {"sha256": "bad3bef17fcfb8d85c8f358c0781f657ceecbefa43342d5968318a4f3c16e004", "size": 193386},
+    "guiname.json": {"sha256": "4e6ed133d4c4e4b44e4cc232f461965934ac0d9eb1901c74d4413cc840fb8d77", "size": 6625},
+    "holograms.json": {"sha256": "ad6dccb9ace8f1fd34fa9c6adb39dc32e05059ba95f6aff8a0bb9505f9fd54da", "size": 6548},
+    "scoreboard.json": {"sha256": "a4f9f3d13d5d9640b56177f50e04c63e5dd86085f26c987adefcb7460fa53761", "size": 2799},
+    "chat.json": {"sha256": "cc944b232a37f4acb45e864b13ef1d69b368b80e4d76f57b12d15990a39f52c0", "size": 20340},
+    "title.json": {"sha256": "45a5c75d04c9f721e5e0f02a2592534a995983b39146183f307d6be9d39300e2", "size": 774}
   }
 }
