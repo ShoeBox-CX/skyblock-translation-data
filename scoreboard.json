@@ -22,6 +22,7 @@
     "Copper: {0}": "銅幣：{0}",
     "Sowdust: {0}": "作物之塵：{0}",
     "Whispers: {0}": "呢喃：{0}",
+    "Carnival Tokens: {0}": "嘉年華代幣：{0}",
 
     "{stats}: {0}{1}": "{stats}：{0}{1}",
     "{resource}: {0}": "{resource}：{0}",
@@ -31,12 +32,12 @@
     " ({0}{1}{2}) Combat XP": "（{0}{1}{2}）戰鬥經驗",
     " {0}{1}{2} Kills": " {0}{1}{2} 擊殺數",
     "Year {0} Votes": "第 {0} 年公投",
-    "{event} {0}:{1}": "{event} {0}:{1}",
+    "{event} {0}:{1}": "{event} {0}§f:{1}",
     "New Year Event! {0}:{1}": "新年活動！{0}:{1}",
 
     " {0} {collections_res} {1}m{2}s": " {0} {collections_res} {1}分{2}秒",
     " {0} Plot - {1}": " {0} 地塊 - {1}",
-    "{npc}'s Contest {0}m{1}s": "{npc}的競賽 {0}分{1}秒",
+    "{npc}'s Contest {timer}": "{npc}的競賽 {timer}",
     "{npc}'s Contest": "{npc}的競賽",
     " Collected {0}": " 已收集 {0}",
     " Updating ranking...": " 排名更新中...",
@@ -58,7 +59,7 @@
     "Talk to {npc}": "與{npc}交談",
 
     "Objective": "目標",
-    "§fObjective {0}": "目標 {0}",
+    "Objective {0}": "目標 {0}",
     "Break a log": "破壞一塊原木",
 
     "Captured Mobs: {0}": "已捕捉生物：{0}"

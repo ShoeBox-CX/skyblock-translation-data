@@ -13,6 +13,9 @@
   "_comment_group_priority": "兩個 placeholders 群組搶到完全相同的一段文字時的勝負順序；未列出的群組排在所有列出的之後。空陣列＝維持今天的行為（依 JSON 宣告順序）。用 K dump 的 [keydiff:group_priority] 預覽再決定要不要填。",
   "group_priority": [],
 
+  "_comment_group_specificity": "兩個 placeholders 群組的來源路徑有包含關係時（例如 itemNames.Reforge Stone 在 itemNames 底下），同時屬於兩者的詞由「窄的」那個贏，與 JSON 宣告順序無關。這是結構推導出來的答案，不需要宣告。false＝維持今天的行為（靠宣告順序，目前 reforge.stone 因為晚 item 一行而完全失效）。用 K dump 的 [keydiff:group_specificity] 預覽再決定要不要開。",
+  "group_specificity": false,
+
   "group_numbers": false,
 
   "highlight_spans": false,

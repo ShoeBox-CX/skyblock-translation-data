@@ -17,7 +17,7 @@
     "Your profile was changed to: {profile}": "你檔案已切換至：{profile}",
     "§aYou are playing on profile: {profile}§b (Co-op)": "§a你正在遊玩的檔案：{profile}§b (Co-op)",
     "§aYour profile was changed to: {profile}§b (Co-op)": "§a你檔案已切換至：{profile}§b (Co-op)",
-    "You have {0} unclaimed deliveries!\nClick here or talk to {npc} to claim them!": "§6你有 {0} 個未領取的包裹！\n§e點擊這裡或和{npc}交談以領取包裹！",
+    "§6You have {0} unclaimed deliveries!\n§eClick here or talk to {npc} to claim them!": "§6你有 {0} 個未領取的包裹！\n§e點擊這裡或和{npc}交談以領取包裹！",
 
     "Warping...": "傳送中...",
     "§eYou are being transferred to the §aHUB §efor being §cAFK§e!": "§e你因為§c掛機§e而被移至§a大廳§e了！",
@@ -222,6 +222,9 @@
     "{roman}{0}{roman2}": "{roman}{0}{roman2}",
 
     "You received {0} {resource} for killing a {mob}!": "你消滅 {mob} 而獲得了 {0} {resource}！",
+    "You received {0} {resource} for killing an {mob}!": "你消滅 {mob} 而獲得了 {0} {resource}！",
+    "You received {0} {item} for killing a {mob}!": "你消滅 {mob} 而獲得了 {0} {item}！",
+    "You received {0} {item} for killing an {mob}!": "你消滅 {mob} 而獲得了 {0} {item}！",
 
     "§bNew day! §eYour {mining.perk} buff changed!": "§b新的一天！§e你{mining.perk}的加成更換了！",
 
