@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-08-23T21:47:53Z",
-  "notice": "Translation table updates; nest uiname into sub-categories",
+  "generated": "2026-08-24T06:56:39Z",
+  "notice": "Drop the stray empty Attribute Only inside Critter Safari",
   "files": {
-    "vocab.json": {"sha256": "1982b5bfe54598259f3af4ac9c2b6c40024bc943676ba716f58280db978a737f", "size": 317019},
+    "vocab.json": {"sha256": "929baf6f73b78d99abaccaaa908ae3054127f46dffc2323c6809f7e1aa67a701", "size": 335713},
     "engine.json": {"sha256": "976e8c39533e73afff9a576b1afdf603c40de00bc688f4bd5a8932694b7068bf", "size": 1595},
     "tooltips.json": {"sha256": "810d6fad57f050a1a9fc116534491340914507d0a6b111ed8d503e150d378148", "size": 225930},
     "guiname.json": {"sha256": "f1ec0c946aba8badb831c0d9da6798d8d03d65757512f73ff462dbaf2e3c7fdd", "size": 6627},
