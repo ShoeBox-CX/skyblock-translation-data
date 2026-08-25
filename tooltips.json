@@ -302,6 +302,7 @@
       "§7Applies the §9Thorny §7reforge when combined with equipment.": "§7與副裝結合時，賦予§9荊棘的§7重鑄。",
       "§7Applies the §9Treacherous §7reforge when combined with a fishing rod.": "§7與魚竿結合時，賦予§9險惡的§7重鑄。",
       "§7Applies the §9Withered §7reforge when combined with a melee weapon.": "§7與近戰武器結合時，賦予§9凋零的§7重鑄。",
+      "§7Applies the §9Marshy §7reforge when combined with equipment.": "§7與副裝結合時，賦予§9沼澤的§7重鑄。",
       "§9Undead §7(§6Legendary§7):": "§9不死的 §7（§6傳奇§7）：",
       "§9Jerry's §7(§6Legendary§7):": "§9傑瑞的 §7（§6傳奇§7）：",
       "§9Ambered §7(§6Legendary§7):": "§9琥珀的§7（§6傳奇§7）：",
@@ -376,6 +377,7 @@
       "§9Thorny §7(§6Legendary§7):": "§9荊棘的§7（§6傳奇§7）：",
       "§9Treacherous §7(§6Legendary§7):": "§9險惡的§7（§6傳奇§7）：",
       "§9Withered §7(§6Legendary§7):": "§9凋零的§7（§6傳奇§7）：",
+      "§9Marshy §7(§6Legendary§7):": "§9沼澤的§7（§6傳奇§7）：",
       "§8§oA cold and hardened heart that was once brimming with eager love.": "§8§o一顆冰冷而堅硬的心，曾經滿溢著熱切的愛。",
       "§8§oA man, who knows not where he is nor where he has been, reaches into his pocket.": "§8§o一個不知身在何處、也不知自己曾去過何方的男人，將手伸進了口袋。",
       "§8§oA very strange find once found inside the carcass of a {mob}§8§o. It seems like they enjoy a snack that is out of this world from time to time.": "§8§o曾在一具{mob}§8§o的屍骸中發現的怪異之物。看來牠們偶爾也會享用一些來自異世界的點心。",
@@ -410,7 +412,8 @@
       "§8§oThis vicious material can sometimes be found on the floor of {island}§8§o.": "§8§o這種凶惡的材料有時能在{island}§8§o的地面上尋得。",
       "§8§oUse with your favorite {item}§8§o.": "§8§o與你最喜愛的{item}§8§o搭配使用。",
       "§8§oVery original...": "§8§o真有創意……",
-      "§8§oWoah, woah, too many drops!": "§8§o哇、哇，滴太多了！"
+      "§8§oWoah, woah, too many drops!": "§8§o哇、哇，滴太多了！",
+      "§8§oA rare type of mushroom native to the {island}.": "§8§o一株在{island}土生土長的稀有蘑菇。"
     },
     "Power Stone": {
       "§7Combine §ax{0} §7of this item at the {area} §7in the §bHub §7to unlock the {power} power.": "前往§b大廳§7的{area}將該道具 §ax{0} §7進行綁定，即可解鎖{power}能量。",
@@ -418,6 +421,7 @@
     },
     "Minions": {
       "Time Between Actions: {timer}": "動作間隔：{timer}",
+      "Time Between Actions: {timer} {0} {timer2}": "動作間隔：{timer} {0} {timer2}",
       "Max Storage: {0}": "存儲上限：{0}",
       "Resources Generated: {0}": "資源總產出：{0}"
     },
@@ -568,7 +572,7 @@
     "§7For every {0}{stats} you have, gain a {1} chance to dig up §9Worms§7.": "§7每當你身上 {0}{stats} 時，挖掘到§9蠕蟲§7的機率便提升 {1}。",
     "§7Grants {0}{stats} §7against §3Sea Creatures§7.": "§7面對§3海怪§7時，獲得 {0}{stats}。",
     "§7Grants {0}{stats} §7on {mob_type}§7.": "§7對{mob_type}§7獲得 {0}{stats}。",
-    "§7Grants {0}{stats} §7on {item}§9 Shards§7.": "§7對{item}§9碎片§7獲得 {0}{stats}。",
+    "§7Grants {0}{stats} §7on §9Water Shards§7.": "§7對§9水域碎片§7獲得 {0}{stats}。",
     "§7Grants {0}{stats} §7when mining §9Blocks§7.": "§7挖掘§9方塊§7時，獲得 {0}{stats}。",
     "§7Grants {0}{stats} §7when mining {collections_res} §7or {resource}§7.": "§7挖掘{collections_res}§7或{resource}§7時，獲得 {0}{stats}。",
     "§7Grants {0}{stats} §7while on §bMining Islands§7.": "§7位於§b挖掘型島嶼§7時，獲得 {0}{stats}。",
@@ -605,7 +609,8 @@
     "{resource}§f Ore §7grants {0} {powder} §7when mined.": "{resource}§f礦石§7被挖掘時給予 {0} {powder}§7。",
     "§eGriffin Burrow §7chains always consist of {0} §7additional burrows.": "§e獅鷲地洞§7鏈固定會多出 {0} §7個額外地洞。",
     "§7Upon killing an enemy, you have a rare chance to grant coins to a player around you.": "§7擊殺敵人時，有極低機率給予你周圍的一名玩家遊戲幣。",
-    "§7Grants an additional {0}{stats} §7per tier of {enchantment} §7on all of your armor pieces.": "§7你所有盔甲部件上每一階的{enchantment} §7，額外獲得 {0}{stats}。"
+    "§7Grants an additional {0}{stats} §7per tier of {enchantment} §7on all of your armor pieces.": "§7你所有盔甲部件上每一階的{enchantment} §7，額外獲得 {0}{stats}。",
+    "§7Increases {whisper} gain by {0}.": "將{whisper}的獲得量提升 {0}。"
   },
 
   "ui": {
@@ -615,6 +620,7 @@
         "{item} {0}": "{item} {0}",
         "{resource} x{0}": "{resource} x{0}",
         "{mob_type}": "{mob_type}",
+        "{area}": "{area}",
 
         "{0} {stats}": "{0} {stats}",
         "{0} Coins": "{0} 遊戲幣",
@@ -627,8 +633,14 @@
         "Stock": "存貨",
         "{0} remaining": "{0} 剩餘",
         "Items Required": "物品需求",
+        "{rarity} {category} §r§8(ID C{0})": "{rarity} {category}§r§8（ID 普通{0}）",
+        "{rarity} {category} §r§8(ID U{0})": "{rarity} {category}§r§8（ID 罕見{0}）",
+        "{rarity} {category} §r§8(ID R{0})": "{rarity} {category}§r§8（ID 稀有{0}）",
+        "{rarity} {category} §r§8(ID E{0})": "{rarity} {category}§r§8（ID 史詩{0}）",
+        "{rarity} {category} §r§8(ID L{0})": "{rarity} {category}§r§8（ID 傳奇{0}）",
         "{rarity} {category}": "{rarity} {category}",
         "{rarity}": "{rarity}",
+
         "{0} §a§lTIP!": "{0} §a§l小提示！",
         "Uses: {0}{1}{2}": "次數：{0}{1}{2}",
 
@@ -664,6 +676,8 @@
         "Enchanting Pet": "附魔型寵物",
         "Taming Pet": "馴養型寵物",
         "Mining Mount": "挖掘型坐騎",
+
+        "Global": "泛用",
 
         "Common commodity": "普通級商品",
         "Uncommon commodity": "罕見級商品",
@@ -886,9 +900,10 @@
 
         "{stats} is the ability to cut multiple logs at once.": "{stats}是一項能使你一次挖下多塊原木的能力。",
         "{stats} is the chance to gain multiple drops from logs.": "{stats}能使你砍伐原木時有機率獲得多重掉落物。",
-        "{stats}§7 is the chance to gain multiple drops from §aFig Trees§7. This chance is added on top of your {stats2}§7.": "{stats}能使你在挖掘§a無花果樹§7時獲得多重掉落物。此機率最終會與{stats2}相加。",
-        "{stats}§7 is the chance to gain multiple drops from §aMangrove Trees§7. This chance is added on top of your {stats2}§7.": "{stats}能使你在挖掘§a紅樹林木§7時獲得多重掉落物。此機率最終會與{stats2}相加。",
-        "{stats}§7 is the chance to gain multiple drops from §aHelix Trees§7. This chance is added on top of your {stats2}§7.": "{stats}能使你在挖掘§a螺旋樹§7時獲得多重掉落物。此機率最終會與{stats2}相加。",
+        "{stats} is the chance to gain multiple drops from §aFig Trees§7. This chance is added on top of your {stats2}§7.": "{stats}能使你在砍伐§a無花果樹§7時獲得多重掉落物。此機率最終會與{stats2}相加。",
+        "{stats} is the chance to gain multiple drops from §aMangrove Trees§7. This chance is added on top of your {stats2}§7.": "{stats}能使你在砍伐§a紅樹林木§7時獲得多重掉落物。此機率最終會與{stats2}相加。",
+        "{stats} is the chance to gain multiple drops from §aHelix Trees§7. This chance is added on top of your {stats2}§7.": "{stats}能使你在砍伐§a螺旋樹§7時獲得多重掉落物。此機率最終會與{stats2}相加。",
+        "{stats} is the chance to fell the entire tree on your first melee axe cut.": "{stats}能使你在第一次近戰砍伐樹木時，有機率一次砍倒整棵樹木。",
 
         "{stats} decreases the delay before a fish will appear. Capped {stats2} means a fish will appear immediately after casting your rod.": "{stats}能減少等待咬鈎的時間。{stats2}達到上限代表魚兒會在拋竿後立刻浮現。",
         "{stats} is your chance to catch Sea Creatures while fishing.": "{stats}為你釣魚時釣上海怪的機率。",
@@ -1038,7 +1053,7 @@
             "Capped at Tier {roman}": "上限為第 {roman} 階",
             "Tier {roman} Rewards": "第 {roman} 階獎勵",
             "{0} {mob} {stats}": "{0} {mob} {stats}",
-            "{0} {mob} Hunting XP": "{0} {mob} 狩獵經驗",
+            "{0} Hunting XP gain": "{0} 獲得狩獵經驗",
             "{0} {mob} coins": "{0} {mob} 遊戲幣",
             "{0} chance for extra XP orbs": "{0} 機率獲得額外經驗球",
             "{0} coin gain": "{0} 遊戲幣掉落",
@@ -1062,11 +1077,12 @@
             "{0} {item}": "{0} {item}",
             "{0} {item} §8x{1}": "{0} {item} §8x{1}",
             "{0} {item} §8x{1}{2}": "{0} {item} §8x{1}{2}",
-            "{0} {item} §8({1}§8)": "{0} {item} §8({1}§8)",
+            "{0} {item} §8({1})": "{0} {item} §8({1})",
             "{0} {collections_res} §8x{1}": "{0} {collections_res} §8x{1}",
             "{0} {collections_res} §8x{1}{2}": "{0} {collections_res} §8x{1}{2}",
             "{0} {resource} §8x{1}": "{0} {resource} §8x{1}",
             "{0} {resource} §8x{1}{2}": "{0} {resource} §8x{1}{2}",
+            "{0} {1} {resource} §8({2})": "{0} {1} {resource} §8({2})",
             "{0} {item}§f ({enchantment} {roman}) §8({1})": "{0} {item}§f ({enchantment} {roman}) §8({1})",
             "{0} {1}§7Lvl {2}{3} {pet}": "{0} {1}§7等級 {2}{3} {pet}",
             "{0} {1}§7Lvl {2}{3} {pet} §8({4}§8)": "{0} {1}§7等級 {2}{3} {pet} §8({4}§8)"
@@ -1184,7 +1200,9 @@
 
             "Level {0}{1}{2}": "等級 {0}{1}{2}",
             "Level {0}": "等級 {0}",
+            "{0} §a§lUPGRADE {1}": "{0} §a§l下一級 {1}",
             "§cYou don't have enough §5Token of the Mountain§c!": "§c你沒有足夠的§5礦山之證§c！",
+            "You don't have enough {powder}!": "你沒有足夠的{powder}！",
             "Requires {mining.perk}": "須具備 {mining.perk}",
 
             "{0}§c Pickaxe Ability Level": "{0}§c 挖掘技能等級",
@@ -1261,6 +1279,47 @@
             "§8- §aDwarven Metals": "§8- §a矮人金屬",
             "§8- §dGemstones": "§8- §d寶石",
             "§8- §dMiscellaneous": "§8- §d雜項"
+          },
+          "Forge": {},
+          "Commissions": {
+            "Commissions are tasks given directly by the king which give bountiful rewards.": "委託是由國王直接下達的任務，完成後可以獲得豐厚的獎賞。",
+            "Progress": "進度",
+
+            "Dwarven Mines": {
+              "{area} Mithril": "{area}秘銀",
+              "{area} Titanium": "{area}鈦礦",
+              "{mob} Slayer": "{mob}殺手",
+              "{0} {powder} Collector": "雙倍{powder}收集者",
+
+              "Mine {0} {resource} Ore in {area}.": "在{area}挖掘 {0} 顆{resource}礦。",
+              "Slay {0} §cGoblins§7.": "擊殺 {0} 隻§c哥布林§7。",
+              "Slay {0} §cGlacite Walkers§7.": "擊殺 {0} 隻§c冰晶行者§7。",
+              "Collect {0} {powder} during the {event} Event.": "在{event}活動期間收集 {0} {powder}。"
+            },
+            "Crystal Hollows": {
+              "{resource} Collector": "{resource}收集者",
+              "{collections_res} Miner": "{collections_res}礦工",
+              "Amber Crystal Hunter": "琥珀水晶獵人",
+              "Amethyst Crystal Hunter": "紫晶水晶獵人",
+              "Sapphire Crystal Hunter": "天藍水晶獵人",
+              "Jade Crystal Hunter": "翡翠水晶獵人",
+              "Topaz Crystal Hunter": "黃玉水晶獵人",
+
+              "Collect {0} {resource}.": "收集 {0} 顆{resource}。",
+              "Mine {0} {collections_res}.": "挖掘 {0} 顆{collections_res}。",
+              "Slay {0} §cGoblins§7 in the {area}.": "在{area}擊殺 {0} 隻§c哥布林§7。",
+              "Find an §6Amber Crystal§7 in the {area}.": "在{area}取得§6琥珀水晶§7。",
+              "Find an §5Amethyst Crystal§7 in the {area}.": "在{area}取得§5紫晶水晶§7。",
+              "Find an §bSapphire Crystal§7 in the {area}.": "在{area}取得§b天藍水晶§7。",
+              "Find an §aJade Crystal§7 in the {area}.": "在{area}取得§a翡翠水晶§7。",
+              "Find an §eTopaz Crystal§7 in the {area}.": "在{area}取得§e黃玉水晶§7。"
+            },
+
+            "§7- {0} {powder} §e(Daily Bonus)": "§7- {0} {powder}§e（每日加成）",
+            "§7- {0} §3Mining Exp": "§7- {0} §3挖掘經驗",
+
+            "View milestone progress and rewards!": "查看里程碑的進度和獎勵！",
+            "Emissaries": "國王的特使們"
           }
         },
 
@@ -1280,9 +1339,12 @@
             "§8+§aGolden Foraging Clover Emblem {0}": "§8+§a黃金伐木幸運草徽章 {0}",
             "{0} §aToken of the Forest": "{0} §a森林之證",
             "You don't have enough §aToken of the Forest§c!": "你沒有足夠的§a森林之證§c！",
+            "You don't have enough {whisper}!": "你沒有足夠的{whisper}！",
+            "Requires {foraging.perk}": "須具備 {foraging.perk}",
+            "Conflicts with {foraging.perk}": " 與 {foraging.perk} 衝突",
 
             "Resets the Perks and Abilities of your §aHeart of the Forest§7, locking them and resetting their levels.": "重置你§a森林之心§7中的所有能力加成以及技能，重新鎖住並重置其等級。",
-            "- {0} §aToken of the Forest": "- {0} §aToken of the Forest",
+            "- {0} §aToken of the Forest": "§7- {0} §a森林之證",
             "- {0} {whisper}": "- {0} {whisper}",
             "§7You will §akeep §7any Tiers and §cCenter of the Forest §7that you have unlocked.": "你已解鎖的任何階級以及§c森林之核§7將§a保留§7不變。",
             "WARNING: This is permanent. You can not go back after resetting your Heart of the Forest!": "警告：改動是永久的。重置森林之心後你無法撤回這項操作！",
@@ -1298,6 +1360,7 @@
             "§8Upgrade your Axe Abilities by unlocking §cCenter of the Forest §8in this menu!": "§8透過解鎖目錄中的§c森林之核§8以提升你的斧頭技能等級！",
             "Your axe deals double {stats} to creatures on {island} for {timer}.": "你的斧頭可以對{island}上的生物造成雙倍 {stats}，持續 {timer}。",
             "Throwing your Axe has no {stats} penalty for {timer}.": "你的飛斧不受到 {stats} 懲罰影響，持續 {timer}。",
+            "Throwing your axe consumes {0} of your total mana. You gain {1}{stats} for every {2} §bMana§7 used, for {3} seconds.": "丟出飛斧會消耗你總魔力的 {0}。每消耗掉 {2} §b魔力§7便提升 {1}{stats}，持續 {3} 秒。",
 
             "Increase {stats} by {0}.": "將你的 {stats} 提升 {0}。",
             "You gain {0} {stats}.": "使你獲得 {0} {stats}。",
@@ -1309,12 +1372,29 @@
             "You gain {0}{1} §3Whispers §7from the first type of log you cut on {island} every day.": "每天依據你在{island}砍伐的第一種木頭給予你 {0}{1} 對應的§3呢喃§7。",
             "{collections_res}§7: {0} {whisper}": "{collections_res}§7：{0} {whisper}",
             "Increase {stats} by {0} and {stats2} by {1}.": "將 {stats} 提升 {0} 以及將 {stats2} 提升 {1}。",
-            "Increase {stats} by {0} and {stats2} by {1} for the first {2} trees cut every day.": "砍伐每天的前 {2} 株樹時，將 {stats} 提升 {0} 以及將 {stats2} 提升 {1}。",
+            "Increase {stats} by {0} and {stats2} by {1} for the first {2} trees cut every day.": "砍伐每天的前 {2} 棵樹時，將 {stats} 提升 {0} 以及將 {stats2} 提升 {1}。",
             "Trees Remaining: {0}": "剩餘樹木：{0}",
             "Every SkyBlock day, you receive a random effect.": "每個 Skyblock 日，你會隨機獲得其中一個效果。",
             "A particle appears on every nearby tree. Cutting the marked log grants you a {0} {stats} on that hit.": "一種粒子效果會在你周遭的樹木上顯現。砍下被標記的木頭會使你的那一擊獲得 {0} {stats}。",
             "§aFig§7 and §2Mangrove Tree Gifts §7give {0} {whisper} and §6Helix Tree Gifts §7give {1} {whisper2}.": "§a無花果§7和§2紅樹林木之餽贈§7給予 {0} {whisper}，而§6螺旋樹之餽贈§7則是給予 {1} {whisper2}。",
-            "The first §2Tree Gift §7you obtain every day will contain a §2Basic Safari Ticket§7.": "你每天獲得的第一份§2樹之餽贈§7會包含一張§2基礎獵遊門票§7。"
+            "The first §2Tree Gift §7you obtain every day will contain a §2Basic Safari Ticket§7.": "你每天獲得的第一份§2樹之餽贈§7會包含一張§2基礎獵遊門票§7。",
+            "Your Throwing Axes gain permanent homing abilities towards trees on {island}.": "當你在{island}時，你的飛斧獲得自動瞄準樹木的能力。",
+            "Grants {0}{stats} and {1}{stats2} while on §2Foraging Islands§7.": "當你在§2伐木型島嶼§7時，獲得 {0}{stats} 和 {1}{stats2}。",
+            "Increase {stats} by {0} while on §2Foraging Islands§7.": "當你在§2伐木型島嶼§7時，將你的 {stats} 提升 {0}。",
+            "Gain {0} more points towards §dStarlyn Contests§7.": "你在§d絲忒琳競賽§7獲得的積分提升 {0}。",
+            "Your Axe has a {0} chance to bounce to a nearby tree when thrown.": "你投擲的飛斧有 {0} 機率額外彈向附近的另一棵樹。",
+            "Gain {0}{stats} and {1}{stats2} for each player on your current island with Half Full enabled. §8(Capped at {2} players).": "你所在的島嶼每存在一名啟用 半滿 的玩家，獲得 {0}{stats} 和 {1}{stats2}。§8（上限 {2} 名玩家）",
+            "Gain {0}{stats} and {1}{stats2} for each player on your current island with Half Empty enabled. §8(Capped at {2} players).": "你所在的島嶼每存在一名啟用 半空 的玩家，獲得 {0}{stats} 和 {1}{stats2}。§8（上限 {2} 名玩家）",
+            "Hunting a {mob_type} grants {0} {whisper} while on the {island} or {1} {whisper2} if on {island2}.": "當你在{island}狩獵 {mob_type} 生物時，給予你 {0} {whisper}。若是在{island2}則給予 {1} {whisper2}。",
+            "Gain {0} of your total {stats} as {stats2} and {stats3}.": "獲得等同你總 {stats} {0} 的 {stats2} 和 {stats3}。",
+            "(Caps at {0} {1}).": "（上限為 {0} {1}）。",
+            "Every time you obtain {resource}, there is a {0} chance for it to double.": "每當你獲得{resource}時，有 {0} 的機率使其翻倍。",
+            "Grants a {0} chance to receive an extra §2Safari Ticket §7from {event} rewards.": "領取{event}的獎勵時，有 {0} 的機率額外獲得一張§2獵遊門票§7。",
+            "Every SkyBlock day, gain a random effect while on any §2Foraging Island§7.": "每個 Skyblock 日，當你在§2伐木型島嶼§7時隨機獲得其中一個效果。",
+            "{0} §6Honeyhives §7refill {1} faster.": "{0} §6蜂巢§7的補充速度提升 {1}。",
+            "{0} §aTrees §7lathered with {collections_res} attract {mob_type} {1} faster.": "{0} §7塗抹{collections_res}的§a樹木§7吸引 {mob_type} 生物的速度提升 {1}。",
+            "{0} §7Gain {1} {collections_res} from §6Honeyhives §7and §aTrees §7lathered with {collections_res2}.": "{0} 從§6蜂巢§7以及塗抹{collections_res2}的§a樹木§7獲得的{collections_res}為 {1}。",
+            "{0} §aTrees §7lathered with {collections_res} have a {1} chance to attract a second {mob_type}.": "{0} §7塗抹{collections_res}的§a樹木§7有 {1} 的機率吸引到第二隻 {mob_type} 生物。"
           }
         },
 
@@ -1346,6 +1426,7 @@
             "- {event} ({roman}-{roman2})": "- {event}（{roman}-{roman2}）",
             "- {mob} ({roman})": "- {mob}（{roman}）",
             "- {mob} ({roman}-{roman2})": "- {mob}（{roman}-{roman2}）",
+            "- {mob} and {mob2} ({roman})": "- {mob} 和 {mob2}（{roman}）",
             "- {pet} ({roman})": "- {pet}（{roman}）",
             "- {pet} ({roman}-{roman2})": "- {pet}（{roman}-{roman2}）",
             "- {mob} Pest ({roman})": "- {mob} 害蟲§7（{roman}）",
@@ -1418,7 +1499,7 @@
               "- {0}{stats}": "- {0}{stats}",
               "Shoot an extra arrow dealing {0} of the first arrow's damage.": "額外射出一發箭矢，其傷害為第一發箭矢的 {0}。",
               "Targets hit take {1} fire damage for {timer}.": "被擊中的目標會受到 {1} 火焰傷害，持續 {timer}。",
-              "Grants {0}{stats} on melee Log Breaks, and your first melee Log Break on a tree grants you {1}{stats2}.": "近戰砍樹時獲得 {0}{stats}，而你對每株樹的第一次近戰砍伐會使你獲得 {1}{stats2}。",
+              "Grants {0}{stats} on melee Log Breaks, and your first melee Log Break on a tree grants you {1}{stats2}.": "近戰砍樹時獲得 {0}{stats}，而你對每棵樹的第一次近戰砍伐會使你獲得 {1}{stats2}。",
               "Consecutive blocks broken grant {0}{stats}. Stops after {timer} of not mining and caps at {1} blocks.": "連續破壞方塊會賦予你 {0}{stats}，上限 {1} 方塊。超過 {timer} 沒有挖掘會清除效果。",
               "§8ℏ §7Heal {0} more from wands.": "§8ℏ §7法杖的回血量 {0}。",
               "§8ℏ §7Deal {0}§c damage §7with Slayer weapons.": "§8ℏ §7獵殺專武 {0}§c 傷害§7。",
@@ -1496,7 +1577,7 @@
               "Increases {stats} by {0} and {stats2} by {1}. Having a Critical chance above {2} grants a chance to perform a Mega Critical Hit dealing {3} extra damage.": "將 {stats} 提升 {0} 以及將 {stats2} 提升 {1}。當爆擊機率超過 {2} 時，使你有機率打出超級爆擊，額外造成 {3} 傷害。",
               "Increases chances of finding a {resource} when mining in {island} by {0}.": "提升在{island}挖掘時發現{resource}的機率 {0}。",
               "Grants {0}{stats} and {1}{stats2}, which increases your chance to spawn bonus {mob_type} on {island}.": "獲得 {0}{stats} 及 {1}{stats2}，後者能提升你在{island}時的 {mob_type} 生物生成量。",
-              "Grants a {0} chance to fell the entire tree!": "砍樹時有 {0} 機率直接砍倒整株樹！",
+              "Grants a {0} chance to fell the entire tree!": "砍樹時有 {0} 機率直接砍倒整棵樹！",
               "Arrows travel through enemies. The extra targets hit take {0} of the damage.": "箭矢能貫穿敵人，但後續擊中的目標只會受到 {0} 傷害。",
               "Increases bow damage by {0}.": "弓箭傷害提高 {0}。",
               "§7Grants {0} {stats}, which increases the chance to improve the quality of dropped §dGemstones§7.": "§7獲得 {0} {stats}，這能機率提升挖下的§d寶石§7品質。",
@@ -1518,7 +1599,7 @@
               "Automatically smelts broken blocks into their smelted form.": "自動將你挖掘的方塊變成熔煉後的型態。",
               "Increases damage dealt to {mob_type}, {mob_type2} and {mob_type3} mobs by {0}.": "提升你對 {mob_type}、{mob_type2} 及 {mob_type3} 怪物造成的傷害 {0}。",
               "Arrows deal {0} damage for every {1} blocks traveled.": "射出的弓箭每飛行 {1} 格，其造成的傷害 {0}。",
-              "Causes timid creatures that normally flee to remain still.": "使那些見人就逃的膽小生物待在原地。",
+              "{mob_type} mobs have a {0} chance to remain still instead of fleeing.": "使 {mob_type} 生物有 {0} 機率待在原地而非逃跑。",
               "Grants {0} weapon damage if you don't have a §5Dragon§7 pet equipped.": "當你未配備§5龍§7寵時，獲得 {0} 武器傷害",
               "Grants a {0} chance to rebound {1} of damage dealt back at the attacker.": "受到攻擊時，有 {0} 的機率將 {1} 傷害返還至攻擊者。",
               "§7Every {0} hits on a monster, strike §elightning§7, dealing {1} of the hit's damage to up to {2} monsters within {3} blocks.": "§7對敵人造成的第 {0} 下攻擊會降下§e雷電§7，對範圍 {3} 格內至多 {2} 名怪物造成此次攻擊的 {1} 傷害。",
@@ -1561,13 +1642,36 @@
         },
         "Hunting": {
           "Hunting Box": {
+            "You can Syphon this shard from your §aHunting Box§7.": "你可以透過§a狩獵盒§7吸收這個碎片。",
+
             "This is where all your Shards are stored!": "這是儲存你所有碎片的地方",
             "From here you can {enchantment} shards, or turn them into items!": "你可以在這裡吸收碎片，或將其轉換成物品形式！",
-            "Shards: {0}": "碎片種類數：{0}"
+            "Shards: {0}": "碎片種類數：{0}",
+
+            "Owned: {0}§b Shard": "擁有：{0}§b 個碎片",
+            "Owned: {0}§b Shards": "擁有：{0}§b 個碎片",
+            "Syphon {0} more to level up!": "再汲取 {0} 個以升級！",
+            "Attribute Maxed!": "特性等級已滿！"
           },
           "Attribute Menu": {
             "View a complete list of all Attributes!": "查看所有特性的完整清單！",
-            "Check your progress, discover new Attributes, and learn how to obtain the ones you don't own yet.": "查看你的進度、發掘新特性、並學習你尚未獲得的特性的獲取方式。"
+            "Check your progress, discover new Attributes, and learn how to obtain the ones you don't own yet.": "查看你的進度、發掘新特性、並學習你尚未獲得的特性的獲取方式。",
+
+            "Source: {item} §8(C{0})": "來源：{item}§8（普通{0}）",
+            "Source: {item} §8(U{0})": "來源：{item}§8（罕見{0}）",
+            "Source: {item} §8(R{0})": "來源：{item}§8（稀有{0}）",
+            "Source: {item} §8(E{0})": "來源：{item}§8（史詩{0}）",
+            "Source: {item} §8(L{0})": "來源：{item}§8（傳奇{0}）",
+            "Rarity: {rarity}": "稀有度：{rarity}",
+            "Enabled: §aYes": "啟用：§a是",
+            "Enabled: §cNo": "啟用：§c否",
+            "Attribute Level: {0}": "特性等級：{0}",
+            "Attribute Level: {0} §7(§c§lMAX!§r§7)": "特性等級：{0}§7（§c§l已滿！§r§7）",
+            "Syphon {0} shard to unlock!": "汲取 {0} 個碎片以解鎖！",
+            "Syphon {0} shard to level up!": "汲取 {0} 個碎片以升級！",
+            "Syphon {0} shards to level up!": "汲取 {0} 個碎片以升級！",
+            "Syphon {0} shards to max!": "汲取 {0} 個碎片以達上限！",
+            "Syphon {0} more to max!": "汲取 {0} 個以達上限！"
           },
 
           "Attribute Describe": {}
@@ -1843,6 +1947,7 @@
         "{0}recipe {1}query{2}": "{0}recipe {1}關鍵字{2}",
         "Craft this recipe by using a crafting table or Supercraft.": "透過一般合成或超級合成來製作這項配方。",
         "{0} {1}{2}{3} {resource}": "{0} {1}{2}{3} {resource}",
+        "{0} {1}{2}{3} {item}": "{0} {1}{2}{3} {item}",
         "Ingredients are taken from your inventory, sacks, ender chests and backpacks.": "所需材料會從你的物品欄、囊袋、終界箱以及隨身背包提取。",
         "Crafting {0} item into your sacks!": "合成 {0} 個物品至你的囊袋中！",
         "Crafting {0} items into your sacks!": "合成 {0} 個物品至你的囊袋中！",
@@ -2116,7 +2221,9 @@
       "Pets": {
         "Pet Tips": {
           "Can be upgraded at Kat in The Hub!": "可以透過大廳的 Kat 將其升級！",
-          "Held Item: {item}": "持有道具：{item}"
+          "Held Item: {item}": "持有道具：{item}",
+          "§cThis is a preview of Lvl {0}§c. New pets are lowest level!": "§c這是等級 {0} 的預覽§c。新的寵物皆為最低等級！",
+          "Click to despawn!": "點擊以收回寵物！"
         },
 
         "Perk Name": {
@@ -2224,7 +2331,8 @@
           "Mole": {
             "Archaeologist": "考古學家",
             "Magnetic Nose": "磁性鼻子",
-            "Nucleic Explorer": "核心探險家"
+            "Nucleic Explorer": "核心探險家",
+            "Nucleic Veins": "核心礦脈"
           },
           "Rock": {
             "Rideable": "可騎乘",
@@ -2561,6 +2669,7 @@
 
           "Guardian": {
             "Lazerbeam": "雷射光束",
+            "Laserbeam": "雷射光束",
             "Enchanting Wisdom Boost": "附魔智慧增幅",
             "Mana Pool": "魔力池",
             "Lucky Seven": "幸運七"
@@ -2596,17 +2705,454 @@
         },
 
         "Perk Describe": {
-          "For each player within {0} blocks:": "每有一名玩家在 {0} 格內：",
-          "Max {0} players": "上限 {0} 名玩家",
-          "Grants {0} of each to your pet:": "給予你的寵物各 {0}：",
-          "{stats}": "{stats}",
-          "You have a {0} chance to find a {item} when farming crops.": "§7當你在收割作物時，有 {0} 的機率找到{item}。",
-          "Grants {0}{1} {collections_res}, {collections_res2}, and {stats} while in {island}.": "在 {island} 時給予 {0}{1} {collections_res}、{collections_res} 和 {stats}。"
+          "Bee": {
+            "For each player within {0} blocks:": "每有一名玩家在 {0} 格內：",
+            "Max {0} players": "上限 {0} 名玩家",
+            "Grants {0} of each to your pet:": "給予你的寵物各 {0}：",
+            "{stats}": "{stats}",
+            "You have a {0} chance to find a {item} when farming crops.": "§7當你在收割作物時，有 {0} 的機率找到{item}。",
+            "Grants {0}{1} {collections_res}, {collections_res2}, and {stats} while in {island}.": "在 {island} 時給予 {0}{1} {collections_res}、{collections_res} 和 {stats}。"
+          },
+          "Chicken": {
+            "§7Grants {0}{stats} §7while on §bPublic Islands§7.": "§7在§b公共島嶼§7上時，獲得 {0}{stats}。",
+            "§7Chickens always drop an {resource} §7when killed. Grants a {0} §7chance for animals to drop an additional item.": "§7雞被擊殺時必定掉落{resource}§7。並給予動物 {0} §7的機率額外掉落一件物品。",
+            "Reduces fall damage by {0}.": "§7摔落傷害減少 {0}。"
+          },
+          "Elephant": {
+            "§7Gain {0}{stats} §7for every {1} {stats2}§7.": "§7每有 {1} {stats2}§7，獲得 {0}{stats}。",
+            "§7Grants {0}{stats} §7for each of your Garden Levels.": "§7每一級花園等級，獲得 {0}{stats}。",
+            "Earn {0} Sowdust while farming.": "§7農耕時獲得 {0} 播種粉塵。"
+          },
+          "Hedgehog": {
+            "Deal {0} more damage to {mob_type}.": "§7對{mob_type}造成的傷害增加 {0}。",
+            "§7Grants {0}{stats} §7and {1}{stats2} §7on {mob_type}§7.": "§7對{mob_type}§7獲得 {0}{stats} §7和 {1}{stats2}§7。"
+          },
+          "Mooshroom Cow": {
+            "§7You have a {0} §7chance to find {resource} §7or {resource2} §7when farming crops.": "§7當你在收割作物時，有 {0} §7的機率找到{resource} §7或{resource2}§7。",
+            "§7You have a {0} §7chance to drop a {collections_res}§7 when farming crops.": "§7當你在收割作物時，有 {0} §7的機率掉落{collections_res}§7。",
+            "§7Grants {0}{stats} §7for every {1} {stats2} §7you have.": "§7你每擁有 {1} {stats2}§7，獲得 {0}{stats}。"
+          },
+          "Mosquito": {
+            "§7Gain {0}{stats}§7 for every unique visitor you've served in {island}§7. §8Your Bonus: {1} {2} §8Capped at {3} {enchantment}": "§7你在{island}§7每服務過一位不重複的訪客，獲得 {0}{stats}§7。 §8你的加成：{1} {2} §8上限為 {3} {enchantment}",
+            "§7Gain {0}{stats} §7for every §3Pest Bestiary §7tier unlocked.": "§7每解鎖一階§3害蟲怪物圖鑑§7，獲得 {0}{stats}。",
+            "§7When collected, §2Pest Traps §7will catch the next pest {0} §7faster.": "§7收取時，§2捕蟲陷阱§7捕捉下一隻害蟲的速度加快 {0}§7。",
+            "Pest Vinyls are {0} more effective.": "§7害蟲黑膠唱片的效果提升 {0}。"
+          },
+          "Orchid Mantis": {
+            "Earn {0} more Farming Tool Exp.": "§7額外獲得 {0} 農具經驗。"
+          },
+          "Pig": {
+            "§7Increases the base stats of this pet by {0}§7 during the {event}§7.": "§7在{event}§7期間，此寵物的基礎數值提升 {0}§7。",
+            "§7Increases §6Coin§7 gain from §6Shiny Pigs §7by {0}§7.": "§7從§6閃亮豬§7獲得的§6遊戲幣§7增加 {0}§7。"
+          },
+          "Rabbit": {
+            "§7Increases §6Chocolate Factory §7production by {0}§ax§7. Duplicate §aChocolate Rabbits §7that you find grant {1}§6 Chocolate§7.": "§7使§6巧克力工廠§7的產量提升 {0}§ax§7。你找到的重複§a巧克力兔子§7會給予 {1}§6 巧克力§7。",
+            "§7Farming minions work {0} §7faster while on your island": "§7在你的島嶼上時，農耕工人的工作速度加快 {0}",
+            "§7Foraging minions work {0} §7faster while on your island": "§7在你的島嶼上時，伐木工人的工作速度加快 {0}",
+            "Jump potions also give {0} speed": "§7跳躍藥水額外給予 {0} 速度"
+          },
+          "Rose Dragon": {
+            "§7If you own a level {0} {pet}§7, grants {1}{stats} §7for every other unique maxed §aFarming {item} §7that you own.": "§7若你擁有等級 {0} 的{pet}§7，你每擁有一件其他不重複的滿級§a農耕{item}§7，獲得 {1}{stats}。",
+            "§7Grants {0}{stats} §7per §aFarming §7level.": "§7每一級§a農耕§7等級，獲得 {0}{stats}。",
+            "§7Gain {0} §7more §cCopper §7from §aGarden Visitors §7and from analyzing §cMutations§7.": "§7從§a花園訪客§7以及分析§c變種作物§7獲得的§c銅幣§7增加 {0}§7。",
+            "§7Grants {0}{stats}§7 per {mob} §3Bestiary§7 tier.": "§7{mob} §3怪物圖鑑§7每一階，獲得 {0}{stats}§7。",
+            "§7Grants {0}{stats}§7 per Pest Bestiary Tier.": "§7害蟲怪物圖鑑每一階，獲得 {0}{stats}§7。",
+            "§7Grants {0}{stats} §7and {1}{stats2} §7per Crop Milestone.": "§7每一階作物里程碑，獲得 {0}{stats} §7和 {1}{stats2}§7。"
+          },
+          "Slug": {
+            "§7When fishing in the {island}§7, §aSlugfish §7take {0} §7less time to catch.": "§7在{island}§7釣魚時，§a蛞蝓魚§7所需的上鉤時間減少 {0}§7。",
+            "§7When farming in a plot affected by a {item}§7, gain {0}{stats}§7.": "§7在受{item}§7影響的地塊耕作時，獲得 {0}{stats}§7。"
+          },
+          "Armadillo": {
+            "§7Right-click your summoned pet to ride it! Moves faster based on your {stats}§7.": "§7對召喚出的寵物按下右鍵即可騎乘！移動速度取決於你的{stats}§7。",
+            "§7Right-click your summoned pet to ride it!": "§7對召喚出的寵物按下右鍵即可騎乘！",
+            "§7Right-click your summoned pet to morph into it!": "§7對召喚出的寵物按下右鍵即可變身成牠！",
+            "§7Grants {0}{stats} §7per {1}{stats2}§7.": "§7每 {1}{stats2}§7，獲得 {0}{stats}。",
+            "§7Grants {0}{stats} §7while mining {collections_res}§7.": "§7挖掘{collections_res}§7時，獲得 {0}{stats}。",
+            "§7Grants {0}{stats} §7while mining §9Blocks§7.": "§7挖掘§9方塊§7時，獲得 {0}{stats}。",
+            "§7While in the {island}§7, this {item} §7breaks all blocks in its path using your held item.": "§7在{island}§7時，此{item} §7會用你手持的物品破壞行進路徑上的所有方塊。",
+            "§7Consumes {0} §7less energy when tunneling.": "§7挖掘隧道時消耗的能量減少 {0}§7。",
+            "§7Every {0} §7seconds, the next {collections_res} §7you mine gives {1} §7drops": "§7每 {0} §7秒，你挖掘的下一個{collections_res} §7會給予 {1} §7掉落物",
+            "Gives {0} pet exp for Mining.": "§7挖掘時給予 {0} 寵物經驗。"
+          },
+          "Bal": {
+            "§7Grants {0}{stats} §7while in the {area}§7.": "§7在{area}§7時，獲得 {0}{stats}。",
+            "§7Increases damage dealt to {pet} §7by {0}§7.": "§7對{pet}§7造成的傷害提升 {0}§7。",
+            "§7While in the {island}§7, killing mobs reduces your {stats} §7by {0}§7.": "§7在{island}§7時，擊殺怪物會使你的{stats} §7降低 {0}§7。"
+          },
+          "Bat": {
+            "§7Deals {0} §7damage to §6Spooky §7enemies during the {event}§7.": "§7在{event}§7期間，對§6驚悚§7敵人造成 {0} §7傷害。",
+            "§7During night, gain {0} {stats}§7, {1} {stats2}§7, and §aNight Vision§7.": "§7夜晚時獲得 {0} {stats}§7、{1} {stats2}§7以及§a夜視§7。",
+            "§7Increases drop chance of candies from mobs by {0}§7.": "§7怪物掉落糖果的機率提升 {0}§7。"
+          },
+          "Endermite": {
+            "§7Increases the odds of rolling for bonus items in the §cDraconic Altar §7by {0}§7.": "§7在§c龍族祭壇§7中獲得額外物品的機率提升 {0}§7。",
+            "§7Gain a {0} §7chance to dig up a bonus §cNest {pet} §7per {1}{stats} §8(Stacks above {2}§8)": "§7每 {1}{stats}§7，有 {0} §7的機率額外挖出一隻§c巢穴{pet} §8（可疊加超過 {2}§8）",
+            "§7Gain more exp orbs for breaking end stone and gain a {0} §7chance to get an extra block dropped": "§7破壞終界石可獲得更多經驗球，並有 {0} §7的機率額外掉落一個方塊",
+            "§9Transmission Abilities §7cost {0} §7less mana": "§9傳送技能§7消耗的魔力減少 {0}"
+          },
+          "Glacite Golem": {
+            "§7Every {0}§7 pet levels, you gain {1}{stats} §7and {2}{stats2}§7.": "§7每 {0}§7 級寵物等級，獲得 {1}{stats} §7和 {2}{stats2}§7。",
+            "§7Gain {0} {stats} §7for every {power} §bCorpse §7you\u0027ve looted in the current {island}§7.": "§7在當前{island}§7中每搜刮一具{power}§b屍體§7，獲得 {0} {stats}§7。",
+            "§7Gain {0} §7more {powder} §7from most sources.": "§7從大多數來源獲得的{powder}§7增加 {0}§7。",
+            "§7Gain {0} {stats} §7while in the {island}§7.": "§7在{island}§7時，獲得 {0} {stats}§7。"
+          },
+          "Goblin": {
+            "§7Gain {0}{stats} §7when mining §6Ores§7.": "§7挖掘§6礦石§7時，獲得 {0}{stats}§7。",
+            "§7Gain {0}{stats} §7while in the {area}§7.": "§7在{area}§7時，獲得 {0}{stats}§7。",
+            "§7Increases the chance of finding rare goblin eggs by {0}§7.": "§7找到稀有哥布林蛋的機率提升 {0}§7。"
+          },
+          "Mithril Golem": {
+            "§7Grants {0} {stats} §7while on §bMining Islands§7.": "§7在§b挖掘型島嶼§7上時，獲得 {0} {stats}。",
+            "§7Deals {0} §7damage to mobs on §bMining Islands§7.": "§7對§b挖掘型島嶼§7上的怪物造成 {0} §7傷害。",
+            "§7Grants {0} {1} {powder} §7from all sources.": "§7從所有來源獲得的 {1} {powder} §7增加 {0}§7。",
+            "§7Increases all §cCombat Stats §7by {0} §7on §bMining Islands§7.": "§7在§b挖掘型島嶼§7上時，所有§c戰鬥數值§7提升 {0}§7。"
+          },
+          "Mole": {
+            "§7The {area} §7has a {0} §7chance to drop an additional item.": "§7{area} §7有 {0} §7的機率額外掉落一件物品。",
+            "§9Automatons §7drop their parts {0} §7more frequently.": "§9自動機械§7掉落零件的頻率提升 {0}§7。",
+            "§cScavenged Items §7appear {0} §7more often while in the {area}§7.": "§7在{area}§7時，§c拾荒物品§7出現的頻率提升 {0}§7。"
+          },
+          "Rock": {
+            "§7Sneak to move your rock to your location ({timer}§7 cooldown)": "§7潛行即可將你的石頭移動至你所在的位置（冷卻 {timer}§7）"
+          },
+          "Scatha": {
+            "§7Earn {0} {powder} §7from all sources.": "§7從所有來源獲得 {0} {powder}§7。",
+            "§7Grants a {0} §7chance to find §eTreasure Chests §7while mining.": "§7挖掘時有 {0} §7的機率找到§e寶藏箱§7。"
+          },
+          "Silverfish": {
+            "§7Grants {0}{stats} §7and permanent §eHaste {roman}§7.": "§7獲得 {0}{stats} §7以及永久§e挖掘加速 {roman}§7。"
+          },
+          "Wither Skeleton": {
+            "§7Upon hitting an enemy inflict the wither effect for {0} §7damage over {1}§7 seconds §8Does not stack": "§7擊中敵人時施加凋零效果，在 {1}§7 秒內造成 {0} §7傷害 §8無法疊加",
+            "§7Take {0} §7less damage from {mob_type} §7mobs.": "§7受到 {mob_type} §7怪物的傷害減少 {0}§7。"
+          },
+          "Snail": {
+            "§7Convert every {0}{stats} §7you have above {1} §7into {2}{stats2}§7.": "§7將你超過 {1} §7的每 {0}{stats} §7轉換為 {2}{stats2}§7。",
+            "{collections_res}§9 Minions §7work {0} §7faster while on your {island}§7.": "§7在你的{island}§7上時，{collections_res}§9工人§7的工作速度加快 {0}§7。"
+          },
+          "Ankylosaurus": {
+            "§7Every {0}§7th hit deals {1} §7of your final damage to enemies within {2}§7 blocks. Enemies hit deal {3} §7less damage for {timer}§7.": "§7每第 {0}§7 次攻擊，對 {2}§7 格內的敵人造成你最終傷害的 {1}§7。被擊中的敵人在 {timer}§7 內造成的傷害降低 {3}§7。",
+            "§7Gain {0} §7of your {stats} §7as {stats2}§7. §8(Max {1}§8)": "§7將你 {0} §7的{stats} §7轉化為{stats2}§7。 §8（上限 {1}§8）",
+            "§7Increase the effectiveness of {enchantment} §7and §6Lifeline §7by {0}§7.": "§7{enchantment} §7與§6生命線§7的效果提升 {0}§7。"
+          },
+          "Black Cat": {
+            "§7Gain {0} §7more collection items from monsters!": "§7從怪物身上獲得的收藏物品增加 {0}§7！",
+            "Grants {0} Max {stats} Cap.": "§7{stats}上限提升 {0}。",
+            "§7Increases your {stats} §7and speed cap by {0}§7.": "§7你的 {stats} §7與速度上限提升 {0}§7。"
+          },
+          "Blaze": {
+            "§7Grants {0}{stats} §7and makes the pet's owner immune to knockback.": "§7獲得 {0}{stats}§7，並使寵物的主人免疫擊退。",
+            "§7Increases §cCombat §7and §dMiscellaneous §7stats by {0} §7while on the {island}§7.": "§7在{island}§7時，§c戰鬥§7與§d雜項§7數值提升 {0}§7。",
+            "Double effects of hot potato books": "§7燙手芋書的效果加倍",
+            "§7Upgrades {pet}§c Armor §7stats and ability by {0}§7.": "§7{pet}§c盔甲§7的數值與技能提升 {0}§7。"
+          },
+          "Crow": {
+            "§7After casting an ability, increase your {stats} §7by {0} §7for {1} §bseconds§7. §8Capped at {2} {3}": "§7施放技能後，你的{stats} §7在 {1} §b秒§7內提升 {0}§7。 §8上限為 {2} {3}",
+            "§7Gives a {0} §7chance to not consume {stats}§7 when using an ability.": "§7使用技能時，有 {0} §7的機率不消耗{stats}§7。",
+            "§7Lowers the cooldown of your §cWeapon §7abilities by {0}§7.": "§7你的§c武器§7技能冷卻時間縮短 {0}§7。"
+          },
+          "Eerie": {
+            "§7Increases §cdamage §7dealt to Primal Fears and Spooky Mobs by {0} §7for every {stats} §7you have.": "§7你每擁有 {stats}§7，對原初恐懼與驚悚怪物造成的§c傷害§7便提升 {0}§7。",
+            "§7Gives {0} {1} §7for every {2} §cPrimal Fears §7killed, up to {3} §cPrimal Fears§7. §cPrimal {stats}§c Kills§7: ({4}{5}{6}§7)": "§7每擊殺 {2} 隻§c原初恐懼§7給予 {0} {1}§7，最多 {3} 隻§c原初恐懼§7。 §c原初{stats}§c擊殺數§7：（{4}{5}{6}§7）",
+            "{stats} §7from §5Great Spook Armor §7in your §bwardrobe §7applies to you, even if you aren\u0027t wearing it.": "§7你§b衣櫃§7中§5驚魂盛宴盔甲§7的{stats} §7會作用於你，即使你並未穿著。"
+          },
+          "Ender Dragon": {
+            "§7Deal {0} §7more damage to {mob_type} §7mobs.": "§7對{mob_type} §7怪物造成的傷害增加 {0}§7。",
+            "§7Buffs the {item} §7sword by {0} {stats} §7and {1} {stats2}§7.": "§7使{item} §7增加 {0} {stats} §7和 {1} {stats2}§7。"
+          },
+          "Enderman": {
+            "§7Take {0} §7less damage from {mob_type} §7mobs": "§7受到{mob_type} §7怪物的傷害減少 {0}",
+            "§7Deal {0} §7more damage to {1} {mob} §7mobs": "§7對 {1} {mob} §7怪物造成的傷害增加 {0}",
+            "§7Buffs Transmission abilities, granting {0} §7weapon damage for {timer}§7 on use": "§7強化傳送技能，使用時在 {timer}§7 內獲得 {0} §7武器傷害",
+            "§7Increases your odds to find a special {mob}§7 by {0}§7.": "§7你找到特殊{mob}§7的機率提升 {0}§7。",
+            "Gain {0} {1} XP against Endermen.": "§7對終界使者作戰時獲得 {0} {1} 經驗。"
+          },
+          "Ghoul": {
+            "§7Increases the amount of souls you can store by {0} §7and the chance of getting a mob's soul by {1}§7.": "§7你能儲存的靈魂數量增加 {0}§7，取得怪物靈魂的機率提升 {1}§7。",
+            "§7Reduces the summoning cost of mobs by {0} §7and increases their damage output by {1}§7. Increases the health of all summoned mobs by {2}§7.": "§7召喚怪物的花費減少 {0}§7，其輸出傷害提升 {1}§7。所有被召喚怪物的生命值提升 {2}§7。",
+            "Gain {0} {1} XP against Zombies.": "§7對殭屍作戰時獲得 {0} {1} 經驗。"
+          },
+          "Golden Dragon": {
+            "Increases all pet stats by {0}.": "§7所有寵物數值提升 {0}。",
+            "§7Grants {0}{stats} §7and {1}{stats2} §7to your pet for each digit in your §6Gold Collection§7. §8(Max {2}§8 collection)": "§7你的§6黃金收藏§7每有一位數，即給予你的寵物 {0}{stats} §7和 {1}{stats2}§7。 §8（收藏上限 {2}§8）",
+            "§7If you own a level {0} {pet}§7, gain {1}§6 coins §7per monster kill for every other unique maxed Combat {item}§7 that you own.": "§7若你擁有等級 {0} 的{pet}§7，你每擁有一件其他不重複的滿級戰鬥{item}§7，每擊殺一隻怪物即獲得 {1}§6 遊戲幣§7。",
+            "§7Gain {0} §7damage for every million coins in your bank. §8(Max {1}§8)": "§7銀行中每有一百萬遊戲幣，獲得 {0} §7傷害。 §8（上限 {1}§8）",
+            "§7Increase the potency of {item}§7 and {item2}§6's §5Greed Ability §7by {0}§7.": "§7{item}§7 與{item2}§6的§5貪婪技能§7效力提升 {0}§7。",
+            "§7Grants {0}{stats} §7per {1}{stats2}§7. §8(Max {2}§8)": "§7每 {1}{stats2}§7，獲得 {0}{stats}§7。 §8（上限 {2}§8）"
+          },
+          "Golem": {
+            "§7While at less than {0}§a HP§7, reduce incoming damage by {1}§7. Additionally, gain a temporary shield equal to {2} §7of your maximum health and deal {3} §7more damage. §8(Lasts {timer}§8, {timer2}§8 cooldown)": "§7當你的§aHP§7低於 {0}§7 時，受到的傷害減少 {1}§7。此外，獲得相當於你最大生命值 {2} §7的臨時護盾，並使造成的傷害提升 {3}§7。 §8（持續 {timer}§8，冷卻 {timer2}§8）"
+          },
+          "Grandma Wolf": {
+            "Gain buffs for combo kills. Effects stack as you increase your combo.": "擊殺連段可獲得增益。效果隨連段提升而疊加。",
+            "{0} Combo §8(lasts {timer})": "§7{0} 擊殺連段 §8（持續 {timer}）",
+            "{0} coins per kill": "{0} 每次擊殺獲得的遊戲幣"
+          },
+          "Griffin": {
+            "§7Increases the pet's {stats} §7by {0}§7.": "§7寵物的{stats} §7提升 {0}§7。",
+            "§7Grants {0}{stats} §7on {pet} §eBurrows §7for each burrow excavated in your current chain.": "§7在當前地洞鏈中每挖掘一個地洞，於{pet} §e地洞§7獲得 {0}{stats}§7。",
+            "§7Grants {0}{stats} §7on {pet} §eBurrows§7.": "§7於{pet} §e地洞§7獲得 {0}{stats}§7。",
+            "§7Grants {0}{stats} §7on {mob_type} §7mobs.": "§7對{mob_type} §7怪物獲得 {0}{stats}§7。",
+            "§7Grants {0} §7more §6Coins §7from killing {mob_type} §7mobs.": "§7擊殺{mob_type} §7怪物獲得的§6遊戲幣§7增加 {0}§7。",
+            "§7Gain {0} {stats} §7when above {1} {stats2}§7.": "§7當{stats2}§7高於 {1} 時，獲得 {0} {stats}§7。",
+            "{0} §7types of {mob_type} §7mobs can spawn from {pet}§e Burrows§7. Their stats scale with your {pet2}{1}§7s rarity.": "§7{pet}§e地洞§7可生成 {0} §7種{mob_type} §7怪物。其數值隨你的{pet2}{1}§7的稀有度而提升。"
+          },
+          "Horse": {
+            "§7After falling {0}§7 or more blocks, absorb your fall damage and deal {1} §7of your weapon's {stats}§7 for every block fallen to mobs within {2} §7blocks.": "§7墜落 {0}§7 格以上後，吸收你所受的墜落傷害，並依墜落的每一格，對 {2} §7格內的怪物造成你武器 {1} §7的{stats}§7。",
+            "Grants permanent Jump Boost {roman}.": "§7獲得永久跳躍加成 {roman}。",
+            "§7Mob kills grant a stack of {0} {stats}§7 and {1} {stats2}§7 for {timer}§7. §8(Max {2}§8 stacks)": "§7擊殺怪物可獲得一層 {0} {stats}§7 與 {1} {stats2}§7，持續 {timer}§7。 §8（上限 {2}§8 層）"
+          },
+          "Hound": {
+            "Gain {0} coins per monster kill": "§7每擊殺一隻怪物獲得 {0} 遊戲幣",
+            "Gain {0} {1} XP against Wolves.": "§7對狼作戰時獲得 {0} {1} 經驗。",
+            "§7Increases the chance for monsters to drop their armor by {0}§7.": "§7怪物掉落其盔甲的機率提升 {0}§7。"
+          },
+          "Jerry": {
+            "§7Gain {0} §7chance to deal your regular damage": "§7有 {0} §7的機率造成你的正常傷害",
+            "§7Gain {0} §7chance to receive a normal amount of drops from mobs": "§7有 {0} §7的機率從怪物身上取得正常數量的掉落物",
+            "§7Actually adds {0}§c damage §7to the {item}": "§7實際為{item}提升 {0}§c 傷害",
+            "§7Tiny chance to find {pet}§7 Candies when killing mobs": "§7擊殺怪物時有極小的機率找到{pet}§7糖果"
+          },
+          "Kuudra": {
+            "Increases the odds of finding a vanquisher by {0}.": "找到征服者的機率提升 {0}。",
+            "This pet automatically has Exp share!": "此寵物自動具備經驗共享！",
+            "This pet only gains XP on the {island}!": "此寵物只在{island}上獲得經驗！"
+          },
+          "Magma Cube": {
+            "§7Buffs the stats of §5Rekindled {mob} §5Armor §7by {0}§7.": "§7§5復燃{mob} §5盔甲§7的數值提升 {0}§7。",
+            "Deal {0} more damage to slimes": "§7對史萊姆造成的傷害增加 {0}",
+            "{mob}§7 and {pet}§7 minions work {0} §7faster while on your island": "§7在你的島嶼上時，{mob}§7與{pet}§7工人的工作速度加快 {0}"
+          },
+          "Mammoth": {
+            "§7Gain {0}{stats} §7for every {1} {stats2}§7, doubled in the {area} §7and {island}§7.": "§7每 {1} {stats2}§7，獲得 {0}{stats}§7；在{area} §7與{island}§7中效果加倍。",
+            "§7Gain a {0} §7chance for mobs to not inflict {stats} §7when damaging you in the {island}§7.": "§7在{island}§7中，怪物對你造成傷害時有 {0} §7的機率不施加{stats}§7。",
+            "§7Gain {0}{stats} §7for each {power}§b Corpse §7looted in your current {island}§7.": "§7在當前{island}§7中每搜刮一具{power}§b屍體§7，獲得 {0}{stats}§7。"
+          },
+          "Phoenix": {
+            "§7On {0}§7th melee strike, §6ignite §7mobs, dealing {1} §7your {stats} §7each second for {2} §7seconds": "§7第 {0}§7 次近戰攻擊時§6點燃§7怪物，在 {2} §7秒內每秒造成你 {1} §7的{stats}",
+            "§7Before death, become §eimmune §7and gain {0} {stats} §7for {1} §7seconds {timer}§8 cooldown": "§7瀕死前變為§e免疫§7狀態，並在 {1} §7秒內獲得 {0} {stats} §7冷卻 {timer}§8",
+            "Gives {0} pet exp for Farming.": "§7農耕時給予 {0} 寵物經驗。"
+          },
+          "Pigman": {
+            "§7Deal {0} §7damage to monsters Level {1}§a+§7 and {2} §7damage to monsters Level {3}§a+§7.": "§7對等級 {1}§a+§7 的怪物造成 {0} §7傷害，對等級 {3}§a+§7 的怪物造成 {2} §7傷害。",
+            "{pet}§7 minions work {0} §7faster while on your island": "§7在你的島嶼上時，{pet}§7工人的工作速度加快 {0}"
+          },
+          "Precursor Drone": {
+            "§7Catching a §3Sea Creature §7has a {0} §7chance to also give you §6Treasure§7.": "§7釣起§3海怪§7時，有 {0} §7的機率額外獲得§6寶藏§7。",
+            "§7You can now ONLY throw your Foraging Axe, but it has §cno throwing penalty §7anymore.": "§7你的伐木類斧頭現在只能投擲，但§c不再有投擲懲罰§7。",
+            "§7While mining, each collection progress grants a {0} §7chance to drop a random enchanted mining item.": "§7挖掘時，每次收藏進度提升都有 {0} §7的機率掉落一件隨機的附魔挖掘物品。"
+          },
+          "Rat": {
+            "§7As a {pet}§7, you smell §e§lCHEESE§r§7 nearby! Yummy!": "§7身為{pet}§7，你聞到附近有§e§l起司§r§7！真美味！",
+            "§7Has a chance to grant a random player {0}{stats}§7 for {1} §7seconds after finding a yummy piece of Cheese! If the player gets a drop during this buff, you have a {2} §7chance to get it too.": "§7找到一塊美味的起司後，有機率讓一名隨機玩家在 {1} §7秒內獲得 {0}{stats}§7！若該玩家在增益期間取得掉落物，你也有 {2} §7的機率一併獲得。"
+          },
+          "Rift Ferret": {
+            "Gain {0} experience from XP Orbs.": "§7從經驗球獲得的經驗提升 {0}。"
+          },
+          "Skeleton": {
+            "§7Gain a combo stack for every bow hit granting {0} {stats}§7. Max {1} §7stacks, stacks disappear after {2} §7seconds.": "§7每次弓箭命中獲得一層連段，給予 {0} {stats}§7。最多 {1} §7層，疊加層數會在 {2} §7秒後消失。",
+            "§7Increase arrow damage by {0}§7 which is doubled while in dungeons": "§7箭矢傷害提升 {0}§7，在地牢中加倍",
+            "§7Your skeleton shoots an arrow dealing {0} §7your {stats} §7when a mob gets close to you ({timer} §7cooldown).": "§7當怪物靠近你時，你的骷髏會射出一支箭，造成你 {0} §7的{stats}§7（冷卻 {timer}§7）。"
+          },
+          "Snowman": {
+            "§7Enemies within {0} §7blocks are slowed by {1} §7and deal {2} §7less damage.": "§7{0} §7格內的敵人減速 {1}§7，且造成的傷害降低 {2}§7。",
+            "Fight alongside your pet {pet}!": "§7與你的寵物{pet}並肩作戰！",
+            "§7Shoots a snowball towards an enemy when you attack dealing {0} §7of your last dealt melee damage, capped at {1}§7. §8({timer}§8 cooldown)": "§7攻擊時向敵人發射一顆雪球，造成你上次近戰傷害的 {0}§7，上限為 {1}§7。 §8（冷卻 {timer}§8）",
+            "§7Your freezing aura slows enemy attacks causing you to take {0} §7reduced damage": "§7你的冰凍靈氣減緩敵人的攻擊，使你受到的傷害降低 {0}",
+            "§7Your snowballs have {0} §7chance of dealing §cdouble §7damage!": "§7你的雪球有 {0} §7的機率造成§c雙倍§7傷害！"
+          },
+          "Spider": {
+            "§7While equipped in an {item}§7 slot this pet gains {0} {item2}§7 rate.": "§7裝備在{item}§7欄位時，此寵物獲得 {0} {item2}§7倍率。",
+            "§7Killing mobs grants {0}{stats} §7and {1}{stats2} §7for {timer} §7to all players staying within {2} §7blocks of where they died. §8Stacks up to {3} §8times.": "§7擊殺怪物時，使停留在其死亡地點 {2} §7格內的所有玩家在 {timer} §7內獲得 {0}{stats} §7和 {1}{stats2}§7。 §8最多可疊加 {3} §8層。",
+            "{pet}§7, Cave {pet2}§7 and {pet3} §7minions work {0} §7faster while on your island.": "§7在你的島嶼上時，{pet}§7、洞穴{pet2}§7與{pet3} §7工人的工作速度加快 {0}§7。",
+            "§7Applies {0}{stats} §7to all §4Arachnal {1} §7weapons, armor, and equipment you have equipped.": "§7使你已裝備的所有§4蜘蛛 {1} §7武器、盔甲與配備獲得 {0}{stats}§7。",
+            "§7Upon hitting a monster, it becomes slowed by {0}§7.": "§7擊中怪物時，使其減速 {0}§7。"
+          },
+          "Spirit": {
+            "§7If you are the first player to die in a dungeon, the score penalty for that death is reduced to {0}§7.": "§7若你是地牢中第一個死亡的玩家，該次死亡的分數懲罰降低至 {0}§7。",
+            "§7Reduces the cooldown of your ghost abilities in dungeons by {0}§7.": "§7在地牢中，你的幽靈技能冷卻時間縮短 {0}§7。",
+            "§7Spawns and assists you when you are a ghost in Dungeons.": "§7當你在地牢中成為幽靈時，牠會出現並協助你。"
+          },
+          "Tarantula": {
+            "§7Decreases the mana cost of {pet}§7, {pet2}§7, Primordial and {item} §7by {0}§7.": "§7{pet}§7、{pet2}§7、原初與{item} §7的魔力消耗減少 {0}§7。",
+            "§7Decreases the mana cost of {pet}§7, {pet2}§7, {mob}§7 and {item} §7by {0}§7.": "§7{pet}§7、{pet2}§7、{mob}§7與{item} §7的魔力消耗減少 {0}§7。",
+            "{boss}§c's {stats} §7reduction is {0} §7less effective against you.": "§7{boss}§c的{stats} §7削減對你的效果降低 {0}§7。",
+            "Gain {0} {1} XP against Spiders.": "§7對蜘蛛作戰時獲得 {0} {1} 經驗。"
+          },
+          "Tiger": {
+            "§7Deal {0} §7damage against targets with no other mobs within {1} §7blocks.": "§7對 {1} §7格內沒有其他怪物的目標造成 {0} §7傷害。",
+            "§7Melee attacks reduce healing by {0} §7for {timer}§7.": "§7近戰攻擊在 {timer}§7 內使治療效果降低 {0}§7。"
+          },
+          "Turtle": {
+            "Gain immunity to knockback": "§7獲得擊退免疫",
+            "§7Gain {0} {stats} §7and an additional {1} {stats2} §7when standing still.": "§7獲得 {0} {stats}§7，靜止不動時額外獲得 {1} {stats2}§7。",
+            "§7Grants {0} {stats} §7to {1} §7players within {2}§7 blocks of you.": "§7給予你 {2}§7 格內的 {1} §7名玩家 {0} {stats}§7。",
+            "§7When under {0} §7maximum HP, you take {1} §7less damage. Gain {2}{stats} §7after taking {3}§7 hits.": "§7當生命值低於最大值的 {0} §7時，你受到的傷害減少 {1}§7。受到 {3}§7 次攻擊後獲得 {2}{stats}§7。"
+          },
+          "T-Rex": {
+            "§7Attacks have a {0} §7chance to stun the target §8({timer}§8 cooldown).": "§7攻擊有 {0} §7的機率使目標暈眩 §8（冷卻 {timer}§8）。",
+            "§7Combat stats granted by pet items on this pet are increased by {0}§7.": "§7此寵物身上的寵物道具所給予的戰鬥數值提升 {0}§7。",
+            "§7Deal {0} §7more §cdamage §7to enemies within {1}§7 blocks.": "§7對 {1}§7 格內的敵人造成的§c傷害§7增加 {0}§7。"
+          },
+          "Wolf": {
+            "§7Gain {0} {stats} §7for every nearby wolf monster §8Max {1}§8 wolves": "§7附近每有一隻狼類怪物，獲得 {0} {stats} §8最多 {1}§8 隻狼",
+            "Gives {0} pet exp for Combat.": "§7戰鬥時給予 {0} 寵物經驗。",
+            "Take {0} less damage from wolves": "§7受到狼的傷害減少 {0}"
+          },
+          "Zombie": {
+            "§7Increases all stats on {mob} {0} §7armor by {1}§7.": "§7{mob} {0} §7盔甲的所有數值提升 {1}§7。",
+            "§7Reduce the damage taken from zombies by {0}§7.": "§7受到殭屍的傷害減少 {0}§7。"
+          },
+          "Frog": {
+            "§7Increases your chance of fishing up §9Water Shards §7by {0} §7while on §2Foraging Islands§7.": "§7在§2伐木型島嶼§7上時，你釣起§9水域碎片§7的機率提升 {0}§7。",
+            "§7Grants {0}{stats} §7for {1} §7seconds every time you jump.": "§7每次跳躍時，在 {1} §7秒內獲得 {0}{stats}§7。",
+            "§7Grants {0}{stats} §7for every other {pet} {item} §7on the island, up to {1} §7frogs.": "§7島上每多一隻其他的{pet} {item}§7，即獲得 {0}{stats}§7，最多 {1} §7隻青蛙。"
+          },
+          "Giraffe": {
+            "§7Increases your melee damage by {0} §7if you are more than {1}§7 blocks away from the target": "§7當你距離目標超過 {1}§7 格時，近戰傷害提升 {0}",
+            "§7Increases your {stats} §7and {stats2} §7by {0} §7for every {1}{stats3} §7over {2}{3} §7(up to {4}{5}§7)": "§7{stats3} §7每超過 {2}{3} §7的每 {1}，你的{stats} §7與{stats2} §7便提升 {0} §7（上限 {4}{5}§7）"
+          },
+          "Jade Dragon": {
+            "§7Grants {0}{stats} §7and {1}{stats2} §7for every digit in your §aMangrove Collection§7. §8(Max {2}§8 collection)": "§7你的§a紅樹林木收藏§7每有一位數，即獲得 {0}{stats} §7和 {1}{stats2}§7。 §8（收藏上限 {2}§8）",
+            "§7If you own a level {0} {pet}§7, grants {1}{stats} §7for every other unique maxed §aForaging {item} §7that you own.": "§7若你擁有等級 {0} 的{pet}§7，你每擁有一件其他不重複的滿級§a伐木型{item}§7，獲得 {1}{stats}。",
+            "§7Adds {0}{stats} §7and {1}{stats2} §7to all your Axes.": "§7為你所有的斧頭增加 {0}{stats} §7和 {1}{stats2}§7。",
+            "§7Increase your total {stats} §7by {0} §7for every Maxed out Attribute you unlocked.": "§7你每解鎖一項滿級特性，總 {stats} §7即提升 {0}§7。"
+          },
+          "Lion": {
+            "§7Adds {0} {stats} §7and {1} {stats2} §7to your weapons.": "§7為你的武器增加 {0} {stats} §7和 {1} {stats2}§7。",
+            "§7Deal {0} {stats} §7against mobs that have attacked you.": "§7對曾攻擊過你的怪物造成 {0} {stats}§7。",
+            "{enchantment}§7, {enchantment2}§7, and {enchantment3} §7are {0} §7more effective.": "§7{enchantment}§7、{enchantment2}§7與{enchantment3} §7的效果提升 {0}§7。"
+          },
+          "Monkey": {
+            "§7Grants {0} {stats}§7, which increases your chance at double logs.": "§7獲得 {0} {stats}§7，提升你獲得雙倍原木的機率。",
+            "Grants {0}{stats} while in {island}.": "§7在{island}時，獲得 {0}{stats}。"
+          },
+          "Ocelot": {
+            "Gives {0} pet exp for Foraging.": "§7伐木時給予 {0} 寵物經驗。",
+            "§7Gain a {0} §7chance to get exp from breaking a log": "§7有 {0} §7的機率從破壞原木中獲得經驗"
+          },
+          "Sloth": {
+            "§7Cutting §aTrees §7give {0} §7more points towards §dStarlyn Contests§7.": "§7砍伐§a樹木§7在§d絲忒琳競賽§7中額外獲得 {0} §7點數。",
+            "§7Every {timer}§7, your next cut gains {0}{stats} §7and {1}{stats2}§7.": "§7每 {timer}§7，你的下一次砍伐獲得 {0}{stats} §7和 {1}{stats2}§7。",
+            "§7Gains {0}{stats} §7and {1}{stats2} §7on §2Axe §7throws.": "§7投擲§2斧頭§7時獲得 {0}{stats} §7和 {1}{stats2}§7。"
+          },
+          "Ammonite": {
+            "§7Each Mining and Fishing level grants {0}{stats}§7, {1}{stats2} §7and {2}{stats3}§7.": "§7每一級挖掘與釣魚等級給予 {0}{stats}§7、{1}{stats2} §7和 {2}{stats3}§7。",
+            "§7Grants {0}{stats} §7to your pet for each §5Heart of the {area} §7level.": "§7每一級§5{area}之心§7，給予你的寵物 {0}{stats}§7。",
+            "§7Grants {0}{stats} §7for each §5Heart of the {area} §7level while in the {island}§7.": "§7在{island}§7時，每一級§5{area}之心§7給予 {0}{stats}§7。",
+            "§7Grants {0}{stats} §7to Drills.": "§7為鑽頭增加 {0}{stats}§7。",
+            "§7You gain a good chance to fish up an {mob} §3Sea Creature§7. You and other nearby fishers gain {0}{stats}§7. §8Up to {1}{2}§8 from buckets!": "§7你有很高的機率釣起{mob} §3海怪§7。你與附近其他釣魚的玩家獲得 {0}{stats}§7。 §8由水桶提供，上限 {1}{2}§8！"
+          },
+          "Baby Yeti": {
+            "§7Grants {0}{stats} §7while on {island}§7.": "§7在{island}§7時，獲得 {0}{stats}§7。",
+            "§7Buffs the {item} §7by {0} {stats} §7and {stats2} §7and reduces its cooldown by {1}§7.": "§7使{item} §7增加 {0} {stats} §7與{stats2}§7，並使其冷卻時間縮短 {1}§7。",
+            "§7Buffs the {item} §7by {0} {stats} §7and {1} {stats2}§7.": "§7使{item} §7增加 {0} {stats} §7和 {1} {stats2}§7。",
+            "§7Grants {0}{stats} §7against {month}§f Sea Creatures§7.": "§7面對{month}§f海怪§7時，獲得 {0}{stats}§7。",
+            "§7Increases §cCombat Stats §7and §bFishing Stats §7by {0} §7while on {island}§7.": "§7在{island}§7時，§c戰鬥數值§7與§b釣魚數值§7提升 {0}§7。",
+            "§7Gives {0}{stats} §7and {1}{stats2} §7while on {island}§7.": "§7在{island}§7時，給予 {0}{stats} §7和 {1}{stats2}§7。"
+          },
+          "Blue Whale": {
+            "Gain {0} Max {stats}.": "§7獲得 {0} 最大{stats}。",
+            "§7Gain {0}{stats} §7per {1}§c Max {stats2}§7.": "§7每 {1}§c 最大{stats2}§7，獲得 {0}{stats}§7。",
+            "§7If you have any absorption active, gain {0} {1}§a Reduction§7.": "§7若你身上有任何吸收效果，獲得 {0} {1}§a 減免§7。"
+          },
+          "Dolphin": {
+            "§7Stun §3Sea Creatures §7for {timer} §7after fishing them up.": "§7釣起§3海怪§7後使其暈眩 {timer}§7。"
+          },
+          "Flying Fish": {
+            "§7Increases the stats of §aDiver Armor§7, §aMagma Lord Armor§7, and §aAbyssal Armor §7by {0}§7.": "§7§a潛水員盔甲§7、§a熔岩領主盔甲§7與§a深淵盔甲 §7的數值提升 {0}§7。",
+            "§7Gives {0} {stats} §7and {stats2} §7when near water or lava": "§7在水或岩漿附近時，給予 {0} {stats} §7與{stats2}",
+            "§7Increases the chance to activate the {enchantment}§d§l Enchantment §r§7by {0}§7.": "§7觸發{enchantment}§d§l附魔 §r§7的機率提升 {0}§7。"
+          },
+          "Hermit Crab": {
+            "§7Increases the chance of catching §dHotspot Sea Creatures §7by {0}§7.": "§7釣起§d熱點海怪§7的機率提升 {0}§7。",
+            "§7Increases the chance of catching §6§lGOLD §r§7and §b§lDIAMOND §r§7tier §6Trophy Fish §7by {0}§7.": "§7釣起§6§l黃金 §r§7與§b§l鑽石 §r§7階級§6獎盃魚§7的機率提升 {0}§7。",
+            "§7Increases the chance of catching corrupted Sea Creatures by {0}§7.": "§7釣起腐化海怪的機率提升 {0}§7。",
+            "§7Grants {0}{stats} §7for {timer} §7upon catching §6Treasure§7.": "§7釣起§6寶藏§7時，在 {timer} §7內獲得 {0}{stats}§7。",
+            "§6Treasure §7catches are {0} §7more likely to be §6§lGREAT §r§7or §d§lOUTSTANDING§r§7.": "§6寶藏§7為§6§l絕佳§r§7或§d§l驚人§r§7的機率提升 {0}§7。",
+            "§7Grants {0}{stats} §7for each player with a {pet} {item} §7within {1} §7blocks, up to {2} §7players.": "§7{1} §7格內每有一名玩家持有{pet} {item}§7，即獲得 {0}{stats}§7，最多 {2} §7名玩家。"
+          },
+          "Megalodon": {
+            "§7Deal up to {0} {stats} §7based on the enemy's missing health": "§7依據敵人已損失的生命值，最多造成 {0} {stats}",
+            "§7Doubles the pet's base stats during the {event}§7.": "§7在{event}§7期間，寵物的基礎數值加倍。",
+            "§7Grants a {0} §7chance to catch §bSharks §7during the {event}§7.": "§7在{event}§7期間，釣起§b鯊魚§7的機率提升 {0}§7。"
+          },
+          "Penguin": {
+            "§7Each time you catch a §3Sea Creature§7, reduce your {stats} §7by {0}§7.": "§7每次釣起§3海怪§7時，你的{stats} §7降低 {0}§7。",
+            "§7Grants {0}{stats} §7for each player within {1} §7blocks, up to {2} §7players.": "§7{1} §7格內每有一名玩家，即獲得 {0}{stats}§7，最多 {2} §7名玩家。"
+          },
+          "Reindeer": {
+            "Gain double pet EXP.": "§7獲得雙倍寵物經驗。",
+            "§7Grants {0} §7bonus gift chance during the §cGift Attack §7event.": "§7在§c禮物突襲§7活動期間，額外禮物機率提升 {0}§7。",
+            "§7Grants {0} §7chance of getting double {resource}§7.": "§7有 {0} §7的機率獲得雙倍{resource}§7。"
+          },
+          "Seal": {
+            "Gives {0} pet exp for Fishing.": "§7釣魚時給予 {0} 寵物經驗。",
+            "§7Increases your chance of catching §5Bouncy Beach Balls§7 and §6Giant Bouncy Beach Balls§7 during the {event}§7 by {0}§7.": "§7在{event}§7期間，釣起§5彈力沙灘球§7與§6巨型彈力沙灘球§7的機率提升 {0}§7。",
+            "§7Gain a {0}§7 chance to materialize some {item}§7 in your inventory upon catching §6Treasure§7. Materializes {item2}§7 instead during the {event}§7.": "§7釣起§6寶藏§7時，有 {0}§7 的機率在你的物品欄中憑空生成一些{item}§7。在{event}§7期間改為生成{item2}§7。"
+          },
+          "Spinosaurus": {
+            "§7Increases this pet\u0027s base stats by {0}§7 during §brain§7.": "§7§b下雨§7時，此寵物的基礎數值提升 {0}§7。",
+            "§3Sea Creatures §7spawn with {0} §7of their maximum health missing.": "§3海怪§7生成時會損失其最大生命值的 {0}§7。"
+          },
+          "Squid": {
+            "§7Gain a {0} §7chance to get double drops from squids": "§7有 {0} §7的機率從魷魚獲得雙倍掉落物"
+          },
+          "Jellyfish": {
+            "§7While in dungeons, for every {0} §cHP §7you heal teammates the cooldown of {item} §7is reduced by {timer}§7, up to {timer2}§7.": "§7在地牢中，你每為隊友治療 {0} §cHP§7，{item} §7的冷卻時間就縮短 {timer}§7，最多 {timer2}§7。",
+            "§7While in dungeons, increase the effectiveness of Dungeon Potions by {0}§7.": "§7在地牢中，地牢藥水的效果提升 {0}§7。",
+            "§7While in dungeons, reduces the mana cost of {enchantment}§7 Orbs by {0}§7.": "§7在地牢中，{enchantment}§7 之球的魔力消耗減少 {0}§7。"
+          },
+          "Parrot": {
+            "§7Adds {0} §7levels to intimidation accessories": "§7為威嚇類飾品增加 {0} §7個等級",
+            "Boosts potions duration by {0}.": "§7藥水的持續時間提升 {0}。",
+            "§7Gives {0}{stats} §7to players within {1} §7blocks §8Doesn't stack": "§7給予 {1} §7格內的玩家 {0}{stats} §8無法疊加",
+            "§7When summoned or in your Pets menu, boost the duration of consumed §cGod Potions §7and §cMixins §7by {0}§7.": "§7當召喚中或位於寵物選單時，已飲用的§c神仙藥水§7與§c調飲§7持續時間提升 {0}§7。"
+          },
+          "Sheep": {
+            "§7Gives a {0} §7shield after not taking damage for {timer}": "§7在 {timer} 內未受到傷害後，給予 {0} §7的護盾",
+            "§7Increases your total mana by {0} §7while in dungeons": "§7在地牢中時，你的總魔力提升 {0}",
+            "§7Reduces the mana cost of abilities by {0}§7.": "§7技能的魔力消耗減少 {0}§7。"
+          },
+          "Witch": {
+            "§7Increases your chance of dropping §6Ingredients§7 during the {event}§7 by {0}§7.": "§7在{event}§7期間，掉落§6材料§7的機率提升 {0}§7。"
+          },
+          "Guardian": {
+            "§7Gain {0} §7chance to find §5ultra rare §7books in §dSuperpairs§7.": "§7在§d超級配對§7中找到§5極稀有§7書籍的機率提升 {0}§7。",
+            "Gives {0} pet exp for all skills.": "§7給予所有技能 {0} 寵物經驗。",
+            "§7Zaps your enemies for {0} §7your {stats} §7every {timer}§7.": "§7每 {timer}§7，以你 {0} §7的{stats} §7電擊你的敵人。",
+            "§7Regenerate {0} §7extra mana, doubled when near or in water": "§7額外恢復 {0} §7魔力，在水中或水邊時加倍"
+          },
+          "Owl": {
+            "§8This pet's perks are active even when the pet is not summoned!": "§8即使沒有召喚，此寵物的技能依然生效！",
+            "Increased EXP: {0} EXP": "§7經驗提升：{0} 經驗",
+            "§7Makes training sessions at {npc} §7more efficient when added into a session.": "§7加入訓練課程時，使{npc} §7的訓練更有效率。",
+            "Next Milestone: {0} off": "§7下一個里程碑：折扣 {0}",
+            "§7The more coins you spend on {npc}§7's Sessions, the less coins they will cost in the future. §8(Max {0}§8 off).": "§7你在{npc}§7的課程上花費越多遊戲幣，未來的課程費用就越低。 §8（最多折扣 {0}§8）。",
+            "Passively grants {0}{stats}.": "§7被動給予 {0}{stats}。"
+          },
+          "Montezuma": {
+            "§7Gain {0}{stats} §7per soul piece found.": "§7每找到一塊靈魂碎片，獲得 {0}{stats}§7。",
+            "Gain {0}{stats} per soul piece.": "§7每一塊靈魂碎片獲得 {0}{stats}。",
+            "Found: {0}{1}{2} Soul Pieces": "§7已尋得：{0}{1}{2} 塊靈魂碎片"
+          },
+          "Wisp": {
+            "§7While in combat on the {island}§7, spawn a pool every {timer}§7. Bathing in it heals {0}{1} §7now and {2}{3}§7s for {timer2}§7.": "§7在{island}§7戰鬥時，每 {timer}§7 生成一個水池。浸泡其中可立即治療 {0}{1}§7，並在 {timer2}§7 內每秒治療 {2}{3}§7。",
+            "§7Kill Blazes to gain defense against them and demons.": "§7擊殺烈焰使者以獲得對其與惡魔的防禦。",
+            "Bonus: {0}{1} {2} {3}{4}": "加成：{0}{1} {2} {3}{4}",
+            "§7Next Upgrade: {0}{1} {2} {3}{4} §8({5}{6}{7})": "§7下次升級：{0}{1} {2} {3}{4} §8（{5}{6}{7}）",
+            "§7Lets you break fire pillars {0} §7faster, healing you for {1} §7of your max {2} §7over {timer}§7.": "§7使你破壞火柱的速度加快 {0}§7，並在 {timer}§7 內治療你最大 {2} §7的 {1}§7。",
+            "Gain {0} {1} XP against Blazes.": "§7對烈焰使者作戰時獲得 {0} {1} 經驗。",
+            "Regenerate mana {0} faster": "§7魔力恢復速度加快 {0}"
+          }
         },
 
         "Pet Item": {
           "§aPet Items §7can boost pets in many powerful ways! A pet can only hold one §aPet Item§7, but you can §eswap §7it at any time!": "§a寵物道具§7可以透過千奇百種強大的方式強化你的寵物！一個寵物同時只能持有一件§a寵物道具§7，但你可以隨時切換它們！",
-          "The pet must be visible to apply the item!": "寵物必須為可視狀態才能應用道具！"
+          "The pet must be visible to apply the item!": "寵物必須為可視狀態才能應用道具！",
+
+          "Can be applied to {pet} pets. Grants {0} {stats} when getting a combo of {1} or above.": "可套用於{pet}寵物。當擊殺連段達到 {1} 或以上時，獲得 {0} {stats}。"
         },
         "Pet Upgrades": {
           "§7Use at {npc} to upgrade {pet}§e Pets §7from §fCommon §7to §aUncommon.": "§7交給{npc}以將你的{pet}§e寵物§7從§f普通§7升級至§a罕見§7。",
@@ -2697,7 +3243,7 @@
           "Click to trade!": "點擊以進行交易！",
           "Click to search!": "點擊以開始搜尋！",
           "Click to warp!": "點擊以傳送！",
-          "Click to pickup!": "點擊以取出物品！",
+          "Click to pickup!": "點擊以拾取物品！",
           "Click to put items in!": "點擊以將物品收納進去！",
           "Click to upgrade!": "點擊以進行升級！",
           "Click to toggle!": "點擊以切換！",
@@ -2711,6 +3257,9 @@
           "Click to browse!": "點擊瀏覽！",
           "Click to view products!": "點擊查看商品！",
           "Click to purchase!": "點擊以購買！",
+          "Click to mass Syphon!": "點擊以大量汲取！",
+          "Click to collect all items!": "點擊以收集全部物品！",
+          "Click to claim rewards!": "點擊以領取獎勵！",
 
           "Left-click to scroll!": "左鍵以滑動",
           "§eLeft-click §7to scroll up!": "§e左鍵§7以向上滑動！",
@@ -2723,6 +3272,8 @@
           "Left-click to consume!": "左鍵以消耗使用！",
           "Left-click to call!": "左鍵以撥打！",
           "Left-click to change pet!": "左鍵以更換寵物！",
+          "Left-click to syphon!": "左鍵以汲取！",
+          "Left-click to upgrade!": "左鍵以升級！",
 
           "Right-click to scroll fast!": "右鍵以快速滑動",
           "§eRight-click §7to go to the top tier!": "§e右鍵§7以滑動至最頂層！",
@@ -2755,8 +3306,14 @@
           "Right-Click to set amount!": "右鍵以設定數量！",
           "Right-click to open menu!": "右鍵以開啟目錄！",
 
+
           "Shift Left-click to toggle as favorite!": "Shift 左鍵以新增或移除最愛！",
+          "Shift Left-click to syphon all!": "Shift 左鍵以汲取全部！",
+          "Shift Left-click to upgrade {0} levels!": "Shift 左鍵以升級 {0} 等！",
+
+
           "Shift Right-click to move all!": "Shift 右鍵以移送全部！",
+          "Shift Right-click to convert to a stack of items!": "Shift 右鍵將其一次轉換成一組物品！",
 
           "Sneak + Right-click to switch tools!": "潛行 + 右鍵以切換工具！"
         },
@@ -2764,6 +3321,7 @@
           "ENABLED": "已啟用",
           "DISABLED": "已禁用",
           "UNLOCKED": "已解鎖",
+          "COMPLETED": "已完成",
           "LOCKED": "未解鎖",
           "SELECTED": "已選取",
           "CLAIMED": "已領取"

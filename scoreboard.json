@@ -22,6 +22,8 @@
     "Copper: {0}": "銅幣：{0}",
     "Sowdust: {0}": "作物之塵：{0}",
     "Whispers: {0}": "呢喃：{0}",
+    "{0} {powder}: {1}": "{0} {powder}：{1}",
+    "{0} {collections_res}: {1}": "{0} {collections_res}：{1}",
     "Carnival Tokens: {0}": "嘉年華代幣：{0}",
 
     "{stats}: {0}{1}": "{stats}：{0}{1}",
