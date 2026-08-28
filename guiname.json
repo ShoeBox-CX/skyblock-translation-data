@@ -148,6 +148,7 @@
     "{npc} The Janitor": "工友 - {npc}",
     "{stats} {0} Additive Buffs": "{stats} {0} 疊加增益",
     "{stats} {0} Flat Bonuses": "{stats} {0} 固定加成",
-    "Commissions": "委託"
+    "Commissions": "委託",
+    "Weather Information": "天氣資訊"
   }
 }

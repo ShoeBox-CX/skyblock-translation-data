@@ -1969,7 +1969,16 @@
       "Accretion Artifact": "吸積神器",
       "Torrhus Talisman": "托赫斯護身符",
       "Torrhus Ring": "托赫斯戒指",
-      "Torrhus Artifact": "托赫斯神器"
+      "Torrhus Artifact": "托赫斯神器",
+      "Bestiary Talisman": "怪物圖鑑護身符",
+      "Powder of One": "一個人粉末",
+      "Powder of the Few": "少數人的粉末",
+      "Powder of the Many": "多數人的粉末",
+      "Powder of the People": "全人民的粉末",
+      "Hotspot Talisman": "熱點護身符",
+      "Hotspot Ring": "熱點戒指",
+      "Hotspot Artifact": "熱點神器",
+      "Infinipot": "無盡藥水罐"
     },
 
     "Attribute Shards": {
@@ -2050,6 +2059,7 @@
       "Eel Shard": "鰻魚碎片",
       "Ember Shard": "魚燼碎片",
       "Endstone Protector Shard": "終界石守護者碎片",
+      "End Stone Protector Shard": "終界石守護者碎片",
       "Ent Shard": "樹人碎片",
       "Etherdrake Shard": "乙太龍碎片",
       "Falcon Shard": "隼碎片",
@@ -2323,6 +2333,7 @@
       "Implosion": "內爆",
       "Wither Shield": "凋零護盾",
       "Shodow Warp": "暗影傳送",
+      "Frog's Spirit": "青蛙之魂",
 
       "First Master Star": "大師之星 - 壹",
       "Second Master Star": "大師之星 - 貳",
@@ -3433,7 +3444,7 @@
       "Magical Water Bucket": "魔法水桶",
       "Magical Lava Bucket": "魔法岩漿桶",
       "Mycelium Dust": "菌絲塵",
-      "Weather Stick": "天候棒",
+      "Weather Wand": "天候法杖",
 
       "Sundial": "日晷",
       "Fungal Tip Jar": "真菌小費罐",
@@ -3996,7 +4007,8 @@
         "Pig Brain Mixin": "豬腦調飲",
         "Melon Juice Mixin": "西瓜汁調飲",
         "Hotspot Tonic Mixin": "熱點通寧調飲",
-        "Celestial Mason Jar": "星空梅森罐"
+        "Celestial Mason Jar": "星空梅森罐",
+        "Blizzard in a Bottle Mixin": "瓶裝暴雪調飲"
       },
       "Stat Bonus Consumable": {
         "Farming Toolkit": "農耕工具箱",
@@ -4079,7 +4091,8 @@
         "Scorched Power Crystal": "灼燒能量水晶",
         "Archfiend Dice": "惡魔骰子",
         "High Class Archfiend Dice": "高位惡魔骰子",
-        "Teleporter Pill": "傳送藥丸"
+        "Teleporter Pill": "傳送藥丸",
+        "Fiesta Flask": "狂歡節酒壺"
       }
     },
 
@@ -4280,7 +4293,7 @@
           "Stone": "石頭",
           "Sunflower Oil": "葵花油",
           "Titanium": "鈦",
-          "Treasurite": "寶礦石",
+          "Treasurite": "寶藏石",
           "Volta": "伏特電池"
         },
         "Agronomy": {
@@ -4752,7 +4765,7 @@
           "Superior Dragon Fragment": "菁英巨龍殘片"
         },
         "Nether": {
-          "Bezos": "Bezos",
+          "Bezos": "貝薩司",
           "Blaze Ashes": "烈焰灰燼",
           "Burning Eye": "燃燒之眼",
           "Compact Ooze": "濃縮熔岩泥",
@@ -4771,7 +4784,7 @@
           "Match-Sticks": "火柴棒",
           "Millennia-Old Blaze Ashes": "千年烈焰灰燼",
           "Mutated Blaze Ashes": "突變烈焰灰燼",
-          "Nether Star": "地獄之心",
+          "Nether Star": "地獄之星",
           "Rekindled Ember Fragment": "復燃餘燼殘片",
           "Spectre Dust": "幽魂塵埃",
           "Spell Powder": "法術粉末",
@@ -5564,7 +5577,6 @@
       "Bag of Gold": "黃金袋",
       "Bat Firework": "蝙蝠煙火",
       "Bingo Card": "賓果卡",
-      "Blizzard in a Bottle": "瓶裝暴風雪",
       "Blue Jerry Box": "藍色傑瑞盒",
       "Boopfish Helmet": "泡泡魚頭盔",
       "Booster Cookie": "Booster Cookie",
@@ -5711,7 +5723,7 @@
       "Sewer Fish": "下水道魚",
       "Shadow Warp": "暗影傳送",
       "Sharp Rock": "尖石",
-      "Shiniest": "最閃亮的物品",
+      "Shiniest": "閃耀之物",
       "Shiny Orb": "閃亮法球",
       "Shiny Rod": "閃亮釣竿",
       "Shiny Token": "閃亮代幣",
@@ -5840,6 +5852,8 @@
       "Dasher Spider": "疾衝蜘蛛",
       "Flint Skeleton": "燧石骷髏",
       "Rain Slime": "雨萊姆",
+      "Toxic Rain Slime": "劇毒雨萊姆",
+      "Slimey Slime": "黏糊史萊姆",
       "Silverfish": "蠹魚",
       "Spider Jockey": "蜘蛛騎士",
       "Splitter Spider": "分裂蜘蛛",
@@ -5870,6 +5884,7 @@
       "Barbarian Duke X": "蠻族公爵十世",
       "Bladesoul": "劍魂",
       "Blaze": "烈焰使者",
+      "Mutated Blaze": "突變烈焰使者",
       "Flaming Spider": "燃焰蜘蛛",
       "Flare": "閃焰",
       "Ghast": "地獄幽靈",
@@ -5877,6 +5892,7 @@
       "Mage Outlaw": "亡命法師",
       "Magma Boss": "岩漿立方王",
       "Magma Cube": "岩漿立方怪",
+      "Pack Magma Cube": "群居岩漿立方怪",
       "Magma Cube Rider": "岩漿立方怪騎士",
       "Matcho": "火柴怪",
       "Millennia-Aged Blaze": "千年烈焰使者",
@@ -5911,6 +5927,7 @@
       "Goblin Flamethrower": "哥布林操火師",
       "Murderlover": "嗜殺者",
       "Goblin Raiders": "哥布林掠奪者",
+      "Weakling": "虛弱哥布林",
       "Pitfighter": "礦山鬥士",
       "Superprotectron": "超級保護者",
       "Golden Goblin": "黃金哥布林",
@@ -5925,10 +5942,14 @@
       "Boss Corleone": "柯里昂老大",
       "Butterfly": "蝴蝶",
       "Grunt": "嘍囉",
+      "Executive Viper": "執行官薇帕",
+      "Executive Wendy": "執行官溫蒂",
+      "Executive Sebastian": "執行官賽巴斯町",
       "Key Guardian": "鑰匙守衛",
       "Sludge": "汙泥史萊姆",
       "Thyst": "紫晶怪",
       "Worm": "蠕蟲",
+      "Scatha": "史卡沙",
       "Yog": "約格"
     },
     "The Park": {
@@ -6185,17 +6206,68 @@
     },
     "Mythological Creatures": {
       "Cretan Bull": "克里特公牛",
+      "Blessed Cretan Bull": "受祝的克里特公牛",
+      "Stalwart Cretan Bull": "堅定的克里特公牛",
+      "Venerable Cretan Bull": "久遠的克里特公牛",
+      "Exalted Cretan Bull": "崇高的克里特公牛",
+      "Empyrean Cretan Bull": "蒼穹的克里特公牛",
+
       "Gaia Construct": "蓋亞造物",
+      "Stalwart Gaia Construct": "堅定的蓋亞造物",
+      "Venerable Gaia Construct": "久遠的蓋亞造物",
+      "Exalted Gaia Construct": "崇高的蓋亞造物",
+      "Empyrean Gaia Construct": "蒼穹的蓋亞造物",
+
       "Harpy": "鷹身女妖",
+      "Stalwart Harpy": "堅定的鷹身女妖",
+      "Venerable Harpy": "久遠的鷹身女妖",
+      "Exalted Harpy": "崇高的鷹身女妖",
+      "Empyrean Harpy": "蒼穹的鷹身女妖",
+
       "King Minos": "米諾斯國王",
+      "Empyrean King Minos": "蒼穹的米諾斯國王",
+
       "Manticore": "蠍獅",
+      "Empyrean Manticore": "蒼穹的蠍獅",
+
       "Minos Champion": "米諾斯鬥士",
+      "Venerable Minos Champion": "久遠的米諾斯鬥士",
+      "Exalted Minos Champion": "崇高的米諾斯鬥士",
+      "Empyrean Minos Champion": "蒼穹的米諾斯鬥士",
+
       "Minos Hunter": "米諾斯獵人",
+      "Blessed Minos Hunter": "受祝的米諾斯獵人",
+      "Stalwart Minos Hunter": "堅定的米諾斯獵人",
+      "Venerable Minos Hunter": "久遠的米諾斯獵人",
+      "Exalted Minos Hunter": "崇高的米諾斯獵人",
+      "Empyrean Minos Hunter": "蒼穹的米諾斯獵人",
+
       "Minos Inquisitor": "米諾斯審判官",
+      "Exalted Minos Inquisitor": "崇高的米諾斯審判官",
+      "Empyrean Minos Inquisitor": "蒼穹的米諾斯審判官",
+
       "Minotaur": "米諾陶",
+      "Venerable Minotaur": "久遠的米諾陶",
+      "Exalted Minotaur": "崇高的米諾陶",
+      "Empyrean Minotaur": "蒼穹的米諾陶",
+
       "Siamese Lynx": "暹羅猞猁",
+      "Blessed Siamese Lynx": "受祝的暹羅猞猁",
+      "Stalwart Siamese Lynx": "堅定的暹羅猞猁",
+      "Venerable Siamese Lynx": "久遠的暹羅猞猁",
+      "Exalted Siamese Lynx": "崇高的暹羅猞猁",
+      "Empyrean Siamese Lynx": "蒼穹的暹羅猞猁",
+
       "Sphinx": "斯芬克斯",
-      "Stranded Nymph": "擱淺水仙"
+      "Exalted Sphinx": "崇高的斯芬克斯",
+      "Empyrean Sphinx": "蒼穹的斯芬克斯",
+
+      "Stranded Nymph": "擱淺水仙",
+      "Blessed Stranded Nymph": "受祝的擱淺水仙",
+      "Stalwart Stranded Nymph": "堅定的擱淺水仙",
+      "Venerable Stranded Nymph": "久遠的擱淺水仙",
+      "Exalted Stranded Nymph": "崇高的擱淺水仙",
+      "Empyrean Stranded Nymph": "蒼穹的擱淺水仙"
     },
     "Jerry": {
       "Blue Jerry": "藍傑瑞",
@@ -6379,6 +6451,26 @@
       "Wyvern": "飛龍",
       "Xyz": "Xyz"
     }
+  },
+
+  "Weather": {
+    "Breeze": "微風",
+    "Mist": "迷霧",
+    "Rockfall": "落石",
+    "Snowstorm": "雪風暴",
+    "Rain": "下雨",
+    "Thunderstorm": "雷雨",
+    "Wispfall": "靈魂雨",
+    "Voidstorm": "虛空風暴",
+    "Ashfall": "火山灰雨",
+    "Hellstorm": "地獄風暴",
+    "Moonfall": "月落",
+    "Smog": "霧霾",
+    "Acid Rain": "酸雨",
+    "Tropical Rain": "熱帶雨",
+    "Blossoming": "落花雨",
+    "Blooming": "花綻期",
+    "Blizzard": "暴風雪"
   },
 
   "HOTM Perks": {
@@ -6784,7 +6876,8 @@
       "Soulflow": "魂力",
       "Overflow Mana": "超量魔力",
       "Heat": "炙熱值",
-      "Cold": "寒冷值"
+      "Cold": "寒冷值",
+      "Magic Resistance": "魔法抗性"
     }
   },
   "Item only Stats": {
@@ -7053,9 +7146,11 @@
     "BOOTS": "靴子",
     "GAUNTLET": "拳套",
     "ACCESSORY": "飾品",
-    "DEPLOYABLE": "可部署裝置",
+    "DEPLOYABLE": "可部署道具",
     "ARROW": "箭矢",
     "PORTAL": "傳送門",
+    "ABILITY SCROLL": "技能卷軸",
+    "DYE": "染料罐",
 
     "FARMING TOOL": "農具",
     "LASSO": "套索",
@@ -7489,6 +7584,7 @@
       "Private Island": "個人島嶼",
       "Your Island": "你的島嶼",
       "The Garden": "空中花園",
+      "Garden": "空中花園",
       "Hub Island": "大廳島嶼",
       "Dungeon Hub": "地牢大廳",
       "The Catacombs": "地下陵墓",
@@ -7946,7 +8042,9 @@
       "Wizard's Assistant": "巫師的助手",
       "Wool Weaver": "羊毛織工",
       "Zarina": "扎琳娜",
-      "Zog": "佐格"
+      "Zog": "佐格",
+      "Professor Wynd": "溫德教授",
+      "Sunny": "桑尼"
     },
 
     "The Park": {

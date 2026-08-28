@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated": "2026-08-25T15:35:51Z",
-  "notice": "Translation table updates: commissions, milestones, flat bonuses",
+  "generated": "2026-08-28T15:30:21Z",
+  "notice": "Translate item frame names; fill in the TAB table",
   "files": {
-    "vocab.json": {"sha256": "4b1782a96c386e6482ae056e0055140fc93211a04755ef2b47b0e0e319f01c66", "size": 339603},
-    "engine.json": {"sha256": "f662c883dceb82832f70d8ff815648783cecff223b19a3526d059f04ef168ab4", "size": 2503},
-    "tooltips.json": {"sha256": "1c98ef7936f24cd4e5f96a4724b525c2978cffcb897d0171e043e346d8e3d42e", "size": 281821},
-    "guiname.json": {"sha256": "64192c4e274aaa381e52fbc0fa631fbeec90d052935a09f40f461489b89261bf", "size": 6656},
-    "holograms.json": {"sha256": "a8485778499c239e1d21199be54f21ad96d490d71fb16c20bc92e244c09a4959", "size": 6575},
+    "vocab.json": {"sha256": "16b57687e246ac86af91b68f13466de28f3f373e33b6fd735d0749bc7c3ce984", "size": 343509},
+    "engine.json": {"sha256": "f737a2b9c7ca327e0b088bd3841358893baeb63cfad8e3380cf6112b43715acc", "size": 3174},
+    "tooltips.json": {"sha256": "68a6638dc8043e5870bda5fdfbd81d49037e0921fbbf150838967ee8eab0706e", "size": 287834},
+    "guiname.json": {"sha256": "fad46cbc1faefc68181df7f30fcd4e0bb8f2c4f9760d2b1dffc1a656825e1309", "size": 6699},
+    "holograms.json": {"sha256": "fcb7ac799daf394497592e97287844ec100cf41c6e35e768fffd7df7ec1a6c77", "size": 5254},
     "scoreboard.json": {"sha256": "14da3135e1f65b2e0bd74668002223baba12f0a7245f85adfae89a2bb7de1013", "size": 2958},
-    "chat.json": {"sha256": "4cbfa6710a96ccc1d7591d11fdb498e34440cff6c4f441f2eaa8f940a9b5803b", "size": 20650},
+    "chat.json": {"sha256": "e52a6ef95ccfac218242667c1d5d21c1742007c08399ffc449754f2859592419", "size": 22157},
     "title.json": {"sha256": "652b9d616ef1ce54bde4d8d7e3f9a6ed56182f146f049938cbfa2c7c42f4194f", "size": 829}
   }
 }

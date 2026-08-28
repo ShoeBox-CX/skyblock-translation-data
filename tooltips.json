@@ -218,7 +218,7 @@
       "Applicable on: §9Longsword§7, §9Sword": "可附加於：§9長劍§7、§9劍",
       "Applicable on: §9Axe": "可附加於：§9斧",
       "Applicable on: §9Farming Tool": "可附加於：§9農具",
-      "Applicable on: §9Mining Tool": "可附加於：§9挖掘工具",
+      "Applicable on: §9Mining Tools": "可附加於：§9挖掘工具",
 
       "Applies the {stats} booster when combined with Foraging Armor, Equipment, or Axes.": "綁定在伐木類防具、副裝或斧頭時，將 {stats} 加成器附加上去。",
       "Grants {stats}.": "獲得 {stats}。",
@@ -457,7 +457,12 @@
       "The portal will spawn facing you on the block you click on.": "傳送門會創建在你點擊的方塊上並面向你。"
     },
     "Cosmetics": {},
-    "Consumable": {},
+    "Consumable": {
+      "Use on a §aTree §7with an active §cTree Protection Order §7to lather it with {collections_res}!": "用來對受到§c樹衛團體保護令§7的§a樹木§7塗抹{collections_res}！",
+      "After {timer}, a unique {mob_type} will be attracted to the {collections_res}!": "{timer}後，一隻獨特的 {mob_type} 生物會受到{collections_res}的吸引前來！",
+      "Upon use, a unique {mob_type} will §a§lINSTANTLY §r§7be attracted to the {collections_res}!": "使用後，一隻獨特的 {mob_type} 生物會§a§l立刻§r§7受到{collections_res}的吸引前來！",
+      "Type of mob depends upon type of tree lathered.": "可以吸引到哪些生物取決於你塗抹的樹木種類。"
+    },
     "Collection Resources": {},
     "Other Resources": {},
     "Miscs": {}
@@ -533,7 +538,8 @@
     "LEFT CLICK": "左鍵施放",
     "CLICK": "點擊切換",
     "SNEAK": "潛行施放",
-    "ON SHOOT": "射擊使用"
+    "ON SHOOT": "射擊使用",
+    "DOUBLE TAP JUMP": "雙擊跳躍"
   },
 
   "costs": {
@@ -618,7 +624,7 @@
       "Common": {
         "{item}": "{item}",
         "{item} {0}": "{item} {0}",
-        "{resource} x{0}": "{resource} x{0}",
+        "{resource} x{0}": "{resource} §8x{0}",
         "{mob_type}": "{mob_type}",
         "{area}": "{area}",
 
@@ -709,7 +715,10 @@
         "Minion Fuel": "工人燃料",
         "Minion Shipping": "工人運輸",
         "Minion Upgrade": "工人升級",
-        "Minion Storage": "工人儲物箱"
+        "Minion Storage": "工人儲物箱",
+
+        "Mild Weather": "溫和天氣",
+        "EXTREME Weather": "極端天氣"
       },
 
       "Skyblock Menu": {
@@ -1065,6 +1074,7 @@
             "Farming Exp: {0}": "農耕經驗值：{0}",
             "Fishing Exp: {0}": "釣魚經驗值：{0}",
             "Hunting Exp: {0}": "狩獵經驗值：{0}",
+            "{0} {mob} Hunting XP": "{0} {mob} 狩獵經驗",
             "XP Orbs: {0}": "經驗球：{0}",
             "Your {0}Lv{1}{2} {mob} Stats:": "你的 {0}等級{1}{2} {mob} 戰績：",
             "Deaths: {0}": "死亡數：{0}",
@@ -1074,18 +1084,23 @@
             "Rare Loot": "稀有掉落物",
             "Legendary Loot": "傳奇掉落物",
             "RNGesus Loot": "RNGesus 掉落物",
-            "{0} {item}": "{0} {item}",
-            "{0} {item} §8x{1}": "{0} {item} §8x{1}",
-            "{0} {item} §8x{1}{2}": "{0} {item} §8x{1}{2}",
-            "{0} {item} §8({1})": "{0} {item} §8({1})",
-            "{0} {collections_res} §8x{1}": "{0} {collections_res} §8x{1}",
-            "{0} {collections_res} §8x{1}{2}": "{0} {collections_res} §8x{1}{2}",
-            "{0} {resource} §8x{1}": "{0} {resource} §8x{1}",
+            "{item}": "{item}",
+            "{item} §8x{0}": "{item} §8x{0}",
+            "{item} §8x{0}{1}": "{item} §8x{0}{1}",
+            "{item} §8({0})": "{item} §8({0})",
+            "{item} §8x{0} §8({1})": "{item} §8x{0} §8({1})",
+            "{collections_res} §8x{0}": "{collections_res} §8x{0}",
+            "{collections_res} §8x{0}{1}": "{collections_res} §8x{0}{1}",
+            "{resource} §8x{0}{1}": "{resource} §8x{0}{1}",
+            "{resource} §8x{0} ({1})": "{resource} §8x{0} ({1})",
+            "{resource} §8({0})": "{resource} §8({0})",
+            "{0} {resource}": "{0} {resource}",
+            "{0} {resource} §8({1})": "{0} {resource} §8({1})",
             "{0} {resource} §8x{1}{2}": "{0} {resource} §8x{1}{2}",
-            "{0} {1} {resource} §8({2})": "{0} {1} {resource} §8({2})",
-            "{0} {item}§f ({enchantment} {roman}) §8({1})": "{0} {item}§f ({enchantment} {roman}) §8({1})",
-            "{0} {1}§7Lvl {2}{3} {pet}": "{0} {1}§7等級 {2}{3} {pet}",
-            "{0} {1}§7Lvl {2}{3} {pet} §8({4}§8)": "{0} {1}§7等級 {2}{3} {pet} §8({4}§8)"
+            "{item}§f ({enchantment} {roman}) §8({0})": "{item}§f ({enchantment} {roman}) §8({0})",
+            "{0}§7Lvl {1}{2} {pet}": "{0}§7等級 {1}{2} {pet}",
+            "{0}§7Lvl {1}{2} {pet} §8({3})": "{0}§7等級 {1}{2} {pet} §8({3})",
+            "{0}§7Lvl {1}{2} {pet} §8x{3} §8({4})": "{0}§7等級 {1}{2} {pet} §8x{3} §8({4})"
           },
 
           "Slayer": {
@@ -1651,7 +1666,10 @@
             "Owned: {0}§b Shard": "擁有：{0}§b 個碎片",
             "Owned: {0}§b Shards": "擁有：{0}§b 個碎片",
             "Syphon {0} more to level up!": "再汲取 {0} 個以升級！",
-            "Attribute Maxed!": "特性等級已滿！"
+            "Attribute Maxed!": "特性等級已滿！",
+
+            "{mob}": "{mob}",
+            "{mob} NEW SHARD": "{mob} §d§l新碎片"
           },
           "Attribute Menu": {
             "View a complete list of all Attributes!": "查看所有特性的完整清單！",
@@ -1989,6 +2007,9 @@
           "Total Progress: {0}": "總進度：{0}",
           "Chapter {roman} Progress: {0}": "第 {roman} 章進度：{0}",
 
+          "Chapter {roman}": "第 {roman} 章",
+          "{0} {item}": "{0} {item}",
+
           "Moonglade Marsh": {
             "Welcome to the {island}, the first island of {island2}.": "歡迎來到{island} - 構成{island2}的第一座島嶼。",
             "Here you'll learn about §aHunting§7, advanced §aForaging§7, and maybe even discover the secrets of the island!": "在這裡你能學到關於§a狩獵§7以及進階§a伐木§7的技巧，甚至是發現這座島嶼的一些秘密！",
@@ -2188,8 +2209,10 @@
           "Enchanted Agronomy Sack": "附魔農藝囊袋",
           "Enchanted Husbandry Sack": "附魔畜牧囊袋",
           "Enchanted Foraging Sack": "附魔伐木囊袋",
-          "Enchanted Fishing Sack": "附魔釣魚囊袋"
+          "Enchanted Fishing Sack": "附魔釣魚囊袋",
 
+          "Holds various items obtained from [§6Mining,§cCombat,§aFarming,§aHusbandry,§2Foraging,§bFishing]! Items you pickup go directly into your sacks.": "可以收納從[§6挖掘,§c戰鬥,§a農藝,§a畜牧,§2伐木,§b釣魚]§7獲得的各項物品！物品拾取時會直接收進囊袋。",
+          "Holds various enchanted items obtained from [§6Mining,§cCombat,§aFarming,§aHusbandry,§2Foraging,§bFishing]§7! Items you pickup go directly into your sacks.": "可以收納從[§6挖掘,§c戰鬥,§a農藝,§a畜牧,§2伐木,§b釣魚]§7獲得的各項附魔物品！物品拾取時會直接收進囊袋。"
         },
         "Other Bags": {
           "A useful bag which can hold all types of fish, bait, and fishing loot!": "一個可以收納所有漁獲、魚餌和其他釣魚戰利品的實用收納袋！",
@@ -3010,6 +3033,7 @@
             "§7Grants {0}{stats} §7for every other {pet} {item} §7on the island, up to {1} §7frogs.": "§7島上每多一隻其他的{pet} {item}§7，即獲得 {0}{stats}§7，最多 {1} §7隻青蛙。"
           },
           "Giraffe": {
+            "Grants {0}{stats}": "Grants {0}{stats}",
             "§7Increases your melee damage by {0} §7if you are more than {1}§7 blocks away from the target": "§7當你距離目標超過 {1}§7 格時，近戰傷害提升 {0}",
             "§7Increases your {stats} §7and {stats2} §7by {0} §7for every {1}{stats3} §7over {2}{3} §7(up to {4}{5}§7)": "§7{stats3} §7每超過 {2}{3} §7的每 {1}，你的{stats} §7與{stats2} §7便提升 {0} §7（上限 {4}{5}§7）"
           },
@@ -3175,7 +3199,15 @@
         "§7Main skill: §bCombat": "§7主題技能：§b戰鬥",
         "§7Main skill: §bForaging": "§7主題技能：§b伐木",
         "§7Main skill: §bFishing": "§7主題技能：§b釣魚",
-        "Island tier: {roman}": "島嶼階級：{roman}"
+        "Island tier: {roman}": "島嶼階級：{roman}",
+        "You are here!": "你在這裡！",
+        "Warp not unlocked!": "傳送點未解鎖！",
+        "Available during {event}!": "{event}期間開放！",
+
+        "Your very own chunk of SkyBlock. Nice housing for your minions.": "你專屬的 SkyBlock 空島。也是你工人們的安居之地",
+        "Where everything happens and anything is possible.": "在這裡一切皆有可能，任何事都能發生。",
+        "Group up with friends and take on challenging Dungeons.": "和你的朋友們組成隊伍，往充滿挑戰的地牢前進。",
+        "Collect basic farming resources from plentiful crops or the local animal population.": "從豐饒的農田以及當地的動物群中收集基本的農業資源。"
       },
       "Profile Management": {},
       "Game Settings": {},
@@ -3188,7 +3220,38 @@
           "Sell price: N{0}A": "售價：無",
           "Buy price: {0} coins": "買價：{0}§6 遊戲幣",
           "Buy price: N{0}A": "買價：無",
+          "{0} product": "{0} 項商品",
           "{0} products": "{0} 項商品"
+        }
+      },
+      "Guide Menu": {
+        "Weather Guide": {
+          "Some islands can be affected by §bweather§7, which grants §abonus stats §7and §dperks §7to everyone on the island!": "有些島嶼會受到§b天氣§7影響，這能使在島嶼上的所有人獲得額外數值以及特殊加成！",
+          "There are two types of §bweather§7:": "§b天氣§7總共分成兩種類型：",
+          "§6Mild §7weather occurs after {0} minutes of clear skies.": "每度過 {0} 分鐘的晴天後，會迎來一次§6溫和§7天氣。",
+          "§cEXTREME §7weather replaces every {0}§ard §7instance of §6mild §7weather.": "§a第{0}次§7的§6溫和§7天氣會被替代為§c極端§7天氣。",
+
+          "View the various §bweather conditions §7that can affect the {island}.": "查看會出現在{island}的各種§b天氣狀況§7。",
+          "View the various §bweather conditions §7that can affect the {area}.": "查看會出現在{area}的各種§b天氣狀況§7。",
+          "All players on the {island} receive the following stats during {weather}:": "在{weather}期間，所有位於{island}的玩家會獲得以下加成：",
+          "All players in the {area} receive the following stats during {weather}:": "在{weather}期間，所有位於{area}的玩家會獲得以下加成：",
+          "All players on the {area} receive the following stats during {weather}:": "在{weather}期間，所有位於{area}的玩家會獲得以下加成：",
+          "All weather conditions last for {0} minutes.": "所有天氣狀況的持續時間 {0} 分鐘。",
+
+          "Gain {0} more {powder}": "額外獲得 {0} {powder}",
+          "Gain {0} more {whisper}": "額外獲得 {0} {whisper}",
+          "Gain {0} more {resource}": "額外獲得 {0} {resource}",
+          "§aRain Slimes §7spawn around the island": "島嶼上會開始生成§a雨萊姆",
+          "§aToxic Rain Slimes §7spawn around the island": "島嶼上會開始生成§a劇毒雨萊姆",
+          "§eSuperior Dragons §7are {0} more likely to spawn": "§e菁英巨龍§7的出線機率提升 {0}",
+          "§6Trophy Fish §7are {0} §7more likely to be §6§lGOLD §r§7or §b§lDIAMOND": "§6獎盃魚§7為§6§l黃金§r§7或§b§l鑽石§r§7的機率提升 {0}",
+          "§2Trophy Frogs §7are {0} §7more likely to be §6§lGOLD §r§7or §b§lDIAMOND": "§6獎盃蛙§7為§6§l黃金§r§7或§b§l鑽石§r§7的機率提升 {0}",
+          "Gain a {0} chance to catch {1} pieces of §2Junk §7at once!": "有 {0} 的機率一次釣上 {1} 件§2廢品§7！",
+
+          "Configure which §bweather you want {npc} to notify you about.": "管理你想要{npc}通知你的天氣。",
+          "Requires {npc} Abiphone Contact.": "需要擁有{npc}的 Abiphone 聯絡方式",
+          "Weather alerts are currently §aON §7for this weather type!": "此天氣的天氣警報當前為§a開啟§7狀態！",
+          "Weather alerts are currently §cOFF §7for this weather type!": "此天氣的天氣警報當前為§c關閉§7狀態！"
         }
       },
       "Tips": {
@@ -3255,11 +3318,13 @@
           "Click to get store info!": "點擊以取得商城資訊！",
           "Click to view details!": "點擊查看詳情！",
           "Click to browse!": "點擊瀏覽！",
+          "Click to view product!": "點擊查看商品！",
           "Click to view products!": "點擊查看商品！",
           "Click to purchase!": "點擊以購買！",
           "Click to mass Syphon!": "點擊以大量汲取！",
           "Click to collect all items!": "點擊以收集全部物品！",
           "Click to claim rewards!": "點擊以領取獎勵！",
+          "Click to configure!": "點擊以管理！",
 
           "Left-click to scroll!": "左鍵以滑動",
           "§eLeft-click §7to scroll up!": "§e左鍵§7以向上滑動！",
