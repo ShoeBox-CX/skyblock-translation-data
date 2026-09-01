@@ -10,7 +10,9 @@
       "§7Receive §4Curse of Greed §7when striking, §cCANCELLING§7 any effect modifying your §6coins §7loss on §4death§7!": "§7當你攻擊時受到§4貪欲詛咒§7影響，§c禁用§7一切能修改§4死亡§7時損失§6遊戲幣§7數量的效果！",
       "Current Damage Bonus: {0}": "當前傷害加成：{0}",
       "§7All damage dealt with this bow is §adoubled§7.": "§7這把弓造的的傷害皆為§a雙倍§7。",
-      "Deals {0} damage while in water.": "在水中時，造成 {0} 傷害。"
+      "Deals {0} damage while in water.": "在水中時，造成 {0} 傷害。",
+      "Hits {0} mobs on impact.": "擊中時對附近 {0} 個敵人造成傷害。",
+      "Can damage endermen.": "可對終界使者造成傷害。"
     },
     "Armor": {
       "Armor Bonus": {
@@ -219,9 +221,14 @@
       "Applicable on: §9Axe": "可附加於：§9斧",
       "Applicable on: §9Farming Tool": "可附加於：§9農具",
       "Applicable on: §9Mining Tools": "可附加於：§9挖掘工具",
+      "Applicable on: §9Held Item§7, {item}": "可附加於：§9手持類道具§7，{item}",
 
+      "Applies the §b४ Fighting §7booster when combined with Foraging Armor, Equipment, or Axes.": "綁定在伐木類防具、副裝或斧頭時，將 §b४ 戰鬥§7 加成器附加上去。",
+      "Increases damage against §2Foraging Island §7mobs.": "增加對§2伐木型島嶼§7怪物造成的傷害。",
       "Applies the {stats} booster when combined with Foraging Armor, Equipment, or Axes.": "綁定在伐木類防具、副裝或斧頭時，將 {stats} 加成器附加上去。",
       "Grants {stats}.": "獲得 {stats}。",
+      "Apply to an item with a {item} to upgrade it to an §aUncommon {item2}§7, which increases the amount of {stats} it gives.": "附加至以具有{item}的物品以將其升級為§a罕見{item2}§7，使加成器給予的 {stats} 提升。",
+      "Apply to an item with a {item} to upgrade it to an §aUncommon {item2}§7, which increases damage against §2Foraging Island §7mobs.": "附加至以具有{item}的物品以將其升級為§a罕見{item2}§7，這能增加對§2伐木型島嶼§7怪物造成的傷害。",
 
       "§7Enriches an accessory with the power of {0}{stats} §7when applied to a §6Legendary §7or §dMythic §7accessory.": "§7此道具附加於§6傳奇§7或§d神話§7飾品時，將 {0}{stats} 的能量增強至飾品上。",
       "§7Only §lONE §r§7enrichment can be applied to a given accessory.": "§7飾品最多只能被施加§l一個§r§7增強效果。",
@@ -423,14 +430,44 @@
       "Time Between Actions: {timer}": "動作間隔：{timer}",
       "Time Between Actions: {timer} {0} {timer2}": "動作間隔：{timer} {0} {timer2}",
       "Max Storage: {0}": "存儲上限：{0}",
-      "Resources Generated: {0}": "資源總產出：{0}"
+      "Resources Generated: {0}": "資源總產出：{0}",
+      "Grants a {0} §aSpeed Boost": "獲得 {0} §a速度加成",
+      "View the most efficient spot for this minion to be placed in.": "查看此工人的最佳放置點位。",
+      "View the items required to upgrade this minion to the next tier.": "查看此工人升級至下一階所需的物品。",
+      "Highest tier has been reached!": "以達到最高階！",
+      "Click here to upgrade your minion to the next tier.": "點擊此處將你的工人升級至下一階。",
+      "You need {0} more {item}.": "你還需要 {0} 個 {item}。",
+      "This minion has reached the maximum tier.": "此工人以達到最高階。",
+      "Storage unlocked at tier {roman}": "此存儲欄位於第 {roman} 階解鎖",
+
+      "You can insert a Minion Skin here to change the appearance of your minion.": "你可以在這裡嵌入工人造型以改變工人的外觀。",
+      "Your minion looks fabulous!": "你的工人看起來超讚！",
+      "Increase the speed of your minion by adding minion fuel items here.": "在這裡添加工人燃料道具以提升工人的工作速度。",
+      "§eNote: §7Permanent fuel can be taken out. Perishable fuel will refunded.": "§e小提醒：§7永久性燃料可以直接取出，消耗型燃料則是返還未消耗的部分。",
+      "Add a {item} or {item2} here to make your minion automatically sell generated items after its inventory is full.": "在這裡安裝一個{item}或{item2}，使你的工人在儲存空間已滿後自動將產出的物品售出。",
+      "You can improve your minion by adding a minion upgrade item here.": "你可以在這裡安裝工人升級以提升你的工人能力。"
     },
     "Minion Fuels": {
+      "Increases the speed of your minion by {0} for {1} hours!": "將工人的工作速度提升 {0} 持續 {1} 小時！",
+      "Increases the speed of your minion by {0}. Unlimited Duration!": "將工人的工作速度提升 {0}。持續時間無限！"
     },
     "Minion Shipping": {
+      "This item can be placed inside any minion. Automatically sells generated items when the minion has no space. Items are sold for {0} of their selling price.": "此道具可以安裝在工人中。當工人沒有儲存空間時，自動將產出的物品售出。此管道售出的物品只會獲得其原價 {0} 的遊戲幣。",
+      "Items Sold: {0}": "物品售出量：{0}",
+      "Held Coins: {0}": "持有遊戲幣：{0}"
     },
     "Minion Upgrades": {
-      "This item can be also used as a minion upgrade to allow gravel minions to always receive flint.": "此道具也可作為工人升級，使礫石工人的產出必定為燧石。"
+      "This item can be also used as a minion upgrade to allow gravel minions to always receive flint.": "此道具也可作為工人升級，使礫石工人的產出必定為燧石。",
+      "This item can be used as a minion upgrade. This will automatically smelt materials that a minion produces.": "此道具可作為工人升級。自動熔煉工人產出的物資。",
+      "This item can be used as a minion upgrade. This will automatically turn materials that a minion produces into their block form.": "此道具可作為工人升級。當工人存儲內的資源足夠時，自動將物資壓縮成其方塊版本。",
+      "This item can be used as a minion upgrade. This will automatically turn materials that a minion produces into their enchanted form when there are enough resources in the minion's storage.": "此道具可作為工人升級。當工人存儲內的資源足夠時，自動將物資壓縮成其附魔版本。",
+      "This item can be used as a minion upgrade.": "此道具可作為工人升級。",
+      "Automatically smelts materials produced by minions before compacting them into their enchanted form.": "自動熔煉工人產出的物資，並在資源足夠時，自動壓縮成其附魔版本。",
+      "This item can be used as a minion upgrade. Increases the effective radius of the minion by {0} extra block.": "此道具可作為工人升級。將工人的工作範圍半徑額外擴張 {0} 格。",
+      "This item can be used as a minion upgrade. Prevents your minions from getting distracted by flies.": "此道具可作為工人升級。避免你的工人受到蒼蠅干擾。",
+      "Increases the speed of your minion by {0}.": "將工人的工作速度提升 {0}。",
+      "This item can be used as a minion upgrade. Place it in any minion and it will occasionally generate Diamonds!": "此道具可作為工人升級。安裝在任意工人中，使該工人能偶爾產出鑽石。",
+      "This item can be used as a minion upgrade. Place it in any mob spawning minion and it will turn nearby mobs into their §5corrupted §7forms.": "此道具可作為工人升級。安裝在任意生怪型工人中，使該工人將附近的生物轉化為§5腐化§7型態。"
     },
     "Minion Storage": {
       "Place this chest next to a minion and the minion will store items inside once its storage is full!": "將此箱子放置在空人旁，當工人存儲空間已滿後會將物品儲存至該箱子！",
@@ -535,11 +572,14 @@
   "triggers": {
     "SNEAK RIGHT CLICK": "潛行右鍵施放",
     "RIGHT CLICK": "右鍵施放",
+    "HOLD RIGHT CLICK": "按住右鍵施放",
+    "SNEAK LEFT CLICK": "潛行左鍵施放",
     "LEFT CLICK": "左鍵施放",
     "CLICK": "點擊切換",
     "SNEAK": "潛行施放",
     "ON SHOOT": "射擊使用",
-    "DOUBLE TAP JUMP": "雙擊跳躍"
+    "DOUBLE TAP JUMP": "雙擊跳躍",
+    "DIG": "挖"
   },
 
   "costs": {
@@ -582,14 +622,14 @@
     "§7Grants {0}{stats} §7when mining §9Blocks§7.": "§7挖掘§9方塊§7時，獲得 {0}{stats}。",
     "§7Grants {0}{stats} §7when mining {collections_res} §7or {resource}§7.": "§7挖掘{collections_res}§7或{resource}§7時，獲得 {0}{stats}。",
     "§7Grants {0}{stats} §7while on §bMining Islands§7.": "§7位於§b挖掘型島嶼§7時，獲得 {0}{stats}。",
-    "§7Grants {0}{stats} §7while in Dungeons, which increases your healing on others.": "§7在地牢中獲得 {0}{stats}§7，此屬性會提升你對他人的治療量。",
+    "§7Grants {0}{stats} §7while in Dungeons, which increases your healing on others.": "§7在地下城中獲得 {0}{stats}§7，此屬性會提升你對他人的治療量。",
     "§7Grants {0}{stats} §7for every {1}{stats2} §7you have.": "§7你每擁有 {1}{stats2}§7，便獲得 {0}{stats}。",
     "§7Grants {0}{stats} §7and {1}{stats2} §7per {2}{stats3} §7you have.": "§7你每擁有 {2}{stats3}§7，便獲得 {0}{stats} §7與 {1}{stats2}。",
     "§7Grants {0}{stats} §7per {mob_type} §7killed for {1}§a minutes§7. Caps at {2}{stats2}§7.": "§7每擊殺一隻{mob_type}§7獲得 {0}{stats}§7，持續 {1}§a分鐘§7。上限為 {2}{stats2}§7。",
     "§7Grants {0}{stats} §7if the block you are mining has the same {stats2} §7as this tool.": "§7若你正在挖掘的方塊{stats2} §7與此工具相同，則獲得 {0}{stats}。",
     "§7Grants {0}§6 coins §7per crop.": "§7每採收一株作物獲得 {0}§6 遊戲幣§7。",
     "§7Grants a {0} §7chance to drop an enchanted item when mining §6Ores§7.": "§7挖掘§6礦石§7時，有 {0} §7機率掉落其附魔版本。",
-    "§7Grants a {0} §7chance to spawn a {pet} {resource}§7 when you kill an enemy in a dungeon.": "§7在地牢中擊殺敵人時，有 {0} §7機率生成一個{pet} {resource}§7。",
+    "§7Grants a {0} §7chance to spawn a {pet} {resource}§7 when you kill an enemy in a dungeon.": "§7在地下城中擊殺敵人時，有 {0} §7機率生成一個{pet} {resource}§7。",
     "§7Gain {0}{stats} §7for {timer} §7after teleporting.": "§7傳送後獲得 {0}{stats}§7，持續 {timer}§7。",
     "§7Gain a {0}§7 chance to catch a bonus §6Trophy §7while fishing in a §dWormhole§f.": "§7在§d蟲洞§7中釣魚時，有 {0}§7 機率額外釣獲§6獎盃魚§7。",
     "§7Deal {0} §7extra damage when arrows hit the head of a mob.": "§7箭矢命中生物頭部時，造成 {0} §7額外傷害。",
@@ -607,10 +647,10 @@
     "§7Earn {0} {1} {powder} §7from §bMining Events §7in the {island}§7.": "§7在{island}§7的§b採礦活動§7中，獲得 {0} {1} {powder}§7。",
     "§7Increases ability damage by {0}§7.": "§7技能傷害提升 {0}§7。",
     "§7Increases the chance to find candy during the {event} §7by {0}§7.": "§7在{event}§7期間找到糖果的機率提升 {0}§7。",
-    "§7Increases the odds of finding §2Seasonings §7by {0}§7.": "§7找到§2調味料§7的機率提升 {0}§7。",
+    "§7Increases the odds of finding §2Seasonings §7by {0}§7.": "§7找到§2佐料§7的機率提升 {0}§7。",
     "§7Increases your chances of finding §6Golden Goblins §7and {collections_res}§b Goblins §7while mining by {0}§7.": "§7挖掘時找到§6黃金哥布林§7與{collections_res}§b哥布林§7的機率提升 {0}§7。",
     "§7Increase the enchantment effects of {enchantment}§7, {enchantment2}§7 and {enchantment3} §7by {0} §7level.": "§7{enchantment}§7、{enchantment2}§7與{enchantment3} §7的附魔效果提升 {0} §7級。",
-    "§7When killing an enemy, you have a {0}§7 chance to cocoon them! Cocooned enemies will quickly hatch, and can be killed again. §8(Cannot trigger in Dungeons, {pet}§8, or on Bosses).": "§7擊殺敵人時，有 {0}§7 機率將其化為繭！被化繭的敵人會迅速孵化，並可再次被擊殺。§8（無法在地牢、{pet}§8 或首領身上觸發）。",
+    "§7When killing an enemy, you have a {0}§7 chance to cocoon them! Cocooned enemies will quickly hatch, and can be killed again. §8(Cannot trigger in Dungeons, {pet}§8, or on Bosses).": "§7擊殺敵人時，有 {0}§7 機率將其化為繭！被化繭的敵人會迅速孵化，並可再次被擊殺。§8（無法在地下城、{pet}§8 或首領身上觸發）。",
     "§7Fart when you sneak. Reduces your {stats} §7by {0} §7for {timer} §7but grants {1} {stats2} §7for {timer2} §7and {2} §7mana. Requires at least {3} {stats3} §7to activate.": "§7潛行時放屁。你的{stats} §7降低 {0}§7，持續 {timer}§7，但獲得 {1} {stats2}§7，持續 {timer2}§7，並獲得 {2} §7魔力。需要至少 {3} {stats3} §7才能觸發。",
     "{resource}§f Ore §7grants {0} {powder} §7when mined.": "{resource}§f礦石§7被挖掘時給予 {0} {powder}§7。",
     "§eGriffin Burrow §7chains always consist of {0} §7additional burrows.": "§e獅鷲地洞§7鏈固定會多出 {0} §7個額外地洞。",
@@ -630,6 +670,7 @@
 
         "{0} {stats}": "{0} {stats}",
         "{0} Coins": "{0} 遊戲幣",
+        "{0} Copper": "{0} 銅幣",
         "{0} SkyBlock XP": "{0} SkyBlock 經驗",
 
         "Rewards:": "獎勵：",
@@ -685,6 +726,7 @@
 
         "Global": "泛用",
 
+        "Category": "分類",
         "Common commodity": "普通級商品",
         "Uncommon commodity": "罕見級商品",
         "Rare commodity": "稀有級商品",
@@ -705,6 +747,7 @@
         "Garden Chip": "花園晶片",
         "Ship Part": "船隻零件",
         "Booster": "加成器",
+        "Decoration Item": "裝飾性物品",
         "Decoration item": "裝飾性物品",
         "Consumable": "消耗品",
         "Furniture": "家具",
@@ -973,8 +1016,8 @@
           "Level up pets to earn Taming EXP!": "提升你的寵物等級獲取馴養經驗值！",
           "Gain Social EXP for every new unique guest, hosting guests, and visiting islands!": "出現新訪客、招待訪客或是造訪其他人的個人島嶼以獲取社交經驗值！",
           "Hunt various monsters to earn Hunting EXP!": "狩獵各種怪物獲取狩獵經驗值！",
-          "Complete Dungeons to level up your classes! Unlock new gear and class upgrades by completing higher tier dungeons!": "通關地牢以提升你的職業等級！透過完成更高階的地牢解鎖各種新裝備以及職業升級！",
-          "Requires Combat Level {0} to enter a Dungeon.": "需要達到戰鬥等級 {0} 才能進入地牢。",
+          "Complete Dungeons to level up your classes! Unlock new gear and class upgrades by completing higher tier dungeons!": "通關地下城以提升你的職業等級！透過完成更高階的地下城解鎖各種新裝備以及職業升級！",
+          "Requires Combat Level {0} to enter a Dungeon.": "需要達到戰鬥等級 {0} 才能進入地下城。",
           "Show the rankings display for your Skills.": "顯示你各項技能的排名。",
           "Hide the rankings display for your Skills.": "隱藏你各項技能的排名。",
           "{0}{1} out of {2} players": "排名 {0}{1} 於 {2} 名玩家中",
@@ -1018,13 +1061,13 @@
           "Potions that you brew have a {0}{1}{2} longer duration.": "你釀造的藥水其時效額外延長 {0}{1}{2}。",
           "Gain {0} extra pet exp.": "額外獲得 {0} 寵物經驗值。",
           "Gain {0}{1}{2} extra pet exp.": "額外獲得 {0}{1}{2} 寵物經驗值。",
-          "§7Your Dungeon Items' stats are increased by {0} while in §cThe Catacombs§7.": "§7當你在§c地下陵墓§7時，你的地牢物品數值提升 {0}。",
-          "§7Increases the base stats of your dungeon items and healing in dungeons by {0}{1}{2} while in §cThe Catacombs§7.": "§7在§c地下陵墓§7時，將你的地牢物品數值及回血量提升 {0}{1}{2}。",
-          "Complete this dungeon to demonstrate your mastery, earning experience and unlocking new rewards!": "通關這地牢以證明你的精通程度、獲得經驗值與解鎖新獎勵！",
+          "§7Your Dungeon Items' stats are increased by {0} while in §cThe Catacombs§7.": "§7當你在§c地下陵墓§7時，你的地下城物品數值提升 {0}。",
+          "§7Increases the base stats of your dungeon items and healing in dungeons by {0}{1}{2} while in §cThe Catacombs§7.": "§7在§c地下陵墓§7時，將你的地下城物品數值及回血量提升 {0}{1}{2}。",
+          "Complete this dungeon to demonstrate your mastery, earning experience and unlocking new rewards!": "通關這地下城以證明你的精通程度、獲得經驗值與解鎖新獎勵！",
           "Progress to Mastery {0}: {1}": "精通 {0} 進度：{1}",
           "Current Mastery Reward:": "當前精通獎勵：",
           "Levels above {0} are cosmetic and do not provide any bonus stats.": "等級 {0} 後的等級僅為裝飾用途，不會提供任何數值加成。",
-          "Collect Essence in Dungeons which can be used to upgrade gear and purchase perks and upgrades!": "收集地牢中的精華，它們能用來升級你的裝備或是購買能力與升級！",
+          "Collect Essence in Dungeons which can be used to upgrade gear and purchase perks and upgrades!": "收集地下城中的精華，它們能用來升級你的裝備或是購買能力與升級！",
 
           "Centers the menu around your current tier.": "將你當前的等級定位至介面中心。"
         },
@@ -1110,9 +1153,17 @@
         },
 
         "Farming": {
-          "Garden": {
-            "Earn Garden experience by accepting Visitors' offers and unlocking new milestones!": "透過完成訪客的訂單以及解鎖新的里程碑獲取花園經驗值！",
-            "Max level reached!": "已達等級上限！"
+          "The Garden": {
+            "Garden Level": {
+              "Earn Garden experience by accepting Visitors' offers and unlocking new milestones!": "透過完成訪客的訂單以及解鎖新的里程碑獲取花園經驗值！",
+              "Max level reached!": "已達等級上限！",
+              "You currently have {0}§2 Crop Growth§7!": "你目前擁有 {0}§2 作物生長速度§7！"
+            },
+            "Desk": {
+              "Unlock access to new plots or modify plots that you have already unlocked!": "解鎖新地塊的使用權或修整你已擁有的地塊！",
+              "Upgrade various aspects of your Garden to increase yield, experience, and more.": "升級你花園的各個面向以提升產量、經驗以及更多東西。",
+              "Browse the wide variety of products SkyMart has to offer. We are not responsible for any injuries, accidents, headaches, paper-cuts or sudden outburst of tears. SkyMart wishes you happy shopping.": "歡迎瀏覽天空市集琳瑯滿目的商品。對於任何傷害、意外、頭痛、紙割傷或突發性哭泣，我們概不負責。天空市集祝您購物愉快！"
+            }
           }
         },
 
@@ -1692,16 +1743,22 @@
             "Syphon {0} more to max!": "汲取 {0} 個以達上限！"
           },
 
-          "Attribute Describe": {}
+          "Attribute Describe": {
+            "Elemental Attributes: {0}": "元素特性：{0}",
+
+            "Grants {0} {stats} against {mob_type} mobs.": "針對 {mob_type} 怪物獲得 {0} {stats}。",
+            "Grants {0} {1} {stats} against {mob_type} mobs.": "針對 {mob_type} 怪物獲得 {0} {1} {stats}。",
+            "Grants {0} {1} {stats}.": "獲得 {0} {1} {stats}。"
+          }
         }
       },
       "Dungeoneering": {
         "Class Describe": {
           "Class Passives": "職業被動",
-          "Dungeon Orb Abilities": "地牢法珠技能",
+          "Dungeon Orb Abilities": "地下城法珠技能",
           "Ghost Abilities": "幽靈技能",
-          "Use this class in dungeons to level it up!": "在地牢中選擇此職業以提升等級！",
-          "Use this class in a Dungeon to level it up!": "在地牢中選擇此職業以提升等級！",
+          "Use this class in dungeons to level it up!": "在地下城中選擇此職業以提升等級！",
+          "Use this class in a Dungeon to level it up!": "在地下城中選擇此職業以提升等級！",
           "Increase your Healer Level to unlock Perks, statistic bonuses, and more!": "提升你的補師等級以解鎖能力、數值加成還有更多東西！",
           "Increase your Mage Level to unlock Perks, statistic bonuses, and more!": "提升你的法師等級以解鎖能力、數值加成還有更多東西！",
           "Increase your Berserk Level to unlock Perks, statistic bonuses, and more!": "提升你的狂戰士等級以解鎖能力、數值加成還有更多東西！",
@@ -1820,7 +1877,7 @@
           "{0} Healing Bow": "{0} 治癒弓",
           "{0} Ghost Ability: Stun Bow": "{0} 幽靈技能：暈眩弓",
           "{0} Ghost Ability: Healing Bow": "{0} 幽靈技能：治癒弓",
-          "Temporarily stuns any non-boss dungeon monster for a short period of time when shot.": "短暫暈眩任何被擊中的非頭目地牢怪物一小段時間。",
+          "Temporarily stuns any non-boss dungeon monster for a short period of time when shot.": "短暫暈眩任何被擊中的非頭目地下城怪物一小段時間。",
           "Shoot a teammate to heal them for {0} of their max HP and grant them {1}{stats} for {2} seconds.": "治癒被擊中的隊友自身最大血量的 {0} 並給予 {1}{stats} ，持續 {2} 秒。",
           "{0} Extra Arrow Chance": "{0} 雙重射擊 機率",
           "{0} Rapid Fire Duration": "{0} 暴風射擊 持續時間",
@@ -1926,7 +1983,13 @@
           "§7Access to {0}§abank §8(Requires Cookie Buff)": "§7開放使用 {0}§abank §8（需要餅乾加成）",
 
           "To {collections_res} Collection": "至 {collections_res}收藏",
-          "To {collections_res} {roman} Rewards": "至 {collections_res} {roman} 獎勵"
+          "To {collections_res} {roman} Rewards": "至 {collections_res} {roman} 獎勵",
+
+          "Show the rankings display for your Collections.": "顯示你各項收藏的排名。",
+          "Hide the rankings display for your Collections.": "隱藏你各項收藏的排名。",
+          "{collections_res}: {0} (Top {1})": "{collections_res}：{0}（前 {1}）",
+          "{collections_res}: §8N{0}§8A": "{collections_res}：§8無",
+          "{collections_res}: {0} ({1}{2})": "{collections_res}：{0}（{1}{2}）"
         }
       },
 
@@ -2058,8 +2121,8 @@
             "§7Gain {0}{stats}§7.": "§7獲得 {0}{stats}§7。",
 
             "Mythological Ritual": "神話儀式",
-            "§7Mayor {npc} will sell the {pet} §7pet, which lets you find §2Mythological Creatures §7and tons of §eunique items§7.": "§7{npc}§7市長將販售{pet}§7寵物，讓你能夠找到§2神話生物§7以及大量§e獨特物品§7。",
-            "§7Minister {npc}§7 will sell the {pet} {item}§7, which lets you find §2Mythological Creatures §7and tons of §eunique items§7.": "§7{npc}§7部長將販售{pet}§7寵物，讓你能夠找到§2神話生物§7以及大量§e獨特物品§7。",
+            "§7Mayor {npc} will sell the {pet} §fPet§7, which lets you find §2Mythological Creatures §7and tons of §eunique items§7.": "{npc}市長將販售{pet}§f寵物§7，讓你能夠找到§2神話生物§7以及大量§e獨特物品§7。",
+            "§7Minister {npc} will sell the {pet} §fPet§7, which lets you find §2Mythological Creatures §7and tons of §eunique items§7.": "{npc}部長將販售{pet}§f寵物§7，讓你能夠找到§2神話生物§7以及大量§e獨特物品§7。",
 
             "Pet XP Buff": "寵物經驗加成",
             "§7Gain {0} §7more pet XP.": "§7獲得的寵物經驗增加 {0}§7。",
@@ -2242,6 +2305,38 @@
       },
 
       "Pets": {
+        "Pet Menu": {
+          "Let your pets gain §aPet Exp §7without them being actively deployed!": "使你的寵物在未被召喚的狀態下也能獲取§a寵物經驗§7！",
+          "Unlock a new page of pets.": "為寵物選單解鎖新的一頁",
+          "Current Max Pets: {0}": "當前寵物上限：{0}",
+
+          "Define custom §crules §7to automatically equip your pets.": "自定義自動切換寵物的§c規則§7。",
+          "Rules used: {0}{1}{2}": "已使用規則：{0}{1}{2}",
+
+          "Pet score is calculated based on how many §aunique §7pets you have and the §ararity §7of these pets.": "寵物積分會依據你擁有幾個§a不同§7的寵物以及其§a稀有度§7進行評分。",
+          "You gain an additional score for each max level pet you have!": "你可以依據擁有的滿等寵物而獲得額外積分！",
+          "{0}§6 Score§8: {1} {2}": "{0}§6 分§8：{1} {2}",
+          "{0}§6 Score§8: {1} {2} {3}": "{0}§6 分§8：{1} {2} {3}",
+          "Your Pet Score: {0}": "你的寵物積分：{0}",
+
+          "Find pets by name!": "透過名字搜尋寵物！",
+
+          "Show all pets": "顯示所有人的寵物",
+          "Hide all pets": "隱藏所有人的寵物",
+          "Only your pet": "僅顯示你的寵物",
+          "Pet name tags: §aEnabled": "寵物名稱標籤：§a啟用",
+          "Pet name tags: §cDisabled": "寵物名稱標籤：§c禁用",
+
+          "Rarity": "稀有度",
+          "A to Z": "A 到 Z",
+          "Z to A": "Z 到 A",
+          "Pet Exp": "寵物經驗值",
+          "Skill": "技能",
+
+          "This pet is currently gaining {0} of your equipped pet's Exp.": "這隻寵物目前能獲得你裝備寵物 {0} 的經驗值。",
+          "This pet is currently gaining {0} of your equipped pet's Exp, boosted by its {item} item!": "這隻寵物目前能獲得你裝備寵物 {0} 的經驗值，該數值有受到{item}道具影響！",
+          "Enabled by a Mayor {npc} perk.": "透過{npc}市長的政見啟用。"
+        },
         "Pet Tips": {
           "Can be upgraded at Kat in The Hub!": "可以透過大廳的 Kat 將其升級！",
           "Held Item: {item}": "持有道具：{item}",
@@ -2762,7 +2857,8 @@
             "Pest Vinyls are {0} more effective.": "§7害蟲黑膠唱片的效果提升 {0}。"
           },
           "Orchid Mantis": {
-            "Earn {0} more Farming Tool Exp.": "§7額外獲得 {0} 農具經驗。"
+            "Earn {0} more Farming Tool Exp.": "§7額外獲得 {0} 農具經驗。",
+            "Convert every {0} {stats} you have above {1} into {2}{stats2}.": "當你的{stats}超過{1}時，每多出 {0} {stats} 將使你獲得 {2}{stats2}。"
           },
           "Pig": {
             "§7Increases the base stats of this pet by {0}§7 during the {event}§7.": "§7在{event}§7期間，此寵物的基礎數值提升 {0}§7。",
@@ -2975,7 +3071,7 @@
           },
           "Skeleton": {
             "§7Gain a combo stack for every bow hit granting {0} {stats}§7. Max {1} §7stacks, stacks disappear after {2} §7seconds.": "§7每次弓箭命中獲得一層連段，給予 {0} {stats}§7。最多 {1} §7層，疊加層數會在 {2} §7秒後消失。",
-            "§7Increase arrow damage by {0}§7 which is doubled while in dungeons": "§7箭矢傷害提升 {0}§7，在地牢中加倍",
+            "§7Increase arrow damage by {0}§7 which is doubled while in dungeons": "§7箭矢傷害提升 {0}§7，在地下城中加倍",
             "§7Your skeleton shoots an arrow dealing {0} §7your {stats} §7when a mob gets close to you ({timer} §7cooldown).": "§7當怪物靠近你時，你的骷髏會射出一支箭，造成你 {0} §7的{stats}§7（冷卻 {timer}§7）。"
           },
           "Snowman": {
@@ -2993,9 +3089,9 @@
             "§7Upon hitting a monster, it becomes slowed by {0}§7.": "§7擊中怪物時，使其減速 {0}§7。"
           },
           "Spirit": {
-            "§7If you are the first player to die in a dungeon, the score penalty for that death is reduced to {0}§7.": "§7若你是地牢中第一個死亡的玩家，該次死亡的分數懲罰降低至 {0}§7。",
-            "§7Reduces the cooldown of your ghost abilities in dungeons by {0}§7.": "§7在地牢中，你的幽靈技能冷卻時間縮短 {0}§7。",
-            "§7Spawns and assists you when you are a ghost in Dungeons.": "§7當你在地牢中成為幽靈時，牠會出現並協助你。"
+            "§7If you are the first player to die in a dungeon, the score penalty for that death is reduced to {0}§7.": "§7若你是地下城中第一個死亡的玩家，該次死亡的分數懲罰降低至 {0}§7。",
+            "§7Reduces the cooldown of your ghost abilities in dungeons by {0}§7.": "§7在地下城中，你的幽靈技能冷卻時間縮短 {0}§7。",
+            "§7Spawns and assists you when you are a ghost in Dungeons.": "§7當你在地下城中成為幽靈時，牠會出現並協助你。"
           },
           "Tarantula": {
             "§7Decreases the mana cost of {pet}§7, {pet2}§7, Primordial and {item} §7by {0}§7.": "§7{pet}§7、{pet2}§7、原初與{item} §7的魔力消耗減少 {0}§7。",
@@ -3004,6 +3100,7 @@
             "Gain {0} {1} XP against Spiders.": "§7對蜘蛛作戰時獲得 {0} {1} 經驗。"
           },
           "Tiger": {
+            "Gain {0} {stats}.": "獲得 {0} {stats}。",
             "§7Deal {0} §7damage against targets with no other mobs within {1} §7blocks.": "§7對 {1} §7格內沒有其他怪物的目標造成 {0} §7傷害。",
             "§7Melee attacks reduce healing by {0} §7for {timer}§7.": "§7近戰攻擊在 {timer}§7 內使治療效果降低 {0}§7。"
           },
@@ -3124,9 +3221,9 @@
             "§7Gain a {0} §7chance to get double drops from squids": "§7有 {0} §7的機率從魷魚獲得雙倍掉落物"
           },
           "Jellyfish": {
-            "§7While in dungeons, for every {0} §cHP §7you heal teammates the cooldown of {item} §7is reduced by {timer}§7, up to {timer2}§7.": "§7在地牢中，你每為隊友治療 {0} §cHP§7，{item} §7的冷卻時間就縮短 {timer}§7，最多 {timer2}§7。",
-            "§7While in dungeons, increase the effectiveness of Dungeon Potions by {0}§7.": "§7在地牢中，地牢藥水的效果提升 {0}§7。",
-            "§7While in dungeons, reduces the mana cost of {enchantment}§7 Orbs by {0}§7.": "§7在地牢中，{enchantment}§7 之球的魔力消耗減少 {0}§7。"
+            "§7While in dungeons, for every {0} §cHP §7you heal teammates the cooldown of {item} §7is reduced by {timer}§7, up to {timer2}§7.": "§7在地下城中，你每為隊友治療 {0} §cHP§7，{item} §7的冷卻時間就縮短 {timer}§7，最多 {timer2}§7。",
+            "§7While in dungeons, increase the effectiveness of Dungeon Potions by {0}§7.": "§7在地下城中，地下城藥水的效果提升 {0}§7。",
+            "§7While in dungeons, reduces the mana cost of {enchantment}§7 Orbs by {0}§7.": "§7在地下城中，{enchantment}§7 之球的魔力消耗減少 {0}§7。"
           },
           "Parrot": {
             "§7Adds {0} §7levels to intimidation accessories": "§7為威嚇類飾品增加 {0} §7個等級",
@@ -3136,7 +3233,7 @@
           },
           "Sheep": {
             "§7Gives a {0} §7shield after not taking damage for {timer}": "§7在 {timer} 內未受到傷害後，給予 {0} §7的護盾",
-            "§7Increases your total mana by {0} §7while in dungeons": "§7在地牢中時，你的總魔力提升 {0}",
+            "§7Increases your total mana by {0} §7while in dungeons": "§7在地下城中時，你的總魔力提升 {0}",
             "§7Reduces the mana cost of abilities by {0}§7.": "§7技能的魔力消耗減少 {0}§7。"
           },
           "Witch": {
@@ -3206,11 +3303,161 @@
 
         "Your very own chunk of SkyBlock. Nice housing for your minions.": "你專屬的 SkyBlock 空島。也是你工人們的安居之地",
         "Where everything happens and anything is possible.": "在這裡一切皆有可能，任何事都能發生。",
-        "Group up with friends and take on challenging Dungeons.": "和你的朋友們組成隊伍，往充滿挑戰的地牢前進。",
-        "Collect basic farming resources from plentiful crops or the local animal population.": "從豐饒的農田以及當地的動物群中收集基本的農業資源。"
+        "Spawn near the ruined castle of the past in the hub.": "傳送至大廳裡的城堡遺跡小徑上。",
+        "Spawn in the {area}, ready to buy §dAccount & Profile Upgrades§7 and§c Fire Sales§7.": "傳送至{area}內，準備來買些§d帳號 & 檔案升級§7和§c Fire Sales§7。",
+        "Spawn in front of {npc}, the {event} master.": "傳送至{event}的老闆 - {npc}的眼前。",
+        "Spawn in the {area} below the {area2} in the hub.": "傳送至位於大廳{area2}下方的{area}裡面。",
+        "Spawn in the {area} at the foot of the §bmountain §7in the hub.": "傳送至大廳§b高山§7山腳下的{area}中。",
+        "Spawn in the {area}, ready to buy §aCosmetics§7.": "傳送至{area}內，準備來買些§a裝飾品§7吧。",
+        "Spawn in the {area} in the hub.": "傳送至大廳中的{area}內。",
+        "Spawn in front of the {event} when it's open to take part.": "在{event}開放期間傳送至門口。",
+        "Spawn in {npc}' §bTrading Center §7in the hub.": "傳送至{npc}在大廳中的§b貿易中心§7。",
+        "Group up with friends and take on challenging Dungeons.": "和你的朋友們組成隊伍，往充滿挑戰的地下城前進。",
+        "Collect basic farming resources from plentiful crops or the local animal population.": "從豐饒的農田以及當地的動物群中收集基本的農業資源。",
+        "The second farming island where you can find more plentiful resources, dig for treasure, and hunt for animals.": "第二座農耕島嶼，你可以在這裡找到更多豐饒的作物、挖掘寶藏以及狩獵動物。",
+        "Spawn right next to {npc} the Trapper!": "傳送至捕獸人{npc}的旁邊！",
+        "Spawn right next to {npc}!": "傳送至{npc}的旁邊！",
+        "Chop down trees and explore to meet various characters across different biome layers.": "砍伐樹木並穿梭在各個不同的生態域之間去認識各種角色。",
+        "Spawn at the top of {island}.": "傳送至{island}的頂端。",
+        "Spawn in the {area}, behind the fragile wall.": "傳送至{area}中，脆弱石牆前。",
+        "Learn about Hunting, chop down rare trees, and compete in {npc}'s Contests!": "學習如何狩獵、砍倒稀有樹木以及參與{npc}的競賽！",
+        "Spawn in the center of {island}.": "傳送至{island}的正中央。",
+        "Discover new creatures to hunt, rare trees, and compete in {npc}'s Contests!": "發現新的可狩獵生物、稀有樹木以及參與{npc}的競賽！",
+        "Spawn at the top of {area}.": "傳送至{area}的頂端。",
+        "Takes you to the {area}.": "將你傳送至{area}。",
+        "Your first stop for extended mining related activities and home to SkyBlock's local janitor {npc}.": "你在漫長挖礦征途的第一站，同時也是 SkyBlock 當地的工友伯伯 - {npc} 的家。",
+        "An island that gets progressively deeper and contains {0} layers of dangerous mobs and new resources.": "一座可以逐漸深入探索的島嶼，其中的 {0} 個層級各自有著危險的怪物以及新的資源。",
+        "Discover new ores and minerals and level up your Heart of the Mountain whilst completing commissions from the Dwarven King himself.": "發掘新的礦石以及礦藏，並在完成矮人國王親自派發的委託同時提升你的礦山之心等級。",
+        "An ancient Dwarven Forge that lets you forge, refine, or cast new items, tools, weapons, and more!": "在這座古老的矮人冶煉爐中，你可以冶煉、精煉或是鑄造新的物品、工具、武器以及其他東西！",
+        "Lost long ago to the cold, find brand new Gemstones and {island}!": "冰封於遙遠時代的礦道，尋找全新的寶石以及{island}！",
+        "A vast series of caves and random structures with tougher Stone and special gems!": "一系列龐大的洞窟系統，其中充斥著由各種堅硬石頭以及寶石構成的隨機結構！",
+        "The central hub for the {island} where you can collect commissions, refill your Drill, and deposit rare Crystals.": "{island}的中央大廳，你可以在這裡交接委託、補充鑽頭燃料以及存放水晶。",
+        "Explore a dangerous nest, discover the Bestiary, hunt for Relics, and fight all kinds of Spiders!": "探索危險的巢穴、研究怪物圖鑑、尋找遺物、還有挑戰各種類型的蜘蛛！",
+        "Spawn at the top of the nest in the spider's den.": "傳送至蜘蛛巢穴的蛛巢頂端。",
+        "Spawn at the entrance of {area}.": "傳送至{area}的入口。",
+        "Fight Zealots, mine End Stone, and defeat ancient Dragons!": "和狂徒戰鬥、挖掘終界石並擊倒遠古的巨龍們！",
+        "Spawn inside the {area}, ready to grind Zealots.": "傳送至{area}裡面並開始暴殺狂徒吧。",
+        "Spawn inside the dangerous {area}.": "傳送至危險的{area}內部。",
+        "Fight challenging bosses, discover new Sea Creatures, complete epic quests, and join your favorite faction!": "和充滿挑戰性的頭目戰鬥、發現新的海怪、完成史詩級的任務並加入你最愛的派系！",
+        "Spawn at the entrance of the {pet} arena behind the {area}.": "傳送至位在{area}後方的{pet}副本。",
+        "Spawn in {area}.": "傳送至{area}。",
+        "Spawn in the center of {area}.": "傳送至{area}的中心。",
+        "Spawn in to the center of {area}.": "傳送至{area}的中心。",
+        "Spawn in front of the {area} full of blazes.": "傳送至充滿著烈焰使者的{area}前。",
+        "Spawn on your very own {island}.": "傳送至你專屬的{island}上。",
+        "A world at the intersection of multiple dimensions, where time holds a different meaning.": "這是一處多元宇宙交會的世界，時間在這裏有著不同的意義。",
+        "Spawn in the {island}!": "傳送至{island}中！",
+        "Teleports you to {island}.": "將你傳送至{island}。",
+        "Available for a limited time!": "僅在特定時間對外開放！",
+        "Island is closed until Winter!": "島嶼將關閉直至冬季！"
       },
       "Profile Management": {},
-      "Game Settings": {},
+      "Game Settings": {
+        "Includes:": "包含：",
+
+        "General settings related to your experience.": "和你個人體驗相關的基礎設定。",
+        "Double Tap to Drop": "雙擊以丟棄物品",
+        "Double tap the drop button to drop certain items.": "需要點擊兩次丟棄鍵才能丟棄物品。",
+        "Profile Viewer": "檔案查看功能",
+        "View player profiles on right-click.": "右鍵其他玩家以查看他的檔案。",
+        "Player Trading": "玩家交易",
+        "Receive trade requests from other players.": "接收來自其他玩家的交易請求。",
+        "Inventory Full Notifications": "物品欄已滿通知",
+        "Get a notification when your inventory is full.": "在物品欄已滿時接獲通知。",
+        "Pickup Arrows with Full Quiver": "箭袋已滿時繼續拾取箭矢",
+        "Pickup arrows when your quiver is full.": "在你箭袋已滿的狀態下繼續拾取箭矢。",
+        "Confirm breaking ungrown Mutations": "未成熟變種作物的破壞確認",
+        "Open a confirm menu when attempting to break mutation crops that are not fully grown yet.": "當你嘗試破壞未成熟的變種作物時，開啟一道確認介面。",
+
+        "Tweak notifications and invites you get from other players.": "調整來自其他玩家的通知以及邀請。",
+        "Death Messages": "死亡訊息",
+        "Show death messages when other players die.": "當其他玩家死亡時出現他們的死亡訊息。",
+        "Guesting Invites": "拜訪邀請",
+        "Receive guesting invitations from other players.": "接收來自其他玩家的拜訪邀請。",
+        "Guesting Notifications": "訪客通知",
+        "Receive messages about players guesting on your island.": "當有玩家拜訪你的島嶼時接獲通知。",
+        "Co-op Invites": "Co-op 邀請",
+        "Receive co-op invitations from other players.": "接收來自其他玩家的 Co-op 邀請。",
+        "Co-op Travel Notifications": "Co-op 旅行通知",
+        "When playing co-op, receive notifications on all your partners' travels.": "當你遊玩 Co-op 模式時，其他島員旅行至其他島嶼時會接獲通知。",
+        "Bid Notifications": "標價通知",
+        "Receive a message when someone bids on one of your auctions.": "當有玩家競標你的拍賣品時接獲通知。",
+        "Outbid Notifications": "競價通知",
+        "Receive a message when you get outbid on an auction.": "當你的競標被其他人超過時接獲通知。",
+        "Fill Notifications": "達交通知",
+        "Receive a message when one of your orders gets filled in the Bazaar.": "當你在市集中的任一訂單達交時接獲通知。",
+
+        "Tweak how information is displayed to you.": "調整資訊對你的顯示方式。",
+        "Player List Info": "玩家列表資訊",
+        "View extra information in the player list.": "在玩家列表查看額外資訊。",
+        "Skill Numerals": "技能數字",
+        "Use Roman Numerals for skill levels. For example {roman}, {roman2}, {roman3}...": "技能等級的數字用羅馬數字表示。例如 {roman}、{roman2}、{roman3}...",
+        "Dynamic Slayer Sidebar": "獵殺任務動態側欄",
+        "View the required number of kills based on recent mob kills in the sidebar during a slayer quest.": "在獵殺任務期間，側欄會依據你當前擊殺的怪物改變擊殺需求數。",
+        "SkyBlock Levels in Chat": "聊天室中顯示 SkyBlock 等級",
+        "Zones in Action Bar": "動作欄中顯示區域",
+        "Whether zone names should be displayed in the Action Bar upon entering.": "當你進入不同的區域時，會在動作欄顯示區域名稱。",
+        "Advanced Supercraft": "進階超級合成",
+        "Show extra information on Supercraft for veteran crafters.": "使超級合成顯示更多進階資訊。",
+
+        "Tweak settings related to fishing.": "調整釣魚相關的設定。",
+        "Sea Creature Chat": "海怪出沒訊息",
+        "View the message from catching Sea Creatures.": "當你釣起海怪時顯示對應的訊息。",
+        "Fishing Status Holograms": "釣魚狀態懸浮字體",
+        "When enabled, holograms will give a visual aid when fishing.": "啟用時，釣魚時會有個懸浮字體提供你視覺輔助。",
+        "Fishing Timer": "釣魚倒計時器",
+        "When this and the \"Fishing Overlay\" is enabled, the overlay will count down the time above the bobber until a fish can be caught.": "當此選項與\"釣魚狀態懸浮字體\"啟用時，浮標上方的懸浮字體會顯示倒計時，倒數魚上鉤的所需時間。",
+        "Fishing Sound": "釣魚音效",
+        "When enabled, a distinct sound will play when a fish reaches the bobber.": "啟用時，當魚上鉤時會發出一個清晰的音效。",
+
+        "Edit details about music and sounds that you hear.": "編輯音樂相關的細節以及你聽見的音效。",
+        "Play Music": "撥放音樂",
+        "Play music when you enter zones or other circumstances.": "當你進入某些區域或特定情況時播放對應的音樂。",
+        "Ability Cooldown Sounds": "技能冷卻音效",
+        "Hear the sound effect when an Ability is on cooldown.": "當技能還在冷卻時，嘗試施放技能會撥放音效。",
+        "Rare Drop Sounds": "稀有掉落音效",
+        "Play a jingle when you receive a rare drop from a monster.": "當你打到稀有掉落物時撥放一道鈴聲。",
+        "Menu Sounds": "介面音效",
+        "Play sound effects when opening menus.": "開啟介面時撥放音效。",
+        "{stats} Sounds": "{stats}音效",
+        "Hear the sound effect when {stats} procs.": "當{stats}觸發時撥放特定音效。",
+
+        "Tweak chat feedback messages you get from certain items.": "調整你透過某些道具收到的聊天室訊息。",
+        "Ability Chat": "技能訊息",
+        "View the message from ability damage dealt (certain items only).": "查看技能造成的傷害訊息（僅限部分道具）",
+        "Ability Cooldown Chat": "技能冷卻訊息",
+        "View the message from ability cooldowns.": "查看技能冷卻訊息。",
+        "{stats} Chat": "{stats}觸發訊息",
+        "View the {stats} message when mining.": "挖掘時顯示{stats}觸發的訊息。",
+        "{enchantment} Chat": "{enchantment}觸發訊息",
+        "View the {enchantment} message when mining.": "挖掘時顯示{enchantment}觸發的訊息。",
+        "Auto-Recombobulator Chat": "自動重組器觸發訊息",
+        "Receive chat messages when your Auto-recombobulator triggers.": "當你的自動重組器觸發時接獲聊天室訊息。",
+        "Sack Notifications": "囊袋通知",
+        "When enabled, items added to and removed from your Sacks will be displayed in chat.": "啟用時，囊袋的物品添加或移出紀錄會顯示在聊天室。",
+        "Fire Sale Notifications": "Fire Sale 通知",
+        "When enabled, you will occasionally be notified of active Fire Sales outside of the {island}.": "啟用時，當你在{island}外，會偶爾收到當前 Fire Sales 的廣告通知。",
+
+        "Edit settings regarding third-party access to your SkyBlock profile.": "編輯有關第三方程式存取你 SkyBlock 檔案的設定。",
+        "The Hypixel API lets apps and websites display your player info and games progress.": "Hypixel API 使應用程式以及網站可以顯示你的玩家資訊以及遊戲進度。",
+        "API settings apply to your current profile only!": "API 設定只會應用於你當前的檔案！",
+        "Allow other players to view your skills on third-party applications.": "允許其他玩家在第三方應用程式上查看你的技能。",
+        "Allow other players to view your collections progress on third-party applications.": "允許其他玩家在第三方應用程式上查看你的收藏進度。",
+        "Allow other players to view your inventory, backpacks and ender chest on third-party applications.": "允許其他玩家在第三方應用程式上查看你的物品欄、隨身背包以及終界箱。",
+        "Allow other players to view your personal bank and personal vault on third-party applications.": "允許其他玩家在第三方應用程式上查看你的個人銀行以及個人金庫。",
+        "Allow other players to view your museum on third-party applications.": "允許其他玩家在第三方應用程式上查看你的博物館。",
+
+        "Edit SkyBlock settings regarding your island.": "編輯有關你 SkyBlock 島嶼的設定。",
+        "Island settings are shared with your co-op partners!": "島嶼設定會與你的 Co-op 夥伴共通！",
+        "Applies to all co-op partners!": "應用於所有 Co-op 島員！",
+        "Allow anyone to /visit your island. If disabled, you may still /invite them.": "允許任何人 /visit 你的島嶼。即使關閉此選項，你仍可透過 /invite 邀請其他人。",
+        "Allow friends to /visit your island.": "允許好友 /visit 你的島嶼。",
+        "Allow guild members to /visit your island.": "允許公會成員 /visit 你的島嶼。",
+        "Allow your profiles banking data in the API.": "允許在 API 中匯入你的銀行資料。",
+
+        "View and manage island settings!": "查看並管理島嶼設定！",
+        "View and manage Tablist Widget settings.": "查看並管理 TAB 介面小工具的設定。"
+      },
       "Booster Cookie": {},
       "Merchant Menu": {
         "Bazaar": {
@@ -3325,6 +3572,11 @@
           "Click to collect all items!": "點擊以收集全部物品！",
           "Click to claim rewards!": "點擊以領取獎勵！",
           "Click to configure!": "點擊以管理！",
+          "Click to take fuel out!": "點擊以取出燃料！",
+          "Click to setup autopet!": "點擊以設定自動切寵！",
+          "Click to switch sort!": "點擊以切換分類！",
+          "Click to choose a pet!": "點擊以選取一隻寵物！",
+          "Click to choose this pet!": "點擊以選取這隻寵物！",
 
           "Left-click to scroll!": "左鍵以滑動",
           "§eLeft-click §7to scroll up!": "§e左鍵§7以向上滑動！",
@@ -3339,6 +3591,7 @@
           "Left-click to change pet!": "左鍵以更換寵物！",
           "Left-click to syphon!": "左鍵以汲取！",
           "Left-click to upgrade!": "左鍵以升級！",
+          "Left-click to switch visibility!": "左鍵以切換可視狀態！",
 
           "Right-click to scroll fast!": "右鍵以快速滑動",
           "§eRight-click §7to go to the top tier!": "§e右鍵§7以滑動至最頂層！",
@@ -3350,7 +3603,7 @@
           "Right Click to open!": "右鍵以開啟！",
           "Right-click to open!": "右鍵以開啟！",
           "Right-Click to warp!": "右鍵以傳送！",
-          "Right-click to add this pet to your pet menu!": "右鍵以將該寵物收進你的寵物目錄中！",
+          "Right-click to add this pet to your pet menu!": "右鍵以將該寵物收進你的寵物選單中！",
           "Right-click to convert to an item!": "右鍵以轉換成物品！",
           "Right-click to change icon!": "右鍵以更換圖標！",
           "Right-click to remove!": "右鍵以移除！",
@@ -3370,6 +3623,7 @@
           "§eRight-click to §aenable§e!": "§e右鍵以§a啟用§e！",
           "Right-Click to set amount!": "右鍵以設定數量！",
           "Right-click to open menu!": "右鍵以開啟目錄！",
+          "Right-click to toggle name tags!": "右鍵以切換名稱標籤！",
 
 
           "Shift Left-click to toggle as favorite!": "Shift 左鍵以新增或移除最愛！",
@@ -3389,7 +3643,10 @@
           "COMPLETED": "已完成",
           "LOCKED": "未解鎖",
           "SELECTED": "已選取",
-          "CLAIMED": "已領取"
+          "CLAIMED": "已領取",
+          "ANALYZED": "已分析",
+          "UNKNOWN": "未知",
+          "ACTIVE": "啟動"
         }
       }
     }
