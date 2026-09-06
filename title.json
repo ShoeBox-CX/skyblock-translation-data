@@ -7,6 +7,9 @@
     "NEW AREA DISCOVERED!": "發現新區域！",
     "Inventory full!": "物品欄已滿！",
 
+    "{rarity} DROP!": "{rarity}掉落！",
+    "{0} {resource}": "{0} {resource}",
+
     "SERVER REBOOT!": "伺服器重啟！",
     "Scheduled Reboot (in {0}:{1})": "排程重啟（{0}：{1} 後）",
     "Game Update (in {0}:{1})": "遊戲更新（{0}：{1} 後）",
