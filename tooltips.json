@@ -3450,9 +3450,9 @@
         "Edit SkyBlock settings regarding your island.": "編輯有關你 SkyBlock 島嶼的設定。",
         "Island settings are shared with your co-op partners!": "島嶼設定會與你的 Co-op 夥伴共通！",
         "Applies to all co-op partners!": "應用於所有 Co-op 島員！",
-        "Allow anyone to /visit your island. If disabled, you may still /invite them.": "允許任何人 /visit 你的島嶼。即使關閉此選項，你仍可透過 /invite 邀請其他人。",
-        "Allow friends to /visit your island.": "允許好友 /visit 你的島嶼。",
-        "Allow guild members to /visit your island.": "允許公會成員 /visit 你的島嶼。",
+        "Allow anyone to {command} your island. If disabled, you may still {command2} them.": "允許任何人 {command} 你的島嶼。即使關閉此選項，你仍可透過 {command2} 邀請其他人。",
+        "Allow friends to {command} your island.": "允許好友 {command} 你的島嶼。",
+        "Allow guild members to {command} your island.": "允許公會成員 {command} 你的島嶼。",
         "Allow your profiles banking data in the API.": "允許在 API 中匯入你的銀行資料。",
 
         "View and manage island settings!": "查看並管理島嶼設定！",

@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generated": "2026-09-06T22:12:14Z",
-  "notice": "Add three title/tooltip entries",
+  "generated": "2026-10-16T04:42:39Z",
+  "notice": "Record where the translation layer is meant to go",
   "files": {
     "vocab.json": {"sha256": "b36aeea74bb0fab31bfabf03f26d31676c01ccc86f0a9add9fa3a4673fbdea77", "size": 344008},
     "engine.json": {"sha256": "f737a2b9c7ca327e0b088bd3841358893baeb63cfad8e3380cf6112b43715acc", "size": 3174},
-    "tooltips.json": {"sha256": "fda560db2df36738c167fd89922c676430060b6c570a98ca312b924d6dcd16d2", "size": 313584},
+    "tooltips.json": {"sha256": "f77e8ae308127c0ffe4e57ef13f54e1a1c32402854586ccc1ab05d71e88d5a9d", "size": 313608},
     "guiname.json": {"sha256": "fad46cbc1faefc68181df7f30fcd4e0bb8f2c4f9760d2b1dffc1a656825e1309", "size": 6699},
     "holograms.json": {"sha256": "b1c17c7b7490f6e4a3745c8c6fe963688ce5a9791fb712c3666a325f70a29e14", "size": 5310},
     "scoreboard.json": {"sha256": "1041d7c11a90462553c4628f4fb408d1e07bbe2a6372497e0785032cea0bf32c", "size": 3057},
