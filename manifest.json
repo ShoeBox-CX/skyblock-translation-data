@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated": "2026-10-16T04:42:39Z",
-  "notice": "Record where the translation layer is meant to go",
+  "generated": "2026-10-19T07:43:21Z",
+  "notice": "Translation tables: new entries, and reshaped hologram nametag keys",
   "files": {
-    "vocab.json": {"sha256": "b36aeea74bb0fab31bfabf03f26d31676c01ccc86f0a9add9fa3a4673fbdea77", "size": 344008},
+    "vocab.json": {"sha256": "9710fdd4096e51bb8afcb25f8bb6d00e262553fa384aa44bfe40f5a9c3844419", "size": 348779},
     "engine.json": {"sha256": "f737a2b9c7ca327e0b088bd3841358893baeb63cfad8e3380cf6112b43715acc", "size": 3174},
-    "tooltips.json": {"sha256": "f77e8ae308127c0ffe4e57ef13f54e1a1c32402854586ccc1ab05d71e88d5a9d", "size": 313608},
-    "guiname.json": {"sha256": "fad46cbc1faefc68181df7f30fcd4e0bb8f2c4f9760d2b1dffc1a656825e1309", "size": 6699},
-    "holograms.json": {"sha256": "b1c17c7b7490f6e4a3745c8c6fe963688ce5a9791fb712c3666a325f70a29e14", "size": 5310},
-    "scoreboard.json": {"sha256": "1041d7c11a90462553c4628f4fb408d1e07bbe2a6372497e0785032cea0bf32c", "size": 3057},
-    "chat.json": {"sha256": "bf1bc8ec3cf264c2db39f1dacdf6ce79415df02b139b69de784352b7d5d2b775", "size": 23261},
-    "title.json": {"sha256": "30544026893c20e16d27e1a95b31e8b2f9eed6ec9db6b4fad50155c7e5939345", "size": 913}
+    "tooltips.json": {"sha256": "322b943405087b62cb31d8aa1d01776db88cc38d7cfee4dbba5b72177fc14b4a", "size": 322406},
+    "guiname.json": {"sha256": "70573ba9e57b4a28a03a8bb754b95446c82e69a270378c62bcb9d7c4efd40afa", "size": 6699},
+    "holograms.json": {"sha256": "d54b9949a4b528ea7458eee2da23f16955e193ea2b08a05b2810f84cb1d2445b", "size": 6560},
+    "scoreboard.json": {"sha256": "17e51b1aa03bee6393516005ebcf2dcd14c7a8ca805ee88997411cd5760d1e82", "size": 3048},
+    "chat.json": {"sha256": "c3db5b5a5d7f1d2475017faa0bc0b47b9bd2a023c9d6718d78208bc0b513260c", "size": 34320},
+    "title.json": {"sha256": "19b35c4d179cb5adff6d074cf7ea9c134be10b9f14a70d9da5b11de94c664fb7", "size": 1050}
   }
 }

@@ -6,13 +6,14 @@
       "Shortbow: Instantly shoots!": "短弓：立即發射！",
       "Deals {0} damage to {mob_type} mobs.": "對 {mob_type} 怪物的傷害提升 {0}。",
 
-      "§7A powerful blade made from pure §2Emeralds§7. This blade becomes stronger as you carry more §6coins§7 in your purse §8(Capped at {0} coins)": "§7一把由純§2綠寶石§7打造的強大刀刃。隨著你錢包攜帶越多§6遊戲幣§7這把武器也會更加強大§8（上限為 {0} 遊戲幣）",
+      "§7A powerful blade made from pure §2Emeralds§7. This blade becomes stronger as you carry more §6coins§7 in your purse §8(Capped at {0} coins)": "§7一把由純§2綠寶石§7打造的強大刀刃。隨著你錢袋攜帶越多§6遊戲幣§7這把武器也會更加強大§8（上限為 {0} 遊戲幣）",
       "§7Receive §4Curse of Greed §7when striking, §cCANCELLING§7 any effect modifying your §6coins §7loss on §4death§7!": "§7當你攻擊時受到§4貪欲詛咒§7影響，§c禁用§7一切能修改§4死亡§7時損失§6遊戲幣§7數量的效果！",
       "Current Damage Bonus: {0}": "當前傷害加成：{0}",
       "§7All damage dealt with this bow is §adoubled§7.": "§7這把弓造的的傷害皆為§a雙倍§7。",
       "Deals {0} damage while in water.": "在水中時，造成 {0} 傷害。",
       "Hits {0} mobs on impact.": "擊中時對附近 {0} 個敵人造成傷害。",
-      "Can damage endermen.": "可對終界使者造成傷害。"
+      "Can damage endermen.": "可對終界使者造成傷害。",
+      "Deals {0} damage to §3Sea Creatures§7.": "對§3海怪§7造成 {0} 傷害。"
     },
     "Armor": {
       "Armor Bonus": {
@@ -148,8 +149,8 @@
 
       "A device that can be used to contact people! Click NPCs to add them to your contacts!": "一隻可以用來連絡別人的儀器！點擊 NPC 以將他們加入你的聯絡人中。",
       "Maximum Contacts: {0}": "聯絡人上限：{0}",
-      "§7Maximum Contacts: {0} §c({1})": "§7聯絡人上限：{0}§c（{1}）",
-      "§7Maximum Contacts: {0} §c({1}) §5({2})": "§7聯絡人上限：{0}§c（{1}）§5（{2}）",
+      "§7Maximum Contacts: {0} §c({1})": "§7聯絡人上限：{0} §c({1})",
+      "§7Maximum Contacts: {0} §c({1}) §5({2})": "§7聯絡人上限：{0} §c({1}) §5({2})",
       "Maximum Discs: {0}": "唱片上限：{0}",
       "Features:": "功能：",
       "Contacts Directory": "聯絡人指南",
@@ -199,7 +200,30 @@
       "§7Increases the speed of your §5Pocket Black Holes §7by {0}.": "§7提升§5口袋黑洞§7的吸收速度 {0}。",
       "Increase the odds of fishing a rare Shard by {0}.": "釣到稀有碎片的機會提升 {0}。",
       "{0} chance not to consume bait.": "{0} 機率不消耗魚餌。",
-      "Take {0} less damage from Sea Creatures.": "海怪對你造成的傷害減少 {0}。"
+      "Take {0} less damage from Sea Creatures.": "海怪對你造成的傷害減少 {0}。",
+      "Pet Exp Boost: {0}": "寵物經驗加成：{0}",
+      "Gains stats based on how many {mob_type} mobs and Minos followers you've slain.": "依據你擊殺的 {mob_type} 以及米諾斯追隨者數量提升數值。",
+      "Gain {0} more Dungeons class experience.": "額外獲得 {0} 地下城職業經驗加成。",
+      "Gain {0}{stats} while burning.": "燃燒狀態下獲得 {0}{stats}。",
+      "Trial of Fire {roman}": "火之試煉 {roman}",
+      "\"Fire guy!\"": "\"燃燒吧，火鳥！\"",
+      "Grants {0} {stats} and {stats2} while in §cMaster Mode §7Dungeons.": "挑戰§c大師模式§7地下城時，獲得 {0} {stats} 和 {stats2}。",
+      "Grants an additional {0} charge when filling empty thunder bottles.": "為空雷鳴瓶充能時額外獲得 {0} 充能。",
+      "Charge up by combining a {item} (Full) with this item in an anvil.": "透過與{item}（已滿）在鐵砧上綁定以進行充能。",
+      "Charge: {0} §eThunder": "充能：{0} §e雷霆能量",
+      "Wear to prove you love {npc}, or": "戴上它以證明你愛{npc}，或",
+      "wear to prove you hate {npc}.": "戴上它以證明你恨{npc}。",
+      "Reduces the damage taken from {mob_type} mobs by {0}.": "{mob_type} 生物對你造成的傷害減少 {0}。",
+      "Grants a {0} in {1} chance to deal {2} damage.": "有 {1} 分之 {0} 的機率造成 {2} 傷害。",
+      "Requires quest progress!": "須達到對應任務進度！",
+      "Counts for twice the §6Accessory Power §7in your §aAccessory Bag§7.": "在§a飾品袋§7時，其§6飾品能量§7以兩倍計算。",
+      "Grants {0} extra loot to end of dungeon chests.": "在結尾的地下城寶箱中額外獲得 {0} 戰利品。",
+      "Increases the drop chance of candies from mobs by {0} during the {event}.": "在{event}期間，怪物掉落糖果的機率提升 {0}。",
+      "Gain a stack of {0}{stats} for every mob killed in the last {1} seconds.": "{1} 秒內每擊殺一隻怪物便獲得一層 {0}{stats} 加成。",
+      "Grants {0} chance to get Shark Teeth during §bFishing Festivals§7.": "在§b釣魚節§7期間獲得鯊魚牙的機率提升 {0}。",
+      "Gain {0} more §6Coins §7and §3Skill XP §7from gifts.": "從禮物獲得的§6遊戲幣§7和§3技能經驗§7提升 {0}。",
+      "Grants a {0} chance to automatically recombobulate drops you get from enemies.": "敵人的掉落物有 {0} 的機率被自動重組。",
+      "Apply a natural regen tick when you deal melee damage. §8({timer} cooldown)": "造成近戰傷害後觸發一次自然回血。§8（{timer} 冷卻）"
     },
     "Modifiers": {
       "Use this on an item in an Anvil to apply it!": "透過鐵砧將其附加於物品上！",
@@ -537,8 +561,8 @@
 
       "Grants {0}{stats} per Undead mob within {1} blocks of you.": "§7你附近 {1} 格內每存在一隻亡靈生物便獲得 {0}{stats}。",
       "(Max {0} {1})": "（上限 {0} {1}）",
-      "§7On §bMining Islands§7, mobs hit by this Gauntlet will drop the same §dGemstones §7as your filled {collections_res} Slots.": "§7在§b挖掘型島嶼§7時，被此拳套攻擊的怪物死亡時，會掉落鑲在拳套上相同種類的{collections_res}。",
-      "§7Killing mobs on §bMining Islands §7reduces your §6Forge Timers §7by {timer}.": "§7每擊殺一名§b挖掘型島嶼§7上的敵人，減少冶煉時間 {timer}。",
+      "§7On §6Mining Islands§7, mobs hit by this Gauntlet will drop the same §dGemstones §7as your filled {collections_res} Slots.": "§7在§6挖掘型島嶼§7時，被此拳套攻擊的怪物死亡時，會掉落鑲在拳套上相同種類的{collections_res}。",
+      "§7Killing mobs on §6Mining Islands §7reduces your §6Forge Timers §7by {timer}.": "§7每擊殺一名§6挖掘型島嶼§7上的敵人，減少§6冶煉時間 §7{timer}。",
       "§8(+{timer} per Perfect {collections_res})": "§8（每鑲有一顆完美{collections_res} +{timer}）",
 
       "§7While on §2Foraging Islands§7, throw your Axe at a tree! It will sweep {0} of the logs it normally would!": "§7當你在§2伐木型島嶼§7時，向樹木投擲斧頭！此行為可橫掃正常砍伐下 {0} 數量的原木！",
@@ -1180,6 +1204,12 @@
 
           "Bait Guide": {
             "§7View §6Baits§7, their uses, and how to obtain them!": "§7查看§6魚餌§7、它們的用途以及獲取方法！"
+          },
+          
+          "Trophy Frogs Lore": {
+            "Bring this to {npc} on the {island}.": "將此物交給{island}上的{npc}。",
+            "Caught everywhere.": "隨處皆可釣上。",
+            "Found in the {area}.": "可在{area}發現。"
           }
         },
 
@@ -1346,7 +1376,10 @@
             "§8- §dGemstones": "§8- §d寶石",
             "§8- §dMiscellaneous": "§8- §d雜項"
           },
-          "Forge": {},
+          "Forge": {
+            "Currently making: {item}": "正在冶煉：{item}",
+            "Time Remaining: {timer}": "剩餘時間：{timer}"
+          },
           "Commissions": {
             "Commissions are tasks given directly by the king which give bountiful rewards.": "委託是由國王直接下達的任務，完成後可以獲得豐厚的獎賞。",
             "Progress": "進度",
@@ -1379,6 +1412,17 @@
               "Find an §bSapphire Crystal§7 in the {area}.": "在{area}取得§b天藍水晶§7。",
               "Find an §aJade Crystal§7 in the {area}.": "在{area}取得§a翡翠水晶§7。",
               "Find an §eTopaz Crystal§7 in the {area}.": "在{area}取得§e黃玉水晶§7。"
+            },
+            "Glacite Tunnels": {
+              "Mineshaft Explorer": "礦井探索家",
+              "Corpse Looter": "屍體搜刮者",
+              "Maniac Slayer": "狂人殺手",
+              "Scrap Collector": "礦渣收集家",
+              
+              "Enter {0} Mineshaft.": "進入礦井 {0} 次。",
+              "Loot {0} Frozen Corpses.": "搜刮 {0} 具冰凍屍體。",
+              "Slay {0} §cManiacs§7 in the {island}.": "在{island}中，擊殺 {0} 隻§c狂人§7。",
+              "Obtain {0} {resource}.": "獲得 {0} 個 {resource}。"
             },
 
             "§7- {0} {powder} §e(Daily Bonus)": "§7- {0} {powder}§e（每日加成）",
@@ -3458,7 +3502,45 @@
         "View and manage island settings!": "查看並管理島嶼設定！",
         "View and manage Tablist Widget settings.": "查看並管理 TAB 介面小工具的設定。"
       },
-      "Booster Cookie": {},
+      "Booster Cookie": {
+        "Acquire Booster Cookies from the {area} in the {island}.": "在{island}上的{area}取得 Booster Cookie。",
+        "§7Ability to gain §bBits§7!": "§7賺取 §bBits §7的能力！",
+        "{0}{1} on all §3Wisdom §7stats": "{0}{1} §7所有§3智慧§7數值",
+        "§7Keep §6coins §7on death": "§7死亡時保留§6遊戲幣",
+        "§ePermafly §7on private islands and gardens": "§7在個人島嶼和花園時可以§e無限飛行",
+        "§7Quick access to some menus using their respective commands:": "可以使用對應的指令快捷開啟各種介面：",
+        "and {command}": "和 {command}",
+        "§7Sell items directly to the trades and cookie menu": "可在交易或餅乾介面直接販賣物品",
+        "§7AFK §aimmunity §7on your island and garden": "允許在個人島嶼或花園上",
+        "§7Toggle specific §dpotion effects": "切換特定的§d藥水效果",
+        "§7Link your items in chat using {command}": "透過 {command} 在聊天室展示你的道具",
+        "§7Insta-sell your Material stash to the {npc}": "可以將暫存的素材立即售出至{npc}",
+        "§7Increases §6Chocolate Factory §7production by {0}": "將§6巧克力工廠§7的產出提升 {0}",
+        "§7Allows consuming §9Mixins §7directly from your inventory": "允許你直接喝掉物品欄中的§9調飲",
+        "§7Call §3Abiphone Contacts §7with {command}": "透過 {command} 直接打給 §3Abiphone 聯絡人",
+        "Farm bits from playing with the Cookie Buff active and completing specific tasks.": "在擁有 Cookie Buff 的期間透過完成各種小任務來賺取 Bits。",
+        "You cannot afford this!": "你買不起這件物品！",
+
+        "Bits are earned from booster cookies and spent in the community shop for unique items.": "Bits 可以透過 Booster Cookie 賺取，並在社區商店用以購買各種獨特物品。",
+        "Bits Purse: {0}": "Bits 錢袋：{0}",
+        "Bits Available: {0}{1}{2}": "可賺取 Bits 餘額：{0}{1}{2}",
+        "Eligible to farm while you have the cookie buff.": "當你擁有 Cookie Buff 時方可賺取。",
+        "Bits Multiplier: {0}": "Bits 倍增效果：{0}",
+        "Per {item}: {0}§b bits §7available": "每片 {item}：{0}§b bits §7賺取餘額",
+        "Your Fame Rank's bit multiplier applies on the bits from every cookie you've ever eaten!": "你名譽階級提供的 Bits 倍增效果會追朔你食用過的所有 Booster Cookie！",
+
+        "Earn fame by §6contributing to city projects §7and spending §bBits {0} §aGems §7with {npc}.": "透過§6贊助城市計畫§7以及在{npc}的商店花費 §bBits {0} §aGems 以累積名譽。",
+        "Election Votes: {0}": "選舉票數：{0}",
+        "The election is run every SkyBlock year.": "每個 SkyBlock 年都會舉行選舉。",
+        "Your total: {0}§e Fame": "總計：{0}§e 名譽",
+        "You earn {0} fame per bit and {1} per gem spent in the community shop.": "在社區商店每消費 1 Bit 便累積 {0} 名譽；1 Gem 便累積 {1} 名譽。",
+
+        "Access §dThe Hex §7from anywhere in SkyBlock!": "在 SkyBlock 的任何地方開啟§d赫喀斯§7的介面！",
+        "Access an {item} from anywhere in SkyBlock!": "在 SkyBlock 的任何地方開啟{item}的介面！",
+        "Choose which of your potion effects are applied to you.": "選擇能應用於你身上的藥水效果。",
+        "Access the {area} menu from anywhere in SkyBlock!": "在 SkyBlock 的任何地方開啟{area}的介面！",
+        "Access the {npc} from anywhere in SkyBlock!": "在 SkyBlock 的任何地方開啟{npc}的介面！"
+      },
       "Merchant Menu": {
         "Bazaar": {
           "Click items in your inventory to sell them to this Shop!": "點擊物品欄中的物品以將其售出至商店！",
@@ -3468,7 +3550,24 @@
           "Buy price: {0} coins": "買價：{0}§6 遊戲幣",
           "Buy price: N{0}A": "買價：無",
           "{0} product": "{0} 項商品",
-          "{0} products": "{0} 項商品"
+          "{0} products": "{0} 項商品",
+
+          "Instantly sell everything in your sacks on the {npc}.": "將你的囊袋中的所有物品立即售出至{npc}。",
+          "{0}§7x {item} for {1}§6 coins": "{0}§7x {item} 售出 {1}§6 遊戲幣",
+          "{0}§7x §fOther items §7for {1}§6 coins": "{0}§7x §f其餘物品 售出 {1}§6 遊戲幣",
+          "You earn: {0}§6 coins": "你賺取：{0}§6 遊戲幣",
+          "Some items can't be sold!": "部分物品無法售出！",
+          "(Not enough orders)": "（訂單不足）"
+        }
+      },
+      "Feature Menu": {
+        "Return Player": {
+          "The option to claim these rewards": "這些領取獎勵的選項",
+          "expires in: {timer}": "過期倒數：{timer}",
+          "Don't spend them all in one place!": "別把錢全部花在在同個地方！",
+          "Level up all of your §3Skills {0} §7faster for {1}§a minutes§7!": "使所有§3技能§7的練等速度加快 {0} 持續 {1}§a 分鐘§7！",
+          "Gain {0} more §4Slayer XP §7for {1} §aminutes§7!": "獲得額外 {0} §4獵殺經驗§7持續 {1} §a分鐘§7！",
+          "Gain {0} more §4Dungeons XP §7and §4Dungeons Class XP §7for {1}§a minutes§7!": "獲得額外 {0} §4地下城經驗§7和§4地下城職業經驗§7持續 {1} §a分鐘§7！"
         }
       },
       "Guide Menu": {
@@ -3503,6 +3602,8 @@
       },
       "Tips": {
         "Command Tips": {
+          "Also accessible via {command}": "也可透過 {command} 開啟",
+          
           "Also accessible via {0}stats": "也可透過 /stats 開啟",
           "Also accessible via {0}skills.": "也可透過 /skills 開啟",
           "Also accessible via {0}collection.": "也可透過 /collection 開啟",
@@ -3577,6 +3678,7 @@
           "Click to switch sort!": "點擊以切換分類！",
           "Click to choose a pet!": "點擊以選取一隻寵物！",
           "Click to choose this pet!": "點擊以選取這隻寵物！",
+          "Click to buyback!": "點擊以購回！",
 
           "Left-click to scroll!": "左鍵以滑動",
           "§eLeft-click §7to scroll up!": "§e左鍵§7以向上滑動！",

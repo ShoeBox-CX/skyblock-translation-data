@@ -18,6 +18,8 @@
     "§aYou are playing on profile: {profile}§b (Co-op)": "§a你正在遊玩的檔案：{profile}§b (Co-op)",
     "§aYour profile was changed to: {profile}§b (Co-op)": "§a你檔案已切換至：{profile}§b (Co-op)",
     "§6You have {0} unclaimed deliveries!\n§eClick here or talk to {npc} to claim them!": "§6你有 {0} 個未領取的包裹！\n§e點擊這裡或和{npc}交談以領取包裹！",
+    "You must double tap the drop button to drop this item!": "你必須連按兩次丟棄鍵才能丟出此物品！",
+    "You can disable this in the §fSettings§c in your {item}!": "你可以在 {item} 中的§f遊戲設定§c中關閉此功能！",
 
     "Warping...": "傳送中...",
     "§eYou are being transferred to the §aHUB §efor being §cAFK§e!": "§e你因為§c掛機§e而被移至§a大廳§e了！",
@@ -26,10 +28,15 @@
     "There was an error queuing into SkyBlock!": "當你列隊進入 SkyBlock 時發生了錯誤！",
     "Try again in a moment!": "稍等再進行嘗試！",
     "Oops! Couldn't find a SkyBlock server for you! Try again later!": "噢！無法為你找到 SkyBlock 伺服器！稍後再進行嘗試！",
+    "[Important] §eThis server will restart soon: §bScheduled Reboot": "[重要通知] §e該分流將進行重啟：§b排程重啟",
+    "§eYou have {0}§a seconds §eto warp out! §a§l§nCLICK§r§e to warp now!": "你有 {0}§a 秒§e的時間可以傳送離開！§a§l§n點擊此處§r§e以立即傳送！",
 
     "This ability is on cooldown for {timer}.": "此技能還有 {timer} 冷卻。",
     "Inventory full? Don't forget to check out your Storage inside the SkyBlock Menu!": "物品欄已滿？別忘了使用 SkyBlock 目錄中的倉庫功能！",
+    "Your previous {item} was removed!": "已將你先前放置的{item}移除！",
 
+    "CAUGHT! §r§cYou cocooned a {mob}!": "抓到了！§r§c你繭化了一隻{mob}！",
+    
     "{rarity} DROP! {item}": "{rarity}掉落！{item}",
     "{rarity} DROP! {collections_res}": "{rarity}掉落！{collections_res}",
     "{rarity} DROP! {resource}": "{rarity}掉落！{resource}",
@@ -37,19 +44,76 @@
     "{rarity} DROP! {resource} §b({0} {stats})": "{rarity}掉落！{resource} §b({0} {stats})",
     "{rarity} DROP! {resource} §8x{0} §e({1}{2})": "{rarity}掉落！{resource} §8x{0} §e({1}{2})",
     "{rarity} DROP! {item} §b({0} {stats})": "{rarity}掉落！{item} §b({0} {stats})",
-    "{rarity} DROP! {item}§f ({enchantment} {roman})": "{rarity} DROP! {item}§f ({enchantment} {roman})",
-    "{rarity} DROP! {item}§f ({enchantment} {roman}) §b({0} {stats})": "{rarity} DROP! {item}§f ({enchantment} {roman}) §b({0} {stats})",
+    "{rarity} DROP! {item}§f ({enchantment} {roman})": "{rarity}掉落！{item}§f ({enchantment} {roman})",
+    "{rarity} DROP! {item}§f ({enchantment} {roman}) §b({0} {stats})": "{rarity}掉落！{item}§f ({enchantment} {roman}) §b({0} {stats})",
     "{rarity} DROP! {item} §e({0}{1})": "{rarity}掉落！{item} §e({0}{1})",
     "{rarity} DROP! {item} §6({mob})": "{rarity}掉落！{item} §6({mob})",
     "{rarity} CROP! {resource}": "{rarity}作物！{resource}",
     "{rarity} CROP! {resource} §e({0}{1})": "{rarity}作物！{resource} §e({0}{1})",
     "{rarity} CROP! §r§2Seasoning §7§o(automatically donated)": "{rarity}作物！§r§2佐料 §7§o(自動貢獻)",
     "{rarity} CROP! §r§2Seasoning §e({0}{1}) §7§o(automatically donated)": "{rarity}作物！§r§2佐料 §e({0}{1}) §7§o(自動貢獻)",
+    "{rarity} DROP! §r§eYou dug out a {resource}§e!": "{rarity}掉落！§r§e你挖出了一個{resource}！",
+
+    "You dug out a {pet} Burrow! §7({0}{1}{2})": "你挖開了一處{pet}地洞！§7({0}{1}{2})",
+    "Follow the arrows!": "跟著箭頭的指引！",
+    "Wow! §r§eYou dug out {0}§6 coins§e!": "哇嗚！§r§e你挖出了 {0}§6 遊戲幣§e！",
+    "Oh! §r§eYou dug out a {mob}§e!": "呦！§r§e你挖出了一隻{mob}！",
+    "Oi! §r§eYou dug out a {mob}§e!": "唉呦！§r§e你挖出了一隻{mob}！",
+    "Woah! §r§eYou dug out a {mob}§e!": "喔喔！§r§e你挖出了一隻{mob}！",
+    "Uh oh! §r§eYou dug out a {mob}§e!": "啊喔！§r§e你挖出了一隻{mob}！",
+    "Yikes! §r§eYou dug out a {mob}§e!": "矮額！§r§e你挖出了一隻{mob}！",
+    "Danger! §r§eYou dug out a {mob}§e!": "危險！§r§e你挖出了一隻{mob}！",
+    "Good Grief! §r§eYou dug out a {mob}§e!": "天啊！§r§e你挖出了一隻{mob}！",
 
     "§b§lCHARM! §r§7You charmed the {mob} and received {0} {mob2}§f Shards§7!": "§b§l引誘！§r§7你引誘了{mob}而獲得了 {0} 個{mob2}§f碎片§7！",
     "§d§lHOTSPOT!§r§6 Your §dHunting Hotspot§6 is the {area}!": "§d§l狩獵熱點！§r§6 你的§d狩獵熱點§6為{area}！",
     "You threw a {item} at the {mob}!": "你向{mob}扔出了{item}！",
     "The {mob} escaped your {item}!": "{mob}從你的{item}逃脫了！",
+    "§aYou caught a {mob} §aShard!": "你補獲了一個 {mob} §a碎片！",
+    "§aYou caught an {mob} §aShard!": "你補獲了一個 {mob} §a碎片！",
+    "CAPTURE! §r§7You caught a {mob} and gained {0} {item}!": "捉到啦！§r§7你捕捉到一隻 {mob} 並獲得了 {0} {item}！",
+    "CAPTURE! §r§7You caught a {mob} and gained a {item}!": "捉到啦！§r§7你捕捉到一隻 {mob} 並獲得了一塊 {item}！",
+    "CAPTURE! §r§7You caught a {mob} and gained an {item}!": "捉到啦！§r§7你捕捉到一隻 {mob} 並獲得了一塊 {item}！",
+    "FLOOR DROP! §r§7You found {resource} §8x{0}§7 on the ground!": "散落物！§r§7你從地上撿到了 {resource} §8x{0}§7！",
+    "FLOOR DROP! §r§7You found {item} on the ground!": "散落物！§r§7你從地上撿到了 {item}！",
+    "FLOOR DROP! §r§7You found {0}§3 Hunting Experience§7 on the ground!": "散落物！§r§7你從地上撿到了 {0}§3 狩獵經驗§7！",
+    "HEAD START!§r§6 You started with a {item}!": "先發優勢！§r§6你起始獲得了{item}！",
+    "§aYou caught §7x{0} {mob} §aShards!": "你補獲了 {mob} §a碎片 §7x{0}！",
+    "You reeled too early! {mob} escaped!": "你太早拉線了！{mob} 逃走了！",
+    "You looked away! {mob} escaped!": "你的視線漂走了！{mob} 逃走了！",
+    "The {mob} dodged your critter capsule and started running away!": "{mob}躲過了你的捕獵膠囊並逃走了！",
+    "The {mob} is cornered! Catch it!": "{mob}被逼到角落了！快捉牠！",
+    "Small cracks begin to form in the mound...": "土堆開始出現了細小的裂痕...",
+    "The cracks seem to be getting larger, keep hitting it!": "裂痕逐漸變大了，繼續敲擊它！",
+    "Chunks of the mound begin falling away...": "土推上的小土塊已經開始剝落了...",
+    "The mound is about to fall to pieces! Keep going!": "土堆就要崩解了！繼續下去！",
+    "The mound falls apart, but nothing is inside...": "土堆崩解了，但裡面甚麼都沒有...",
+    "The mound fell apart, revealing a {mob} hidden inside!": "土堆崩解了，你發現了躲在裡面的{mob}！",
+    "The {mob} saw a player and fled!": "{mob}看見玩家而逃走了！",
+    "The {mob} hid back into the ground.": "{mob}躲回地底下了。",
+    "The {mob} surfaced nearby! Don't let it see you!": "{mob}探出地表了！別讓牠看到你！",
+    "The {mob} fled because it was startled!": "{mob}驚慌的逃走了！",
+    "You ran headfirst into the wall. Some more cracks appeared in it...": "你冒失的撞向了牆壁。上面開始浮現裂痕了...",
+    "Keep running into the wall! More cracks are forming!": "繼續撞向牆壁！裂痕越來越明顯了！",
+    "You destroyed the wall! Maybe something was hiding behind it...": "你撞開牆壁了！也許有甚麼東西躲在後面...",
+    "You placed the {item} on its podium!": "你將{item}擺在對應的盃座上！",
+    "A rumbling sound can be heard, and the door at the back of the chamber opens...": "一陣沉重的轟鳴聲傳來，洞窟後方的大門開啟了...",
+    "Your {item} can't get through {mob}'s armor!": "你的{item}無法穿透{mob}的外殼！",
+    "This particular {mob} doesn't seem to care for this type of food...": "這隻特殊的{mob}貌似不太喜愛這類食物...",
+    "The {mob} cautiously started eating the {item}.": "{mob}小心翼翼的開始品嘗{item}。",
+    "The {mob} reaches out its paw for more {item}.": "{mob}伸出了牠的小爪再拿了些{item}。",
+    "The {mob} ate the {item} and came out of its shell!": "{mob}吃了些{item}並從牠的外殼探出來了！",
+    "You startled the {mob}!": "你嚇到{mob}了！",
+    "A {mob} appeared out of nowhere and gobbled up your {item}!": "一隻{mob}憑空出現並狼吞虎嚥的吃著你的{item}！",
+    "You used the {item} to light the candle! You begin to feel uneasy.": "你使用{item}點燃了蠟燭！你開始感到些許不適。",
+    "You used the {item} to light the candle! Something is off about this place...": "你使用{item}點燃了蠟燭！這個地方有甚麼地方不太對勁...",
+    "You used the {item} to light the candle! Are you §lsure§r§7 you wish to continue?": "你使用{item}點燃了蠟燭！你§l確定§r§7你還要繼續下去嗎？",
+    "You used the {item} to light the candle! The ground beneath your feet starts to shift...": "你使用{item}點燃了蠟燭！你雙腳下的地面開始在震顫...",
+    "Your ritual summoned a {mob} into this world. Stay still.": "你的儀式將{mob}召喚到了這個世界。別亂動。",
+    "Something stirs in the {area}...": "有甚麼正肆虐著{area}...",
+    "The darkness in the {area} fades away...": "籠罩著{area}的黑暗散去了...",
+    "You found a {mob} that was disguised as a block!": "你發現了偽裝成方塊的{mob}！",
+    "You wake up suddenly...": "你從床上驚醒...",
 
 
     "{0}Sacks{1} {2}§e item.§8 (Last {timer}.)": "{0}囊袋{1} {2}§e 物品。§8（近 {timer}。）",
@@ -183,6 +247,8 @@
 
     "Successfully added {pet} to your pet menu!": "成功將{pet}新增至你的寵物目錄中！",
     "Your {pet} leveled up to level {0}!": "你的 {pet} 等級提升至 {0} 了！",
+    "You summoned your {pet}!": "你召出了你的{pet}寵物！",
+    "You despawned your {pet}!": "你召回了你的{pet}寵物！",
 
     "{0}§e RING...": "{0}§e 鈴...",
     "{0}§e RING... RING...": "{0}§e 鈴... 鈴...",
@@ -202,18 +268,19 @@
     "§aYou sold {resource}§8 x{0} §afor {1}§6 Coins§a!": "§a你販售 {resource}§8 x{0} §a獲得了 {1}§6 遊戲幣§a！",
     "§aYou sold {collections_res}§8 x{0} §afor {1}§6 Coin§a!": "§a你販售 {collections_res}§8 x{0} §a獲得了 {1}§6 遊戲幣§a！",
     "§aYou sold {collections_res}§8 x{0} §afor {1}§6 Coins§a!": "§a你販售 {collections_res}§8 x{0} §a獲得了 {1}§6 遊戲幣§a！",
-    "§aYou bought back {item}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回了 {item}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
-    "§aYou bought back {item}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回了 {item}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
-    "§aYou bought back {resource}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回了 {resource}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
-    "§aYou bought back {resource}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回了 {resource}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
-    "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回了 {collections_res}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
-    "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回了 {collections_res}§8 x{0} §a花費 {1}§6 遊戲幣§a！",
+    "§aYou bought back {item}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回 {item}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
+    "§aYou bought back {item}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回 {item}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
+    "§aYou bought back {resource}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回 {resource}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
+    "§aYou bought back {resource}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回 {resource}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
+    "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回 {collections_res}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
+    "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回 {collections_res}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
 
     "{event} §ehas begun! Help {npc} find his §6Chocolate Rabbit Eggs §eacross SkyBlock each day during the {month}!": "{event}§e開始了！在這個{month}幫助{npc}在 SkyBlock 各處尋回他的§6巧克力兔子蛋§e吧！",
     "{event} The event starts in {0} days!": "{event} 活動將於 {0} 天後開始！",
     "{event} The event starts in {0} day!": "{event} 活動將於 {0} 天後開始！",
     "§d§lYum! §r§eYou gain {0}{stats} for {1} hours!": "§d§l美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
     "§d§lBig Yum! §r§eYou refresh {0}{stats} for {1} hours!": "§d§l超級美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
+    "You found a {item}!": "你發現了一個{item}！",
 
     "§b§lGARDEN MILESTONE {collections_res} {roman}{0}{roman2}": "§b§l花園里程碑 {collections_res} {roman}{0}{roman2}",
     "§6Milestone {roman} in {0}§a Carrots": "距離里程碑 {roman} 還差 {0}§a Carrots",
@@ -241,6 +308,42 @@
     "RAT! §r§6You dropped an additional {resource}!": "老鼠！§r§6你獲得了額外的{resource}！",
 
     "§bNew day! §eYour {mining.perk} buff changed!": "§b新的一天！§e你{mining.perk}的加成更換了！",
+    "{mining.perk} is now available!": "{mining.perk}已就緒！",
+    "You used your {mining.perk} Pickaxe Ability!": "你使用了你的挖掘技能 - {mining.perk}！",
+    "Your Pickaxe ability is on cooldown for {timer}.": "你的挖掘技能還有 {timer} 冷卻時間。",
+    "Your {mining.perk} destroyed {0} blocks!": "你的{mining.perk}破壞了 {0} 個方塊！",
+    "{0}§5§l CRYSTAL FOUND": "{0}§5§l 尋獲水晶",
+    "Aquamarine Crystal": "海藍水晶",
+    "Use this Crystal in the §6Dwarven Forge §7to make": "在§6矮人冶煉廠§7使用該水晶以製作",
+    "better items!": "更好的道具！",
+    "COMPACT! §r§fYou found a {resource}!": "壓縮！§r§f你尋獲了一個 {resource}！",
+    "COMPACT! §r§fYou found an {resource}!": "壓縮！§r§f你尋獲了一個 {resource}！",
+    "EXCAVATOR! §r§fYou found a {resource}!": "發掘！§r§f你尋獲了一個 {resource}！",
+    "BYE! §r§aYou got a {0} {powder} §abonus for leaving a Mineshaft before you died!": "掰！§r§a你因安全撤離礦井而獲得了 {0} {powder}。",
+    "BRRR! §r§aIt's getting really cold in here! But you've got to keep moving...": "皮皮剉！§r§a這裡真的變得超冷！但你還是得繼續前行...",
+    "BRRR! §r§aIt's so cold that you can barely feel your fingers. Moving is getting difficult...": "皮皮剉！§r§a你已經快冷到使你的手指失去知覺了。邁進的步伐變得更加艱辛...",
+    "BRRR! §r§aYour movement slows to a crawl as the cold threatens to take over. Time to get out of here...": "皮皮剉！§r§a冷冽的寒風使你的動作異常緩慢。是時候離開這裡了...",
+    "BRRR! §r§aYou're freezing! All you can think about is getting out of here to a warm campfire...": "皮皮剉！§r§a你快凍成冰棒了！現在你腦中只想著離開這裡並待在溫暖的營火旁...",
+    "BRRR! §r§aIt's getting colder in here...": "皮皮剉！§r§a這個地方越來越冷了...",
+    "Maybe next time you'll find a way to escape the cold...": "也許下次你能找到逃離這寒冷之地的方法...",
+    "The warmth of the campfire reduced your {stats} to {0}!": "營火的溫暖將你的 {stats} 降為 {0} 了！",
+    "PRISTINE! §r§fYou found {0} {resource} §8x{1}§f!": "純樸！§r§f你尋獲了 {0} {resource} §8x{1}§f！",
+    "MINESHAFT! §r§7A Mineshaft portal spawned nearby!": "礦井！§r§7有一道礦井傳送門在你附近生成了！",
+    "LAPIS §bCORPSE LOOT!": "青金石§b屍體已搜刮！",
+    "UMBER §bCORPSE LOOT!": "赭石§b屍體已搜刮！",
+    "TUNGSTEN §bCORPSE LOOT!": "鎢金§b屍體已搜刮！",
+    "{item} x{0}": "{item} x{0}",
+    "{0} {resource}": "{0} {resource}",
+    "{0} {resource} §8x{1}": "{0} {resource} §8x{1}",
+    "{powder} x{0}": "{powder} x{0}",
+    "The sound of pickaxes clashing against the rock has attracted the attention of the {event}§6§l!": "稿子敲擊石頭產生的鏗將聲引起了{event}的注意力！",
+    "Find the {event} near the {area}!": "尋找位於{area}的{event}！",
+    "{event} STARTED!": "{event}開始啦！",
+    "{event} ENDED!": "{event}結束囉！",
+    "Passive Active Event": "被動型事件",
+    "Mining Event": "挖掘事件",
+    "{0} §eThe {event} event starts in {1} §eseconds!\n This is a passive event! §bIt's happening everywhere in the {island}!": "{0} §e{event}事件將於 {1} §e秒後開始！\n 此為被動型事件！將在{island}的每一處進行！",
+    "{0} §eA {event} §ehas crashed at {area}! Nearby ore and Powder drops are amplified!": "{0} §e一顆{event}§e墜落在{area}了！其周遭的礦物和粉末掉落被加強了！",
 
     "You cannot damage a tree while it is regenerating!": "你無法在樹木重新生長時砍伐它！",
     "TREE GIFT": "樹之餽贈",
@@ -268,30 +371,13 @@
     "BEEHEEMOTH! §r§eThe {mob} is getting more fatigued!": "巨蜂獸！{mob}§r§e開始感到疲乏了！",
     "BEEHEEMOTH! §r§eThe {mob} is exhausted - not long now!": "巨蜂獸！{mob}§r§e已經筋疲力盡了，再加把勁！",
 
-
-    "§aYou caught a {mob} §aShard!": "你補獲了一個 {mob} §a碎片！",
-    "§aYou caught an {mob} §aShard!": "你補獲了一個 {mob} §a碎片！",
-    "§aYou caught §7x{0} {mob} §aShards!": "你補獲了 {mob} §a碎片 §7x{0}！",
-    "You reeled too early! {mob} escaped!": "你太早拉線了！{mob} 逃走了！",
-    "You looked away! {mob} escaped!": "你的視線漂走了！{mob} 逃走了！",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "{0} GOOD CATCH! §r§fYou caught an {resource} §8x{1}§f!": "{0} 巧妙一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} GOOD CATCH! §r§fYou caught a {resource} §8x{1}§f!": "{0} 巧妙一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} GREAT CATCH! §r§fYou caught an {resource} §8x{1}§f!": "{0} 絕佳一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} GREAT CATCH! §r§fYou caught a {resource} §8x{1}§f!": "{0} 絕佳一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} OUTSTANDING CATCH! §r§fYou caught an {resource} §8x{1}§f!": "{0} 驚人一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} OUTSTANDING CATCH! §r§fYou caught a {resource} §8x{1}§f!": "{0} 驚人一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} TROPHY FROG! §r§fYou caught {resource}!": "{0} 獎盃蛙！§r§f你釣上了一隻{resource}！",
 
 
 

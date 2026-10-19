@@ -9,6 +9,9 @@
 
     "{rarity} DROP!": "{rarity}掉落！",
     "{0} {resource}": "{0} {resource}",
+    
+    "FROSTBITE!": "凍瘡！",
+    "Find warmth before you freeze to death...": "在你凍死前趕緊找到能取暖的地方...",
 
     "SERVER REBOOT!": "伺服器重啟！",
     "Scheduled Reboot (in {0}:{1})": "排程重啟（{0}：{1} 後）",
