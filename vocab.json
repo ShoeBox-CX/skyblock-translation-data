@@ -4891,6 +4891,103 @@
           "Puddle Jumper §6§lGOLD": "水窪蹦蛙 §6§l黃金",
           "Puddle Jumper §b§lDIAMOND": "水窪蹦蛙 §b§l鑽石"
         },
+        "Trophy Fish": {
+          "Blobfish": "水滴魚",
+          "Blobfish §8§lBRONZE": "水滴魚 §8§l青銅",
+          "Blobfish §7§lSILVER": "水滴魚 §7§l白銀",
+          "Blobfish §6§lGOLD": "水滴魚 §6§l黃金",
+          "Blobfish §b§lDIAMOND": "水滴魚 §b§l鑽石",
+
+          "Sulphur Skitter": "硫磺飛梭魚",
+          "Sulphur Skitter §8§lBRONZE": "硫磺飛梭魚 §8§l青銅",
+          "Sulphur Skitter §7§lSILVER": "硫磺飛梭魚 §7§l白銀",
+          "Sulphur Skitter §6§lGOLD": "硫磺飛梭魚 §6§l黃金",
+          "Sulphur Skitter §b§lDIAMOND": "硫磺飛梭魚 §b§l鑽石",
+
+          "Obfuscated{0}": "Obfuscated{0}",
+          "Obfuscated{0} §8§lBRONZE": "Obfuscated{0} §8§l青銅",
+          "Obfuscated{0} §7§lSILVER": "Obfuscated{0} §7§l白銀",
+          "Obfuscated{0} §6§lGOLD": "Obfuscated{0} §6§l黃金",
+          "Obfuscated{0} §b§lDIAMOND": "Obfuscated{0} §b§l鑽石",
+
+          "Steaming-Hot Flounder": "蒸燙比目魚",
+          "Steaming-Hot Flounder §8§lBRONZE": "蒸燙比目魚 §8§l青銅",
+          "Steaming-Hot Flounder §7§lSILVER": "蒸燙比目魚 §7§l白銀",
+          "Steaming-Hot Flounder §6§lGOLD": "蒸燙比目魚 §6§l黃金",
+          "Steaming-Hot Flounder §b§lDIAMOND": "蒸燙比目魚 §b§l鑽石",
+
+          "Gusher": "噴發魚",
+          "Gusher §8§lBRONZE": "噴發魚 §8§l青銅",
+          "Gusher §7§lSILVER": "噴發魚 §7§l白銀",
+          "Gusher §6§lGOLD": "噴發魚 §6§l黃金",
+          "Gusher §b§lDIAMOND": "噴發魚 §b§l鑽石",
+
+          "Slugfish": "蛞魚",
+          "Slugfish §8§lBRONZE": "蛞魚 §8§l青銅",
+          "Slugfish §7§lSILVER": "蛞魚 §7§l白銀",
+          "Slugfish §6§lGOLD": "蛞魚 §6§l黃金",
+          "Slugfish §b§lDIAMOND": "蛞魚 §b§l鑽石",
+
+          "Flyfish": "飛魚",
+          "Flyfish §8§lBRONZE": "飛魚 §8§l青銅",
+          "Flyfish §7§lSILVER": "飛魚 §7§l白銀",
+          "Flyfish §6§lGOLD": "飛魚 §6§l黃金",
+          "Flyfish §b§lDIAMOND": "飛魚 §b§l鑽石",
+
+          "Vanille": "原版魚",
+          "Vanille §8§lBRONZE": "原版魚 §8§l青銅",
+          "Vanille §7§lSILVER": "原版魚 §7§l白銀",
+          "Vanille §6§lGOLD": "原版魚 §6§l黃金",
+          "Vanille §b§lDIAMOND": "原版魚 §b§l鑽石",
+
+          "Lavahorse": "熔岩海馬",
+          "Lavahorse §8§lBRONZE": "熔岩海馬 §8§l青銅",
+          "Lavahorse §7§lSILVER": "熔岩海馬 §7§l白銀",
+          "Lavahorse §6§lGOLD": "熔岩海馬 §6§l黃金",
+          "Lavahorse §b§lDIAMOND": "熔岩海馬 §b§l鑽石",
+
+          "Mana Ray": "魔力魟",
+          "Mana Ray §8§lBRONZE": "魔力魟 §8§l青銅",
+          "Mana Ray §7§lSILVER": "魔力魟 §7§l白銀",
+          "Mana Ray §6§lGOLD": "魔力魟 §6§l黃金",
+          "Mana Ray §b§lDIAMOND": "魔力魟 §b§l鑽石",
+
+          "Volcanic Stonefish": "火山石頭魚",
+          "Volcanic Stonefish §8§lBRONZE": "火山石頭魚 §8§l青銅",
+          "Volcanic Stonefish §7§lSILVER": "火山石頭魚 §7§l白銀",
+          "Volcanic Stonefish §6§lGOLD": "火山石頭魚 §6§l黃金",
+          "Volcanic Stonefish §b§lDIAMOND": "火山石頭魚 §b§l鑽石",
+
+          "Skeleton Fish": "骷髏魚",
+          "Skeleton Fish §8§lBRONZE": "骷髏魚 §8§l青銅",
+          "Skeleton Fish §7§lSILVER": "骷髏魚 §7§l白銀",
+          "Skeleton Fish §6§lGOLD": "骷髏魚 §6§l黃金",
+          "Skeleton Fish §b§lDIAMOND": "骷髏魚 §b§l鑽石",
+
+          "Moldfin": "菌絲鰭",
+          "Moldfin §8§lBRONZE": "菌絲鰭 §8§l青銅",
+          "Moldfin §7§lSILVER": "菌絲鰭 §7§l白銀",
+          "Moldfin §6§lGOLD": "菌絲鰭 §6§l黃金",
+          "Moldfin §b§lDIAMOND": "菌絲鰭 §b§l鑽石",
+
+          "Soul Fish": "靈魂魚",
+          "Soul Fish §8§lBRONZE": "靈魂魚 §8§l青銅",
+          "Soul Fish §7§lSILVER": "靈魂魚 §7§l白銀",
+          "Soul Fish §6§lGOLD": "靈魂魚 §6§l黃金",
+          "Soul Fish §b§lDIAMOND": "靈魂魚 §b§l鑽石",
+
+          "Karate Fish": "空手道魚",
+          "Karate Fish §8§lBRONZE": "空手道魚 §8§l青銅",
+          "Karate Fish §7§lSILVER": "空手道魚 §7§l白銀",
+          "Karate Fish §6§lGOLD": "空手道魚 §6§l黃金",
+          "Karate Fish §b§lDIAMOND": "空手道魚 §b§l鑽石",
+
+          "Golden Fish": "耀金魚",
+          "Golden Fish §8§lBRONZE": "耀金魚 §8§l青銅",
+          "Golden Fish §7§lSILVER": "耀金魚 §7§l白銀",
+          "Golden Fish §6§lGOLD": "耀金魚 §6§l黃金",
+          "Golden Fish §b§lDIAMOND": "耀金魚 §b§l鑽石"
+        },
         "Event": {
           "Green Candy": "綠色糖果",
           "Purple Candy": "紫色糖果",
@@ -5975,6 +6072,8 @@
       "Kada Knight": "坎達騎士",
       "Mage Outlaw": "亡命法師",
       "Magma Boss": "岩漿立方王",
+      "Unstable Magma": "岩漿失常怪",
+      "Magma Glare": "岩漿凝視怪",
       "Magma Cube": "岩漿立方怪",
       "Pack Magma Cube": "群居岩漿立方怪",
       "Magma Cube Rider": "岩漿立方怪騎士",
@@ -7232,6 +7331,7 @@
     "FISHING ROD": "釣竿",
     "TRAVEL SCROLL": "傳送卷軸",
     "REFORGE STONE": "鍛造石",
+    "PET": "寵物",
     "PET ITEM": "寵物道具",
     "LONGSWORD": "長劍",
     "SWORD": "劍",
@@ -7512,6 +7612,8 @@
   },
 
   "event": {
+    "The Great Spook": "驚魂盛宴",
+    
     "Year of the Pig": "豬年",
     "Year of the Seal": "豹年",
     "Year of the Witch": "巫年",
@@ -8035,18 +8137,18 @@
   },
 
   "Month": {
-    "Early Spring": "孟春",
+    "Early Spring": "初春",
     "Spring": "仲春",
-    "Late Spring": "季春",
-    "Early Summer": "孟夏",
+    "Late Spring": "晚春",
+    "Early Summer": "初夏",
     "Summer": "仲夏",
-    "Late Summer": "季夏",
-    "Early Autumn": "孟秋",
+    "Late Summer": "晚夏",
+    "Early Autumn": "初秋",
     "Autumn": "仲秋",
-    "Late Autumn": "季秋",
-    "Early Winter": "孟冬",
+    "Late Autumn": "晚秋",
+    "Early Winter": "初冬",
     "Winter": "仲冬",
-    "Late Winter": "季冬"
+    "Late Winter": "晚冬"
   },
 
   "NPC": {
@@ -8657,13 +8759,16 @@
       "Finnegan": "芬尼根",
       "Foxy": "狐克西",
       "Marina": "碼莉娜",
-      "Paul": "保羅"
+      "Paul": "保羅",
+      
+      "Nancy": "南希"
     }
   },
 
   "Clickable": {
     "PICK UP": "接電話",
-    "CLICK": "點擊查看"
+    "CLICK": "點擊查看",
+    "CLICK HERE": "點擊此處"
   },
 
   "placeholders": {

@@ -1206,10 +1206,30 @@
             "§7View §6Baits§7, their uses, and how to obtain them!": "§7查看§6魚餌§7、它們的用途以及獲取方法！"
           },
           
-          "Trophy Frogs Lore": {
+          "Trophies Lore": {
             "Bring this to {npc} on the {island}.": "將此物交給{island}上的{npc}。",
+            "How to Catch": "如何捕捉",
+            "§bDiamond {0}§7 ({1}§7)": "鑽石 {0}§7 ({1}§7)",
+            "§bDiamond {0}": "鑽石 {0}",
+            "§6Gold {0}§7 ({1}§7)": "黃金 {0}§7 ({1}§7)",
+            "§6Gold {0}": "黃金 {0}",
+            "§7Silver {0}§7 ({1}§7)": "白銀 {0}§7 ({1}§7)",
+            "§7Silver {0}": "白銀 {0}",
+            "§8Bronze {0}§7 ({1}§7)": "青銅 {0}§7 ({1}§7)",
+            "§8Bronze {0}": "青銅 {0}",
+            "Discovered": "已發現",
+            
             "Caught everywhere.": "隨處皆可釣上。",
-            "Found in the {area}.": "可在{area}發現。"
+            "Found in the {area}.": "可在{area}發現。",
+            "Caught while wearing a {item}.": "身著{item}時釣上。",
+            "Caught while midair.": "位於空中時釣上。",
+            "Caught during §brain§7.": "在§b下雨§7期間釣上。",
+            "Caught in §dWormholes §7on the {island}.": "在{island}上的§d蟲洞§7中釣上。",
+            "Obtained by combining §2Lily Pads §7together until they get so big they §c§lEXPLODE!!": "想獲得牠，你需要將§2荷葉們§7融合在一起，直到它們夠大時就會§c§l蹦炸！！",
+            "Caught while having an active §dBlessing §7from throwing a {resource} into the waters of the {area}.": "在{area}的水中投下{resource}以獲得§d祝福§7後便可釣上。",
+            "Caught while underwater.": "當你身處水下時釣上。",
+            "Caught while standing on leaves.": "當你站在樹葉上時釣上。",
+            "Caught when flying around the {island}.": "藉由在{island}之中遨遊獲得。"
           }
         },
 

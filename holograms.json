@@ -55,6 +55,7 @@
     "SHINY ORB": "閃亮珠珠",
     "SHINY PIG": "閃亮豬豬",
     "RETURNING PLAYER REWARDS": "回鍋玩家福利",
+    "CREWMATE": "船員",
 
     "ICE ESSENCE SHOP": "寒冰精華商店",
     "GOLD ESSENCE SHOP": "黃金精華商店",
@@ -118,11 +119,12 @@
     "Click to open!": "點擊開啟！",
 
     "CLICK": "點擊",
-    "CLICK TO VOTE": "點擊投票",
-    "CLICK TO BUY": "點擊購買",
-    "Click HERE to remove": "點擊此處移除",
-    "Click to view rewards!": "點擊查看獎勵！",
-    "Click to loot!": "點擊拾取！",
+    "CLICK TO VOTE": "點擊以投票",
+    "CLICK TO BUY": "點擊以購買",
+    "Click HERE to remove": "點擊此處以移除",
+    "Click to view rewards!": "點擊以查看獎勵！",
+    "Click to loot!": "點擊以拾取！",
+    "CLICK TO JOIN": "點擊以加入",
     "Right-click to open!": "右鍵點擊開啟！",
     "Right-click to wake up!": "右鍵以叫醒它！",
 

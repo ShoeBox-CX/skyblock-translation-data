@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated": "2026-10-19T07:43:21Z",
-  "notice": "Translation tables: new entries, and reshaped hologram nametag keys",
+  "generated": "2026-10-27T15:25:21Z",
+  "notice": "Translation tables: 167 new entries across six tables",
   "files": {
-    "vocab.json": {"sha256": "9710fdd4096e51bb8afcb25f8bb6d00e262553fa384aa44bfe40f5a9c3844419", "size": 348779},
+    "vocab.json": {"sha256": "71aa59c0a2e1cfd027db662517e5098e8a4a753c7de83170d870e361d44b25bb", "size": 353816},
     "engine.json": {"sha256": "f737a2b9c7ca327e0b088bd3841358893baeb63cfad8e3380cf6112b43715acc", "size": 3174},
-    "tooltips.json": {"sha256": "322b943405087b62cb31d8aa1d01776db88cc38d7cfee4dbba5b72177fc14b4a", "size": 322406},
+    "tooltips.json": {"sha256": "a29d9999e94596ce4f00e4252e030b4e99b8e6804b284527cd2ba66190b3a382", "size": 323917},
     "guiname.json": {"sha256": "70573ba9e57b4a28a03a8bb754b95446c82e69a270378c62bcb9d7c4efd40afa", "size": 6699},
-    "holograms.json": {"sha256": "d54b9949a4b528ea7458eee2da23f16955e193ea2b08a05b2810f84cb1d2445b", "size": 6560},
-    "scoreboard.json": {"sha256": "17e51b1aa03bee6393516005ebcf2dcd14c7a8ca805ee88997411cd5760d1e82", "size": 3048},
-    "chat.json": {"sha256": "c3db5b5a5d7f1d2475017faa0bc0b47b9bd2a023c9d6718d78208bc0b513260c", "size": 34320},
+    "holograms.json": {"sha256": "752f7b59fec97d7d26060e6f28c96c6a86301984d14c0173078fffa502dc3fdb", "size": 6641},
+    "scoreboard.json": {"sha256": "e77be25d2bab2f42adc3e0bb4a5814d77f5907bb6a87ffedc1f1f352813d293b", "size": 3051},
+    "chat.json": {"sha256": "cd6599dbad62c6791f332620aa1e5a1bd89ec5e265141fbe6df38305fa38369b", "size": 38113},
     "title.json": {"sha256": "19b35c4d179cb5adff6d074cf7ea9c134be10b9f14a70d9da5b11de94c664fb7", "size": 1050}
   }
 }

@@ -20,6 +20,10 @@
     "§6You have {0} unclaimed deliveries!\n§eClick here or talk to {npc} to claim them!": "§6你有 {0} 個未領取的包裹！\n§e點擊這裡或和{npc}交談以領取包裹！",
     "You must double tap the drop button to drop this item!": "你必須連按兩次丟棄鍵才能丟出此物品！",
     "You can disable this in the §fSettings§c in your {item}!": "你可以在 {item} 中的§f遊戲設定§c中關閉此功能！",
+    "{0}WATCHDOG ANNOUNCEMENT{1}": "{0}看門狗警訊{1}",
+    "Watchdog has banned {0} players in the last {1} days.": "在近 {1} 天，看門狗已停權了 {0} 名玩家。",
+    "Staff have banned an additional {0} in the last {1} days.": "在近 {1} 天，管理人員則另外停權了 {0} 名玩家。",
+    "Blacklisted modifications are a bannable offense!": "使用黑名單中的模組被視為可能面臨停權懲處的違規行為",
 
     "Warping...": "傳送中...",
     "§eYou are being transferred to the §aHUB §efor being §cAFK§e!": "§e你因為§c掛機§e而被移至§a大廳§e了！",
@@ -28,14 +32,16 @@
     "There was an error queuing into SkyBlock!": "當你列隊進入 SkyBlock 時發生了錯誤！",
     "Try again in a moment!": "稍等再進行嘗試！",
     "Oops! Couldn't find a SkyBlock server for you! Try again later!": "噢！無法為你找到 SkyBlock 伺服器！稍後再進行嘗試！",
-    "[Important] §eThis server will restart soon: §bScheduled Reboot": "[重要通知] §e該分流將進行重啟：§b排程重啟",
+    "{0}Important{1} §eThis server will restart soon: §bScheduled Reboot": "{0}重要通知{1} §e該分流將進行重啟：§b排程重啟",
     "§eYou have {0}§a seconds §eto warp out! §a§l§nCLICK§r§e to warp now!": "你有 {0}§a 秒§e的時間可以傳送離開！§a§l§n點擊此處§r§e以立即傳送！",
 
     "This ability is on cooldown for {timer}.": "此技能還有 {timer} 冷卻。",
     "Inventory full? Don't forget to check out your Storage inside the SkyBlock Menu!": "物品欄已滿？別忘了使用 SkyBlock 目錄中的倉庫功能！",
     "Your previous {item} was removed!": "已將你先前放置的{item}移除！",
+    "Your {item} despawned.": "你的{item}消失了。",
 
-    "CAUGHT! §r§cYou cocooned a {mob}!": "抓到了！§r§c你繭化了一隻{mob}！",
+    "ALLOWANCE! §r§eYou earned {0}§6 coins§e!": "零用錢！§r§e你獲得了 {0}§6 遊戲幣§e！",
+    "CAUGHT! §r§cYou cocooned a {mob}!": "抓住了！§r§c你繭化了一隻{mob}！",
     
     "{rarity} DROP! {item}": "{rarity}掉落！{item}",
     "{rarity} DROP! {collections_res}": "{rarity}掉落！{collections_res}",
@@ -73,7 +79,7 @@
     "§aYou caught an {mob} §aShard!": "你補獲了一個 {mob} §a碎片！",
     "CAPTURE! §r§7You caught a {mob} and gained {0} {item}!": "捉到啦！§r§7你捕捉到一隻 {mob} 並獲得了 {0} {item}！",
     "CAPTURE! §r§7You caught a {mob} and gained a {item}!": "捉到啦！§r§7你捕捉到一隻 {mob} 並獲得了一塊 {item}！",
-    "CAPTURE! §r§7You caught a {mob} and gained an {item}!": "捉到啦！§r§7你捕捉到一隻 {mob} 並獲得了一塊 {item}！",
+    "CAPTURE! §r§7You caught an {mob} and gained an {item}!": "捉到啦！§r§7你捕捉到一隻 {mob} 並獲得了一塊 {item}！",
     "FLOOR DROP! §r§7You found {resource} §8x{0}§7 on the ground!": "散落物！§r§7你從地上撿到了 {resource} §8x{0}§7！",
     "FLOOR DROP! §r§7You found {item} on the ground!": "散落物！§r§7你從地上撿到了 {item}！",
     "FLOOR DROP! §r§7You found {0}§3 Hunting Experience§7 on the ground!": "散落物！§r§7你從地上撿到了 {0}§3 狩獵經驗§7！",
@@ -117,6 +123,9 @@
 
 
     "{0}Sacks{1} {2}§e item.§8 (Last {timer}.)": "{0}囊袋{1} {2}§e 物品。§8（近 {timer}。）",
+    "{0}Sacks{1} {2}§e item, {3}§e item.§8 (Last {timer}.)": "{0}囊袋{1} {2}§e 物品、{3}§e 物品。§8（近 {timer}。）",
+    "{0}Sacks{1} {2}§e items, {3}§e item.§8 (Last {timer}.)": "{0}囊袋{1} {2}§e 物品、{3}§e 物品。§8（近 {timer}。）",
+    "{0}Sacks{1} {2}§e item, {3}§e items.§8 (Last {timer}.)": "{0}囊袋{1} {2}§e 物品、{3}§e 物品。§8（近 {timer}。）",
     "{0}Sacks{1} {2}§e items.§8 (Last {timer}.)": "{0}囊袋{1} {2}§e 物品。§8（近 {timer}。）",
     "{0}Sacks{1} {2}§e items, {3}§e items.§8 (Last {timer}§8.)": "{0}囊袋{1} {2}§e 物品、{3}§e 物品。§8（近 {timer}。）",
 
@@ -275,16 +284,28 @@
     "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coin§a!": "§a你購回 {collections_res}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
     "§aYou bought back {collections_res}§8 x{0} §afor {1}§6 Coins§a!": "§a你購回 {collections_res}§8 x{0} §a花費了 {1}§6 遊戲幣§a！",
 
+    "The §dNew Year's Celebration §aevent is starting in {0} days!": "§d歡慶新年§a活動將於 {0} 天後開始！",
+    "§b§l§kA §r§e§lEvent§r: §aNew Year's Celebration! §b§l§kA": "§b§l§kA §r§e§l活動§r：§a歡慶新年！ §b§l§kA",
+    "§b§l§kA §r§aEveryone is having a party in the {area}!": "§b§l§kA §r§a現在大家都在{area}享受派對！",
+    "§b§l§kA §r§e§lCLICK HERE §r§eto get your {rarity} new year cake!": "§b§l§kA §r§e§l點擊此處§r§e以領取你的{rarity}新年蛋糕！",
+    "SEASON OF JERRY {area} §fis moments away from erupting! Go to {island} to save the Gifts! §e§lCLICK HERE §r§eto join!": "傑瑞佳節§r§f - {area}快要噴發了！快前往{island}守護禮物！§e§l點擊這裡§r§e以加入！",
     "{event} §ehas begun! Help {npc} find his §6Chocolate Rabbit Eggs §eacross SkyBlock each day during the {month}!": "{event}§e開始了！在這個{month}幫助{npc}在 SkyBlock 各處尋回他的§6巧克力兔子蛋§e吧！",
     "{event} The event starts in {0} days!": "{event} 活動將於 {0} 天後開始！",
     "{event} The event starts in {0} day!": "{event} 活動將於 {0} 天後開始！",
     "§d§lYum! §r§eYou gain {0}{stats} for {1} hours!": "§d§l美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
     "§d§lBig Yum! §r§eYou refresh {0}{stats} for {1} hours!": "§d§l超級美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
     "You found a {item}!": "你發現了一個{item}！",
+    "GODFATHER! §r§eYou found a §cHitman Egg§e!": "教父兔兔！§r§e你發現了一顆§c獵物彩蛋§e！",
 
     "§b§lGARDEN MILESTONE {collections_res} {roman}{0}{roman2}": "§b§l花園里程碑 {collections_res} {roman}{0}{roman2}",
     "§6Milestone {roman} in {0}§a Carrots": "距離里程碑 {roman} 還差 {0}§a Carrots",
     "{0} §7Garden Experience": "{0} §7花園經驗",
+    "{npc} has arrived on your {island}!": "{npc}光臨了你的{island}！",
+    "BLESSED! §r§fYou found a {resource}!": "祝福！§r§f你尋獲了一個{resource}！",
+    "BLESSED! §r§fYou found an {resource}!": "祝福！§r§f你尋獲了一個{resource}！",
+    "OVERFLOW! §r§7Your {item} has just dropped a {item2}!": "溢出！§r§7你的{item}產出了一顆{item2}！",
+    "There are not any Pests on your {island} right now! Keep farming!": "你的{island}現在沒有害蟲了！繼續農耕吧！",
+    "Snapped to squeaky mousemat!": "點擊了吱吱滑鼠墊！",
 
     "§6§lBESTIARY": "§6§l怪物圖鑑",
     "{mob} {roman}": "{mob} {roman}",
@@ -371,13 +392,24 @@
     "BEEHEEMOTH! §r§eThe {mob} is getting more fatigued!": "巨蜂獸！{mob}§r§e開始感到疲乏了！",
     "BEEHEEMOTH! §r§eThe {mob} is exhausted - not long now!": "巨蜂獸！{mob}§r§e已經筋疲力盡了，再加把勁！",
 
+    "{0} GOOD CATCH! §r§fYou caught a {item}!": "{0} 巧妙一釣！§r§f你釣上了一個 {item}！",
+    "{0} GOOD CATCH! §r§fYou caught an {item}!": "{0} 巧妙一釣！§r§f你釣上了一個 {item}！",
     "{0} GOOD CATCH! §r§fYou caught an {resource} §8x{1}§f!": "{0} 巧妙一釣！§r§f你釣上了 {resource} §8x{1}§f！",
     "{0} GOOD CATCH! §r§fYou caught a {resource} §8x{1}§f!": "{0} 巧妙一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} GREAT CATCH! §r§fYou caught a {item}!": "{0} 絕佳一釣！§r§f你釣上了一個 {item}！",
+    "{0} GREAT CATCH! §r§fYou caught an {item}!": "{0} 絕佳一釣！§r§f你釣上了一個 {item}！",
     "{0} GREAT CATCH! §r§fYou caught an {resource} §8x{1}§f!": "{0} 絕佳一釣！§r§f你釣上了 {resource} §8x{1}§f！",
     "{0} GREAT CATCH! §r§fYou caught a {resource} §8x{1}§f!": "{0} 絕佳一釣！§r§f你釣上了 {resource} §8x{1}§f！",
+    "{0} GREAT CATCH! §r§fYou caught a {1}§7Lvl {2}{3} {rarity} {pet}§f!": "{0} 絕佳一釣！§r§f你釣上了 {1}§7等級 {2}{3} {rarity} {pet}§f！",
+    "{0} OUTSTANDING CATCH! §r§fYou caught a {item}!": "{0} 驚人一釣！§r§f你釣上了一個 {item}！",
+    "{0} OUTSTANDING CATCH! §r§fYou caught an {item}!": "{0} 驚人一釣！§r§f你釣上了一個 {item}！",
     "{0} OUTSTANDING CATCH! §r§fYou caught an {resource} §8x{1}§f!": "{0} 驚人一釣！§r§f你釣上了 {resource} §8x{1}§f！",
     "{0} OUTSTANDING CATCH! §r§fYou caught a {resource} §8x{1}§f!": "{0} 驚人一釣！§r§f你釣上了 {resource} §8x{1}§f！",
-    "{0} TROPHY FROG! §r§fYou caught {resource}!": "{0} 獎盃蛙！§r§f你釣上了一隻{resource}！",
+    "{0} OUTSTANDING CATCH! §r§fYou caught a {1}§7Lvl {2}{3} {rarity} {pet}§f!": "{0} 驚人一釣！§r§f你釣上了 {1}§7等級 {2}{3} {rarity} {pet}§f！",
+    "{0} TROPHY FROG! §r§fYou caught {resource}!": "{0} 獎盃蛙！§r§f你釣上了 {resource}！",
+    "{0} TROPHY FISH! §r§bYou caught {resource}!": "{0} 獎盃魚！§r§b你釣上了 {resource}！",
+
+    "WISE! §r§fYou've been granted {0}{stats} for {timer} while on the {island}!": "睿智！§r§f當你在{island}時將獲得 {0}{stats} 持續 {timer}。",
 
 
 
