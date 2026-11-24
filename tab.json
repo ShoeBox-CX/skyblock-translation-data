@@ -1,0 +1,95 @@
+{
+  "_comment": "TAB 玩家列表面向。SkyBlock 的 TAB 不是玩家名單，而是一整面資訊看板——Hypixel 用大量假玩家格子排出 Area/Server/Profile/Skills/Events 等欄位，加上標頭(header)與頁尾(footer)兩塊多行文字。三個來源(格子、標頭、頁尾)共用這一張表:同一句話在標頭和格子裡都可能出現,分成兩張表只會讓同一條被寫兩次。標頭與頁尾在查表前先依 \n 拆成單行,理由與 hovertext 相同——整塊當一個鍵會把玩家名和等級焊進去,只會命中一次。鍵的格式與其他面向相同(佔位符正規化後的字串);與 scoreboard 一樣先經 legacyRuns,因為 Hypixel 這條路徑送的是 § 舊式格式字串。",
+  "_comment_players": "刻意「不接」MissRecorder。TAB 的格子裡混著真實玩家名(含 [MVP+] 之類的頭銜),而 missing/*.json 是要人工審閱並進版控的檔案。取鍵請用 J dump。玩家名沒有對應條目就會維持原文,這是預期行為——真正的風險只有「寫了太籠統的鍵」,跟 chat 面向一樣。",
+  "_comment_indent": "鍵開頭的空白是 Hypixel 的排版縮排,目前是鍵的一部分(這條路徑照抄 renderScoreboardLine,沒有走 stripDecoration)。所以同一句話縮排不同就是不同的鍵。欄位標頭那 10/15 格空白是置中用的,若 Hypixel 調整欄寬就會失效——要不要改成剝離後再裝回去(跟 tooltip 一樣)是待確認的事項。",
+
+  "tab": {
+    "_comment_header": "欄位標頭。前面的空白是置中用的排版縮排,不是內容。",
+    "         §a§lPlayers §r§f({0}§f)": "         §a§l玩家§r§f ({0}§f)",
+    "          §b§lCoop §r§f({0}§f)": "         §b§l共島夥伴§r§f ({0}§f)",
+    "          §5§lGuests §r§f({0}§f)": "          §5§l訪客§r§f ({0}§f)",
+    "               §3§lInfo": "            §3§l資訊",
+
+    "§e§lStats:": "§e§l玩家數值：",
+    " {stats}: {0}{1}": " {stats}：{0}{1}",
+
+    "_comment_info": "Info 欄:所在區域、伺服器、貨幣、檔案。",
+    "§b§lArea: {island}": "§b§l區域：{island}",
+    "§b§lArea: {area}": "§b§l區域：{area}",
+    " Crystals: {0}": " 水晶：{0}",
+    "§e§lProfile: {profile}": "§e§l檔案：{profile}",
+    " SB Level§f: {0}{1}{2} {3}{4}{5}§b XP": " SB 等級§f：{0}{1}{2} {3}{4}{5}§b XP",
+    " Bank: {0} {1} {2}": " 銀行：{0} {1} {2}",
+    " Interest: {0}§e Hours§6 ({1}§6)": " 利息：{0}§e 小時§6 ({1}§6)",
+    " Fairy Souls: {0}{1}{2}": " 仙女靈魂：{0}{1}{2}",
+    " {weather}§f: in {timer} {0}": " {weather}§f：在 {timer}後開始 {0}",
+    " {weather}§f: for {timer} {0}": " {weather}§f：將持續 {timer} {0}",
+
+    "_comment_pets": "寵物欄。Lvl 是等級,寵物名由 pet 佔位符自動翻譯。",
+    "§e§lPet:": "§e§l寵物：",
+    " {0}§7Lvl {1}{2} {pet}": " {0}§7等級 {1}{2} {pet}",
+    " §b§lMAX LEVEL": " §b§l已滿等",
+
+    "_comment_election": "市長選舉欄。Mayor 沿用 holograms.json 的「市長」。",
+    "§e§lElection: {timer}": "§e§l選舉：{timer}",
+    " {npc}: {0} §f({1}§f)": " {npc}：{0}§f（{1}§f）",
+    "§e§lElection: §r§cOver!": "§e§l選舉：§r§c已結束！",
+    " §fMayor: {npc}": " §f市長：{npc}",
+    " §fMinister: {npc}": " §f部長：{npc}",
+    " §fYear: {0}": " §f年份：{0}",
+
+    "_comment_event": "活動欄。",
+    "§e§lEvent: {event}": "§e§l活動：{event}",
+    " Ends In: {timer}": " 剩餘時間：{timer}",
+
+    "_comment_minions": "工人欄。Minion 沿用 tooltips.json 的「工人」。FULL/ACTIVE 是狀態標籤。",
+    "§b§lMinions: {0}{1}{2}": "§b§l工人：{0}{1}{2}",
+    " {0} {mob} {roman} {1}§cFULL{2}": " {0} {mob} {roman} {1}§c已滿{2}",
+    " {0} {collections_res} {roman} {1}§aACTIVE{2}": " {0} {collections_res} {roman} {1}§a運作中{2}",
+
+    "_comment_skills": "技能欄。技能名沿用 vocab.json 的 skills(伐木 = Foraging,不是採集)。",
+    "§e§lSkills:": "§e§l技能：",
+    " Farming {0}: §c§lMAX": " 農耕 {0}：§c§l滿等",
+    " Farming {0}: {1}": " 農耕 {0}：{1}",
+    " Mining {0}: §c§lMAX": " 挖掘 {0}：§c§l滿等",
+    " Mining {0}: {1}": " 挖掘 {0}：{1}",
+    " Combat {0}: §c§lMAX": " 戰鬥 {0}：§c§l滿等",
+    " Combat {0}: {1}": " 戰鬥 {0}：{1}",
+    " Fishing {0}: §c§lMAX": " 釣魚 {0}：§c§l滿等",
+    " Fishing {0}: {1}": " 釣魚 {0}：{1}",
+    " Foraging {0}: {1}": " 伐木 {0}：{1}",
+    " Foraging {0}: §c§lMAX": " 伐木 {0}：§c§l滿等",
+    " Enchanting {0}: {1}": " 附魔 {0}：{1}",
+    " Enchanting {0}: §c§lMAX": " 附魔 {0}：§c§l滿等",
+    " Alchemy {0}: {1}": " 釀造 {0}：{1}",
+    " Alchemy {0}: §c§lMAX": " 釀造 {0}：§c§l滿等",
+    " Hunting {0}: {1}": " 狩獵 {0}：{1}",
+    " Hunting {0}: §c§lMAX": " 狩獵 {0}：§c§l滿等",
+    " Taming {0}: {1}": " 馴養 {0}：{1}",
+    " Taming {0}: §c§lMAX": " 馴養 {0}：§c§l滿等",
+
+    "§9§lStarborn Temple:": "§9§l星裔神殿：",
+    "{whisper}§3§l: {0}": "{whisper}§3§l：{0}",
+    " §fCooldown: §aAVAILABLE": " §f冷卻：§a可使用",
+
+    "Trophy Frogs:": "獎杯蛙：",
+    "Trophy Fishes:": "獎盃魚：",
+    " {0} {resource} ": " {0} {resource} ",
+    
+    
+
+    "_comment_effects": "藥水效果欄(頁尾)。第一個位置型佔位符其實是斜線——literal_symbols 沒開,所以 / 會被當成圖示吃掉變成佔位符。",
+    "§a§lActive Effects": "§a§l生效中的效果",
+    "§7You have a {item} §7active! {0}§d days": "§7你有 {item} §7生效中！剩餘 {0}§d 天",
+    "§7You have a {item} §7active! {0}§d hours": "§7你有 {item} §7生效中！剩餘 {0}§d 小時",
+    "§7You have {0} §7non-god effects.": "§7你還有 {0} §7個非神藥效果。",
+    "§7Use \"{0}§6effects§7\" to see them!": "§7輸入「{0}§6effects§7」即可查看！",
+    "{item} {roman} {timer}": "{item} {roman} {timer}",
+    "{item}§d§l Buff": "{item}§d§l加成",
+    "{0}§f day, {1}§f hours": "{0}§f 天 {1}§f 小時",
+
+    "_comment_notice": "頁尾的網路提示。網域名維持原樣。",
+    "§bYou are playing on §e§lMC.HYPIXEL.NET": "你正在 §e§lMC.HYPIXEL.NET 上遊玩",
+    "§bYou are playing on §e§lALPHA.HYPIXEL.NET": "§b你正在 §e§lALPHA.HYPIXEL.NET §b上遊玩"
+  }
+}

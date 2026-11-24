@@ -13,8 +13,11 @@
   "_comment_group_priority": "兩個 placeholders 群組搶到完全相同的一段文字時的勝負順序；未列出的群組排在所有列出的之後。空陣列＝維持今天的行為（依 JSON 宣告順序）。用 K dump 的 [keydiff:group_priority] 預覽再決定要不要填。",
   "group_priority": [],
 
-  "_comment_group_specificity": "兩個 placeholders 群組的來源路徑有包含關係時（例如 itemNames.Reforge Stone 在 itemNames 底下），同時屬於兩者的詞由「窄的」那個贏，與 JSON 宣告順序無關。這是結構推導出來的答案，不需要宣告。false＝維持今天的行為（靠宣告順序，目前 reforge.stone 因為晚 item 一行而完全失效）。用 K dump 的 [keydiff:group_specificity] 預覽再決定要不要開。",
-  "group_specificity": false,
+  "_comment_group_specificity": "兩個 placeholders 群組的來源路徑有包含關係時（例如 itemNames.Reforge Stone 在 itemNames 底下），同時屬於兩者的詞由「窄的」那個贏，與 JSON 宣告順序無關。這是結構推導出來的答案，不需要宣告。目前開啟（2026-11-24，Phase 4.5）：同時屬於 item 與 reforge.stone 的 87 個鍛造石名稱改由 {reforge.stone} 認領。既有的 {item} key 不受影響——查不到時重試會否決 {reforge.stone}，讓 {item} 接手。關掉會讓 {reforge.stone} 再次永遠搶不贏 {item}。用 K dump 的 [keydiff:group_specificity] 可預覽影響。",
+  "group_specificity": true,
+
+  "_comment_legacy_keys": "Phase 4 改變了 key 的算法（某些符號改回字面文字、圖示改成 {#}），而翻譯表裡的舊 key 沒有記錄每個 {n} 原本是什麼，所以無法直接改寫。開著時，用新規則查不到的行會再用舊規則算一次 key 去查，舊翻譯照常生效；每次靠舊 key 命中都會記錄到 missing/legacy.json（需開啟錄製），之後用那些記錄把條目自動遷移成新 key。等 legacy.json 長期都沒有新記錄、所有條目都遷移完，再關掉。",
+  "legacy_keys": true,
 
   "group_numbers": false,
 
@@ -42,7 +45,7 @@
 
   "icon_stats_include_item_only": false,
 
-  "literal_symbols": [],
+  "literal_symbols": ["—", "–", "…", "‘", "’", "“", "”", "™", "©", "&", "/", "[", "]"],
 
   "time_units": {
     "y": "年",

@@ -1,0 +1,6 @@
+{
+  "_comment": "血條(boss bar)面向。畫面上方那條 Boss 血條的名稱。與 hologram、scoreboard 一樣是「單獨一行」的完整內容——它由伺服器一次送出整個 Component，沒有上下文可分類，也不會跨行合併。鍵的格式與其他面向相同(佔位符正規化後的字串)。渲染掛點在 BossHealthOverlay.extractRenderState 內對 LerpingBossEvent.getName() 的呼叫，時機在量測寬度之前，所以置中會依譯文重算。字彙與佔位符見 vocab.json。",
+
+  "bossbar": {
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "_comment": "懸停文字(hover text)面向。滑鼠移到聊天訊息上會浮出來的那塊文字——它是掛在該段文字 Style 上的 HoverEvent.ShowText，裡面包著另一棵獨立的 Component，跟訊息本體是兩回事。逐行查表：實測到的 payload 多為多行(玩家名片 6 行、Co-op 名單 2 行)，但整段合併當一個鍵沒有重用價值——名片每個玩家都不同，只有標籤列(「Hypixel Level: {0}」「Co-op partner:」)會重複。所以每行各自成鍵，空行跳過。刻意不接 MissRecorder：payload 常帶玩家 ID，而 missing/*.json 是要人工審閱並進 git 的；要取鍵請用聊天 dump 鍵(預設 M)的 [hover] 區塊。含玩家 ID 的行目前無法翻譯(未命中就保持原文)，要等 {player} 佔位符做出來——見 CLAUDE.md。字彙與佔位符見 vocab.json。",
+
+  "hovertext": {
+  }
+}
