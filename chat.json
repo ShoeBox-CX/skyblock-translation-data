@@ -295,7 +295,7 @@
     "§d§lYum! §r§eYou gain {0}{stats} for {1} hours!": "§d§l美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
     "§d§lBig Yum! §r§eYou refresh {0}{stats} for {1} hours!": "§d§l超級美味！§r§e你獲得 {0}{stats} 持續 {1} 小時！",
     "You found a {item}!": "你發現了一個{item}！",
-    "GODFATHER! §r§eYou found a §cHitman Egg§e!": "教父兔兔！§r§e你發現了一顆§c獵物彩蛋§e！",
+    "GODFATHER! §r§eYou found a §cHitman Egg§e!": "教父！§r§e你發現了一顆§c獵物彩蛋§e！",
 
     "§b§lGARDEN MILESTONE {collections_res} {roman}{0}{roman2}": "§b§l花園里程碑 {collections_res} {roman}{0}{roman2}",
     "§6Milestone {roman} in {0}§a Carrots": "距離里程碑 {roman} 還差 {0}§a Carrots",

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated": "2026-10-27T15:25:21Z",
-  "notice": "Translation tables: 167 new entries across six tables",
+  "generated": "2026-11-24T01:46:09Z",
+  "notice": "Drop player names and an untranslatable line from the hologram queue",
   "files": {
     "vocab.json": {"sha256": "71aa59c0a2e1cfd027db662517e5098e8a4a753c7de83170d870e361d44b25bb", "size": 353816},
     "engine.json": {"sha256": "f737a2b9c7ca327e0b088bd3841358893baeb63cfad8e3380cf6112b43715acc", "size": 3174},
@@ -9,7 +9,7 @@
     "guiname.json": {"sha256": "70573ba9e57b4a28a03a8bb754b95446c82e69a270378c62bcb9d7c4efd40afa", "size": 6699},
     "holograms.json": {"sha256": "752f7b59fec97d7d26060e6f28c96c6a86301984d14c0173078fffa502dc3fdb", "size": 6641},
     "scoreboard.json": {"sha256": "e77be25d2bab2f42adc3e0bb4a5814d77f5907bb6a87ffedc1f1f352813d293b", "size": 3051},
-    "chat.json": {"sha256": "cd6599dbad62c6791f332620aa1e5a1bd89ec5e265141fbe6df38305fa38369b", "size": 38113},
+    "chat.json": {"sha256": "f245dfab816613fead759fc71e9bf82cf2c3a0b8f5340c393a483418d8754365", "size": 38107},
     "title.json": {"sha256": "19b35c4d179cb5adff6d074cf7ea9c134be10b9f14a70d9da5b11de94c664fb7", "size": 1050}
   }
 }
