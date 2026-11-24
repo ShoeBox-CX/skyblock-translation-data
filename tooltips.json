@@ -631,7 +631,7 @@
   "reforgeEffects":
   {
     "§9Byron's Compassion §8(Gilded)": "§9拜倫的同情§8（鎏金的）",
-    "Current Reduction: {0} {1}": "當前減少：{0} {1}",
+    "Current Reduction: {0} {#}": "當前減少：{0} {#}",
 
     "§7Grants {0} {stats} per §cCatacombs §7level.": "§7每一等§c地下陵墓§7等級，獲得 {0} {stats}。",
     "Grants {0}{stats} during {event}.": "{event}期間，獲得 {0}{stats}。",
@@ -2052,8 +2052,8 @@
           "Show the rankings display for your Collections.": "顯示你各項收藏的排名。",
           "Hide the rankings display for your Collections.": "隱藏你各項收藏的排名。",
           "{collections_res}: {0} (Top {1})": "{collections_res}：{0}（前 {1}）",
-          "{collections_res}: §8N{0}§8A": "{collections_res}：§8無",
-          "{collections_res}: {0} ({1}{2})": "{collections_res}：{0}（{1}{2}）"
+          "{collections_res}: §8N/§8A": "{collections_res}：§8無",
+          "{collections_res}: {0} ({#}{1})": "{collections_res}：{0}（{#}{1}）"
         }
       },
 
@@ -2253,7 +2253,7 @@
             "Double Trouble": "雙重麻煩",
             "§7For every {0}{stats}§7, gain {1}{stats2}§7.": "§7每擁有 {0}{stats}§7，便獲得 {1}{stats2}§7。",
 
-            "{enchantment} {0}": "{enchantment} {0}",
+            "{enchantment} {#}": "{enchantment} {#}",
             "§7Gain {0}{stats}§7.": "§7獲得 {0}{stats}§7。",
 
             "{event}": "{event}",
@@ -2380,7 +2380,7 @@
           "Pet score is calculated based on how many §aunique §7pets you have and the §ararity §7of these pets.": "寵物積分會依據你擁有幾個§a不同§7的寵物以及其§a稀有度§7進行評分。",
           "You gain an additional score for each max level pet you have!": "你可以依據擁有的滿等寵物而獲得額外積分！",
           "{0}§6 Score§8: {1} {2}": "{0}§6 分§8：{1} {2}",
-          "{0}§6 Score§8: {1} {2} {3}": "{0}§6 分§8：{1} {2} {3}",
+          "{0}§6 Score§8: {1} {2} {#}": "{0}§6 分§8：{1} {2} {#}",
           "Your Pet Score: {0}": "你的寵物積分：{0}",
 
           "Find pets by name!": "透過名字搜尋寵物！",
@@ -3525,7 +3525,7 @@
       "Booster Cookie": {
         "Acquire Booster Cookies from the {area} in the {island}.": "在{island}上的{area}取得 Booster Cookie。",
         "§7Ability to gain §bBits§7!": "§7賺取 §bBits §7的能力！",
-        "{0}{1} on all §3Wisdom §7stats": "{0}{1} §7所有§3智慧§7數值",
+        "{0}{#} on all §3Wisdom §7stats": "{0}{#} §7所有§3智慧§7數值",
         "§7Keep §6coins §7on death": "§7死亡時保留§6遊戲幣",
         "§ePermafly §7on private islands and gardens": "§7在個人島嶼和花園時可以§e無限飛行",
         "§7Quick access to some menus using their respective commands:": "可以使用對應的指令快捷開啟各種介面：",
@@ -3543,7 +3543,7 @@
 
         "Bits are earned from booster cookies and spent in the community shop for unique items.": "Bits 可以透過 Booster Cookie 賺取，並在社區商店用以購買各種獨特物品。",
         "Bits Purse: {0}": "Bits 錢袋：{0}",
-        "Bits Available: {0}{1}{2}": "可賺取 Bits 餘額：{0}{1}{2}",
+        "Bits Available: {0}/{1}": "可賺取 Bits 餘額：{0}/{1}",
         "Eligible to farm while you have the cookie buff.": "當你擁有 Cookie Buff 時方可賺取。",
         "Bits Multiplier: {0}": "Bits 倍增效果：{0}",
         "Per {item}: {0}§b bits §7available": "每片 {item}：{0}§b bits §7賺取餘額",
@@ -3566,7 +3566,7 @@
           "Click items in your inventory to sell them to this Shop!": "點擊物品欄中的物品以將其售出至商店！",
           "Loading...": "載入中...",
           "Sell price: {0} coins": "售價：{0}§6 遊戲幣",
-          "Sell price: N{0}A": "售價：無",
+          "Sell price: N/A": "售價：無",
           "Buy price: {0} coins": "買價：{0}§6 遊戲幣",
           "Buy price: N{0}A": "買價：無",
           "{0} product": "{0} 項商品",

@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "generated": "2026-11-24T07:14:44Z",
-  "notice": "Publish uiname, bossbar, hovertext and tab through cloud sync",
+  "generated": "2026-11-24T08:00:22Z",
+  "notice": "Migrate 9 entries to the current key rules",
   "files": {
     "vocab.json": {"sha256": "71aa59c0a2e1cfd027db662517e5098e8a4a753c7de83170d870e361d44b25bb", "size": 353816},
     "engine.json": {"sha256": "35fcd8977ace8c58bcef1ed040717a7e1b40c94d122624980ccf691f5ffc465d", "size": 3989},
-    "tooltips.json": {"sha256": "a29d9999e94596ce4f00e4252e030b4e99b8e6804b284527cd2ba66190b3a382", "size": 323917},
+    "tooltips.json": {"sha256": "1bd7fab82d6ad54794c1b4d5672bd7fbc7058b2a57d6bba320270a9a83dad1f1", "size": 323909},
     "guiname.json": {"sha256": "70573ba9e57b4a28a03a8bb754b95446c82e69a270378c62bcb9d7c4efd40afa", "size": 6699},
     "uiname.json": {"sha256": "914ebc2a99dda9990a225c99ee450782c65c786989778fe029f0bcf560bd2120", "size": 16388},
-    "holograms.json": {"sha256": "752f7b59fec97d7d26060e6f28c96c6a86301984d14c0173078fffa502dc3fdb", "size": 6641},
+    "holograms.json": {"sha256": "dda909507a72787640b033db60e04c91750974697e87cd86b691e52e41c4ea22", "size": 6631},
     "scoreboard.json": {"sha256": "e77be25d2bab2f42adc3e0bb4a5814d77f5907bb6a87ffedc1f1f352813d293b", "size": 3051},
     "chat.json": {"sha256": "f245dfab816613fead759fc71e9bf82cf2c3a0b8f5340c393a483418d8754365", "size": 38107},
     "title.json": {"sha256": "19b35c4d179cb5adff6d074cf7ea9c134be10b9f14a70d9da5b11de94c664fb7", "size": 1050},
