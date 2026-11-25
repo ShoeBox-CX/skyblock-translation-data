@@ -216,7 +216,7 @@
 
     "Ender Chest": "終界箱",
     "Backpacks": "隨身背包",
-    "Ender Chest Page {0}": "終界箱 第 {0} 頁",
+    "{item} Page {0}": "{item} 第 {0} 頁",
     "Backpack Slot {0}": "隨身背包 第 {0} 格",
     "First Page": "第一頁",
     "Last Page": "最後一頁",
