@@ -1575,7 +1575,7 @@
     },
 
     "Pets": {
-      "{0}Lvl {1}{2} {pet}": "{0}等級 {1}{2} {pet}",
+      "[Lvl {0}] {pet}": "[等級 {0}] {pet}",
       "{0}Lvl {1}{2} {pet} {3}": "{0}等級 {1}{2} {pet} {3}"
     },
 
@@ -1978,7 +1978,7 @@
       "Hotspot Talisman": "熱點護身符",
       "Hotspot Ring": "熱點戒指",
       "Hotspot Artifact": "熱點神器",
-      "InfiniPot{0}": "無盡藥水罐{0}",
+      "InfiniPot™": "無盡藥水罐™",
       "Beastslayer's Codex": "獵獸者的律法"
     },
 

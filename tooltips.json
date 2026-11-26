@@ -18,7 +18,7 @@
     "Armor": {
       "Armor Bonus": {
         "The more {stats} you have, the more crops you will drop.": "你的 {stats} 越高，作物的掉落量也越高。",
-        "This item is Undead {0}!": "此為亡靈道具 {0}！",
+        "This item is Undead {#}!": "此為亡靈道具 {#}！",
         "This item is Arachnal {0}!": "此為蜘蛛道具 {0}！",
 
         "Grants immunity to de-buffs while equipped.": "穿著時獲得免疫負面效果的能力。",
@@ -65,7 +65,7 @@
         "§7You are immune to {stats}.": "§7使你免疫{stats}。",
         "§7Damages mobs in a {0} block range for {1} base damage + {2} of their max {stats} every second and applies §bSlowness {roman} §7for {3} seconds.": "§7每秒對 {0} 格範圍內的怪物造成 {1} + 怪物最大 {stats} {2} 的傷害，並對牠們施加§b緩速 {roman} §7持續 {3} 秒。",
         "Damages mobs within {0} blocks for {1} of their max {stats} per second.": "每秒對 {0} 格範圍內的怪物造成其最大 {stats} {1} 的傷害。",
-        "Max {0} damage{1}s": "上限 {0} 傷害{1}秒",
+        "Max {0} damage/s": "上限 {0} 傷害/秒",
         "{collections_res}§7 Collection: {0}": "{collections_res}§7收藏：{0}",
         "{collections_res}§7 Collection: {0}§6K": "{collections_res}§7收藏：{0}§6K",
         "{collections_res}§7 Collection: {0}§6M": "{collections_res}§7收藏：{0}§6M",
@@ -74,7 +74,7 @@
         "Reduces your health and defense by half and reduces the cost of health-consuming abilities by {0}.": "將你的生命值與防禦減半，但使所有消耗血量施放的技能消耗量減少 {0}。",
         "Heals the wearer for {0} per second for {1} seconds when hit by a projectile.": "當穿戴者被投射物擊中時，每秒恢復 {0} 點血量持續 {1} 秒。",
         "§7Regen {0}{stats} when killing a mob. Increase the {stats2} bonus of this armor by {1} §8(Max {2}§8)": "§7擊殺一隻怪物後回復 {0}{stats}。並將這件裝備的 {stats2} 額外提升 {1} 點§8（上限 {2}§8）",
-        "Bonus HP: {0}{1}{2}": "額外血量：{0}{1}{2}",
+        "Bonus HP: {0}/{1}": "額外血量：{0}/{1}",
         "§7Grants the ability to breathe §9permanently §7while §9underwater§7.": "§7獲得能§9永久§7在§9水下§7呼吸的能力。",
         "§7Grants {0}{stats} while §9underwater§7.": "§7在§9水下§7時獲得 {0}{stats}。",
         "§9Doubles§7 your {stats}§7 while in water.": "§7在水中時，將你的 {stats} §9雙倍§7。",
@@ -89,8 +89,8 @@
       "§7Kill §aBlazes §7to accumulate {stats}.": "§7擊殺§a烈焰使者§7以逐步提升 {stats}。",
       "§7Kill §aGhasts §7to accumulate {stats}.": "§7擊殺§a地獄幽靈§7以逐步提升 {stats}。",
       "§7Kill §aMagma Cubes §7to accumulate {stats}.": "§7擊殺§a熔岩立方怪§7以逐步提升 {stats}。",
-      "Piece Bonus: {0}{1}": "單件加成：{0}{1}",
-      "§7Next Upgrade: {0}{1} §8({2}{3}{4}§8)": "§7下一階段：{0}{1} §8({2}{3}{4}§8)",
+      "Piece Bonus: {0}{#}": "單件加成：{0}{#}",
+      "§7Next Upgrade: {0}{#} §8({1}/{2}§8)": "§7下一階段：{0}{#} §8({1}/{2}§8)",
       "§7Killing an enemy causes an explosion dealing {0} of their total {stats} as damage to all enemies within {1} §ablocks§7. Enemies in the blast radius will also be §6contaminated §7causing them to explode on death.": "§7擊殺一名敵人後，對範圍 {1} §a格§7內的其他敵人造成被擊殺敵人總 {stats} {0} 的爆炸傷害。被爆炸波及的敵人也會被§6汙染§7，使其在死亡後也會產生爆炸。",
       "Increases all explosion damage dealt by {0}.": "將所有爆炸傷害提升 {0}。",
       "§7Gain a {0} chance to reflect §cFireballs§7.": "§7有 {0} 機率反彈§c火球§7。",
@@ -100,7 +100,7 @@
       "Health-consuming abilities deal {0} more damage.": "消耗血量施放的技能額外造成 {0} 傷害。"
     },
     "Tools": {
-      "Fuel: {0}{1}{2}": "燃料：{0}{1}{2}",
+      "Fuel: {0}/{1}": "燃料：{0}/{1}",
       "§7Fuel Tank: §cNot Installed": "§7燃料箱：§c未安裝",
       "Increases fuel capacity with part installed.": "安裝此部件以提升燃料上限。",
       "{0} Max Fuel Capacity": "{0} 燃料最大上限",
@@ -125,7 +125,7 @@
       "§9ꨃ Line §8§lNONE": "§9ꨃ 魚線 §8§l無",
       "§7Talk to {npc} in the {island} to apply this §9Line §7to a {item}.": "§7和{island}的{npc}交談以將此§9魚線§7套用至{item}上。",
 
-      "{0} Sinker §8§lNONE": "{0} 鉛墜 §8§l無",
+      "{#} Sinker §8§lNONE": "{#} 鉛墜 §8§l無",
       "§7Talk to {npc} in the {island} to apply this §9Sinker §7to a {item}.": "§7和{island}的{npc}交談以將此§9鉛墜§7套用至{item}上。",
       "Materializes {collections_res} in your inventory whenever you catch something.": "每當你釣上任何東西時，在你的物品欄生成一個{collections_res}。",
       "Materializes {resource} in your inventory whenever you catch something.": "每當你釣上任何東西時，在你的物品欄生成一個{resource}。",
@@ -290,7 +290,7 @@
       "§7Applies the §9Fruitful §7reforge when combined with a mining tool.": "§7與挖掘工具結合時，賦予§9豐產的§7重鑄。",
       "§7Applies the §9Geometric §7reforge when combined with {item}§7, {item2}§7, {item3}§7, and {item4}§7.": "§7與{item}§7、{item2}§7、{item3}§7和{item4}§7結合時，賦予§9幾何的§7重鑄。",
       "§7Applies the §9Giant §7reforge when combined with armor.": "§7與盔甲結合時，賦予§9巨大的§7重鑄。",
-      "§7Applies the §9Gilded §7reforge when combined with {item}§7, {0} {item2}§7, {item3}§7, and {1} {item4}§7.": "§7與{item}§7、{0} {item2}§7、{item3}§7和 {1} {item4}§7結合時，賦予§9鎏金的§7重鑄。",
+      "§7Applies the §9Gilded §7reforge when combined with {item}§7, {#} {item2}§7, {item3}§7, and {#2} {item4}§7.": "§7與{item}§7、{#} {item2}§7、{item3}§7和 {#2} {item4}§7結合時，賦予§9鎏金的§7重鑄。",
       "§7Applies the §9Glacial §7reforge when combined with a mining tool.": "§7與挖掘工具結合時，賦予§9冰川的§7重鑄。",
       "§7Applies the §9Glistening §7reforge when combined with equipment.": "§7與副裝結合時，賦予§9閃耀的§7重鑄。",
       "§7Applies the §9Groovy §7reforge when combined with armor.": "§7與盔甲結合時，賦予§9律動的§7重鑄。",
@@ -545,13 +545,13 @@
       "Shoots {0} Ice Bolt that deals {1} damage and slows enemies hit for {2} seconds!": "射出 {0} 發寒冰子彈，對擊中的敵人造成 {1} 傷害並施加緩速持續 {2} 秒！",
       "Shoots {0} Ice Bolt that deals {1} damage and slows enemies hit for {2} seconds! When hitting the ground, also creates an explosion of {3} blocks, dealing the same damage.": "射出 {0} 發寒冰子彈，對擊中的敵人造成 {1} 傷害並施加緩速持續 {2} 秒！當擊中地面時，也會產生一道範圍 {3} 格的爆炸，並造成相同傷害。",
       "Punch the ground, damaging enemies in a hexagon around you for {0} base Magic Damage.": "重擊地面，對自身六邊形範圍內的敵人造成 {0} 基礎魔法傷害。",
-      "Heal for {0}{1} and heal players within {2} blocks for {3}{4}.": "恢復自身 {0}{1} 並為 {2} 格內的隊友恢復 {3}{4}。",
+      "Heal for {0}{#} and heal players within {1} blocks for {2}{#2}.": "恢復自身 {0}{#} 並為 {1} 格內的隊友恢復 {2}{#2}。",
       "Leap into the air and deal {0} damage to nearby enemies upon landing on the ground. Damaged enemies will also be frozen for {1} second.": "往空中一躍並在落地後對附近的敵人造成 {0} 傷害。受到此傷害的敵人同時會被凍住 {1} 秒。",
       "Shoot an ink bomb in front of you dealing {0} damage and giving blindness!": "向前發射一發墨汁炸彈，造成 {0} 傷害與失明效果！",
 
       "§7Consumes {0} {collections_res} from the §eInventory §7or §aQuiver §7to §adouble§7 the damage per shot.": "每次射擊時，從§e物品欄§7或§a箭袋§7消耗 {0} 個{collections_res}使傷害雙倍。",
       "§7The more kills you get using this bow the more powerful it becomes! Reach {0} kills to unlock its full potential.": "這把弓會隨著你擊殺越多敵人而更加強大！達到 {0} 以完全解放它的潛能。",
-      "§7Next Upgrade: §eDouble Shot §8({0}{1}{2})": "§7下次升級：§e雙重射擊§8（{0}{1}{2}）",
+      "§7Next Upgrade: §eDouble Shot §8({0}/{1})": "§7下次升級：§e雙重射擊§8（{0}/{1}）",
       "Shoots {0} arrows at a time! The {1} extra arrows deal {2} of the damage and home to targets.": "同時射擊 {0} 發箭矢！額外的 {1} 發箭矢會造成 {2} 傷害並自動追蹤目標。",
       "§7Shoots an {collections_res}. Upon landing you deal damage to all Monsters in a {0} block radius for {1} of their {stats}. §8(Max {2} damage)": "發射一枚{collections_res}。當你落地時，對半徑 {0} 格內的敵人造成其最大 {stats} {1} 的傷害。§8（最多造成 {2} 傷害）",
       "Creates an explosion on impact! Every Monster caught in this explosion takes the full damage of the weapon!": "接觸到物體時產生爆炸！每個在爆炸範圍中的怪物皆會受到完整的武器傷害！",
@@ -567,7 +567,7 @@
       "§7While on §2Foraging Islands§7, throw your Axe at a tree! It will sweep {0} of the logs it normally would!": "§7當你在§2伐木型島嶼§7時，向樹木投擲斧頭！此行為可橫掃正常砍伐下 {0} 數量的原木！",
       "Gain {0}{stats} while in {island}.": "當你在{island}時，獲得 {0}{stats}。",
       "§7Gains {0}{stats} every {1}§a Logs §7cut on {island}. §8(max {2})": "§7每當你在{island}砍下 {1}§a 顆原木§7便獲得 {0}{stats}。§8（上限 {2}）",
-      "Current Bonus: {0}{1}": "當前加成：{0}{1}",
+      "Current Bonus: {0}{#}": "當前加成：{0}{#}",
       "Logs Cut: {0}": "原木砍伐數：{0}",
 
       "{0} Part of a Toolkit!": "{0} 工具箱的一部分！",
@@ -667,7 +667,7 @@
     "§7Earn {0} §7more Exp when mining.": "§7挖掘時額外獲得 {0} §7經驗。",
     "§7Earn {0}§2 Sowdust §7from farming.": "§7從農耕中獲得 {0}§2 播種粉塵§7。",
     "§7Earn {0} {powder} §7and {1}{stats} §7when mining near a Fallen Star.": "§7在隕星附近挖掘時，獲得 {0} {powder} §7與 {1}{stats}。",
-    "§7Earn {0} {1} {powder} §7from §bMining Events §7in the {island}§7.": "§7在{island}§7的§b採礦活動§7中，獲得 {0} {1} {powder}§7。",
+    "§7Earn {0} {#} {powder} §7from §bMining Events §7in the {island}§7.": "§7在{island}§7的§b採礦活動§7中，獲得 {0} {#} {powder}§7。",
     "§7Increases ability damage by {0}§7.": "§7技能傷害提升 {0}§7。",
     "§7Increases the chance to find candy during the {event} §7by {0}§7.": "§7在{event}§7期間找到糖果的機率提升 {0}§7。",
     "§7Increases the odds of finding §2Seasonings §7by {0}§7.": "§7找到§2佐料§7的機率提升 {0}§7。",
@@ -711,7 +711,7 @@
         "{rarity} {category}": "{rarity} {category}",
         "{rarity}": "{rarity}",
 
-        "{0} §a§lTIP!": "{0} §a§l小提示！",
+        "{#} §a§lTIP!": "{#} §a§l小提示！",
         "Uses: {0}{1}{2}": "次數：{0}{1}{2}",
 
         "This item can be reforged!": "該道具可以進行重鑄！",
@@ -722,14 +722,14 @@
         "{0} None": "{0} 無",
         "And {0} more options": "以及另外 {0} 個選項",
 
-        "{0} §cRequires §aCombat Skill {1}§c.": "{0} §c需達到 §a戰鬥等級 {1}§c。",
+        "{#} §cRequires §aCombat Skill {0}§c.": "{#} §c需達到 §a戰鬥等級 {0}§c。",
         "{0} §cRequires §aFarmig Skill {1}§c.": "{0} §c需達到 §a農耕等級 {1}§c。",
-        "{0} §cRequires §aMining Skill {1}§c.": "{0} §c需達到 §a挖掘等級 {1}§c。",
-        "{0} §cRequires §aForaging Skill {1}§c.": "{0} §c需達到 §a伐木等級 {1}§c。",
-        "{0} §cRequires §aFishing Skill {1}§c.": "{0} §c需達到 §a釣魚等級 {1}§c。",
-        "{0} §cRequires §aHunting Skill {1}§c.": "{0} §c需達到 §a狩獵等級 {1}§c。",
+        "{#} §cRequires §aMining Skill {0}§c.": "{#} §c需達到 §a挖掘等級 {0}§c。",
+        "{#} §cRequires §aForaging Skill {0}§c.": "{#} §c需達到 §a伐木等級 {0}§c。",
+        "{#} §cRequires §aFishing Skill {0}§c.": "{#} §c需達到 §a釣魚等級 {0}§c。",
+        "{#} §cRequires §aHunting Skill {0}§c.": "{#} §c需達到 §a狩獵等級 {0}§c。",
         "{0} §cRequires §aTaming Skill {1}§c.": "{0} §c需達到 §a馴養等級 {1}§c。",
-        "{0} §cRequires §aSocial Skill {1}§c.": "{0} §c需達到 §a社交等級 {1}§c。"
+        "{#} §cRequires §aSocial Skill {0}§c.": "{#} §c需達到 §a社交等級 {0}§c。"
       },
 
       "UI Button": {
@@ -1160,11 +1160,11 @@
             "{resource} §8x{0}{1}": "{resource} §8x{0}{1}",
             "{resource} §8x{0} ({1})": "{resource} §8x{0} ({1})",
             "{resource} §8({0})": "{resource} §8({0})",
-            "{0} {resource}": "{0} {resource}",
+            "{#} {resource}": "{#} {resource}",
             "{0} {resource} §8({1})": "{0} {resource} §8({1})",
             "{0} {resource} §8x{1}{2}": "{0} {resource} §8x{1}{2}",
             "{item}§f ({enchantment} {roman}) §8({0})": "{item}§f ({enchantment} {roman}) §8({0})",
-            "{0}§7Lvl {1}{2} {pet}": "{0}§7等級 {1}{2} {pet}",
+            "[§7Lvl {0}] {pet}": "[§7等級 {0}] {pet}",
             "{0}§7Lvl {1}{2} {pet} §8({3})": "{0}§7等級 {1}{2} {pet} §8({3})",
             "{0}§7Lvl {1}{2} {pet} §8x{3} §8({4})": "{0}§7等級 {1}{2} {pet} §8x{3} §8({4})"
           },
@@ -1359,7 +1359,7 @@
             "Your Current Effect": "你當前的加成",
             "§7Grants the following buffs for the first {0}§d Gemstones§7 you mine each day.": "§7你每天在挖掘前 {0} 塊§d寶石§7時，獲得以下加成。",
             "{0} {1} {powder}": "{0} {1} {powder}",
-            "{0} {1}{stats}": "{0} {1}{stats}",
+            "{#} {0}{stats}": "{#} {0}{stats}",
             "Blocks remaining: {0}": "剩餘方塊：{0}",
             "Resets in: {timer}": "重置時間：{timer}",
             "§7The first ore you mine each day grants {0}§9 Powder§7, multiplied by your §5HOTM §7level.": "§7每天挖掘的第一塊礦物將額外給予 {0}§9 粉末§7，其數值與§5礦山之心§7等級相乘為最終數值。",
@@ -1378,7 +1378,7 @@
             "Increases your chances of finding a {island} when mining in the {area} by {0}.": "提升你在{area}挖掘時發現{island}的機率 {0}。",
             "Every time you enter a {island}, you receive a random buff.": "每當你進入{island}時，獲得其中一項隨機加成。",
             "{0} {1} chance to find a {resource}.": "{0} 發現{resource}的機率 {1}",
-            "{0} Gain {1}{stats}": "{0} 獲得 {1}{stats}",
+            "{#} Gain {0}{stats}": "{#} 獲得 {0}{stats}",
             "{0} Reduce Pickaxe Ability cooldowns by {1}.": "{0} 挖掘技能冷卻時間 {1}。",
             "Grants {0}{stats} while in a {island}.": "當你位於{island}時，獲得 {0}{stats}。",
             "§7Increases your chances of finding a {island} containing a §dGemstone Crystal§7 by {0}.": "§7提升發現擁有§d寶石水晶§7的{island}的機率 {0}。",
@@ -1697,7 +1697,7 @@
               "Increases knockback by {0} blocks.": "提升擊退距離 {0} 格。",
               "Grants {0}{stats} and {1}{stats2} while mining Gemstones.": "挖掘寶石時，獲得 {0}{stats} 及 {1}{stats2}。",
               "Reduces the {stats} of your target by {0} for {timer} each time you hit them with melee. Stacks up to {1} times.": "每當你用近戰攻擊目標時，降低牠們的 {stats} 持續 {timer}。最多疊 {1} 次。",
-              "Heal {0}{1} every time you hit a mob.": "每次攻擊怪物時，恢復自身 {0}{1}。",
+              "Heal {0}{#} every time you hit a mob.": "每次攻擊怪物時，恢復自身 {0}{#}。",
               "Increases the chance for Monsters to drop their armor by {0}.": "提升怪物掉落裝備的機率 {0}。",
               "Grants {0}{stats}, which increases the chance of fishing treasure.": "獲得 {0}{stats}，這能提升你釣到寶藏的機率。",
               "Shortens the maximum time it takes to catch something by {0}.": "縮短釣魚的最大等待時間 {0}。",
@@ -1734,18 +1734,18 @@
               "§7Every {0} hits on a monster, strike §elightning§7, dealing {1} of the hit's damage to up to {2} monsters within {3} blocks.": "§7對敵人造成的第 {0} 下攻擊會降下§e雷電§7，對範圍 {3} 格內至多 {2} 名怪物造成此次攻擊的 {1} 傷害。",
               "Increases your {stats} by {0} against Sea Creatures.": "針對海怪造成的傷害，將提升你的 {stats} 提升 {0}。",
               "Increases damage dealt by {0} for every {1} defense your target has up to {2}.": "你的目標每擁有 {1} 防禦，對其造成的傷害增加 {0}，上限 {2}。",
-              "Heal {0}{1}s per enemy within {2} blocks, up to {3}{4}s.": "範圍 {2} 格內每存在一名敵人便恢復自身 {0}{1}秒，上限 {3}{4}秒。",
+              "Heal {0}{#}/s per enemy within {1} blocks, up to {2}{#2}/s.": "範圍 {1} 格內每存在一名敵人便每秒恢復自身 {0}{#}，上限每秒 {2}{#2}。",
               "Increases melee damage dealt by {0} for the first three hits on a mob.": "對怪物造成的前三次近戰攻擊額外造成 {0} 傷害。",
-              "Heal for {0}{1} per {stats} used.": "每消耗 1 點 {stats}，恢復自身 {0}{1}。",
-              "Heal {0}{1} every time you kill a mob.": "每擊殺一名怪物恢復自身 {0}{1}。",
+              "Heal for {0}{#} per {stats} used.": "每消耗 1 點 {stats}，恢復自身 {0}{#}。",
+              "Heal {0}{#} every time you kill a mob.": "每擊殺一名怪物恢復自身 {0}{#}。",
               "Reduces the target's walk speed by {0} and deals {1} of your damage per second per hit, stacking globally up to {2} hits.": "每次攻擊將目標移動速度減緩 {0}，並每秒造成自身傷害的 {1}，總體最多被疊加 {2} 層。",
 
-              "§7Gain {0} extra Combat XP. The {1}nd hit on a mob grants {2}§6 coins {3} {4} §7exp orbs.": "§7額外獲得 {0} 戰鬥經驗。對怪物造成第 {1} 擊時獲得{2}§6 遊戲幣 {3} {4} §7經驗球。",
+              "§7Gain {0} extra Combat XP. The {1}nd hit on a mob grants {2}§6 coins & {3} §7exp orbs.": "§7額外獲得 {0} 戰鬥經驗。對怪物造成第 {1} 擊時獲得{2}§6 遊戲幣與 {3} §7經驗球。",
               "§7Gain {0}{stats} and a {1} chance to drop an enchanted item.": "§7獲得 {0}{stats} 以及 {1} 的機率掉落附魔資源。",
               "Gain {0}{stats} and {1}{stats2}.": "獲得 {0}{stats} 及 {1}{stats2}。",
               "Grants {0}{stats} and {1}{stats2} when killing Sea Creatures.": "獲得 {0}{stats} 並在擊殺海怪時獲得 {1}{stats2}。",
-              "§7Gain {0} §cCatacombs §7XP {1} {2} §3Class §7XP, doubled on §b§lS+ §r§7runs.": "§7額外獲得 {0} §c地下陵墓§7經驗 {1} {2} §3職業§7經驗，若通關結算為 §b§lS+ §r§7則效果雙倍。",
-              "§7Grants {0}{1} per {2} §cCatacombs §7levels.": "§7每 {2} 等§c地下陵墓§7等級獲得 {0}{1}。",
+              "§7Gain {0} §cCatacombs §7XP & {1} §3Class §7XP, doubled on §b§lS+ §r§7runs.": "§7額外獲得 {0} §c地下陵墓§7經驗與 {1} §3職業§7經驗，若通關結算為 §b§lS+ §r§7則效果雙倍。",
+              "§7Grants {0}{#} per {1} §cCatacombs §7levels.": "§7每 {1} 等§c地下陵墓§7等級獲得 {0}{#}。",
               "Gain {0} extra Combat XP. Grants {1}{stats}.": "額外獲得 {0} 戰鬥經驗。獲得 {1}{stats}。",
               "{0} Combat XP to tier up!": "{0} 戰鬥經驗以晉升下一級！",
               "{0} kills to tier up!": "{0} 擊殺以晉升下一級！",
@@ -2134,7 +2134,7 @@
           "Chapter {roman} Progress: {0}": "第 {roman} 章進度：{0}",
 
           "Chapter {roman}": "第 {roman} 章",
-          "{0} {item}": "{0} {item}",
+          "{#} {item}": "{#} {item}",
 
           "Moonglade Marsh": {
             "Welcome to the {island}, the first island of {island2}.": "歡迎來到{island} - 構成{island2}的第一座島嶼。",
@@ -3078,7 +3078,7 @@
             "§7Grants {0}{stats} §7on {mob_type} §7mobs.": "§7對{mob_type} §7怪物獲得 {0}{stats}§7。",
             "§7Grants {0} §7more §6Coins §7from killing {mob_type} §7mobs.": "§7擊殺{mob_type} §7怪物獲得的§6遊戲幣§7增加 {0}§7。",
             "§7Gain {0} {stats} §7when above {1} {stats2}§7.": "§7當{stats2}§7高於 {1} 時，獲得 {0} {stats}§7。",
-            "{0} §7types of {mob_type} §7mobs can spawn from {pet}§e Burrows§7. Their stats scale with your {pet2}{1}§7s rarity.": "§7{pet}§e地洞§7可生成 {0} §7種{mob_type} §7怪物。其數值隨你的{pet2}{1}§7的稀有度而提升。"
+            "{0} §7types of {mob_type} §7mobs can spawn from {pet}§e Burrows§7. Their stats scale with your {pet2}’§7s rarity.": "§7{pet}§e地洞§7可生成 {0} §7種{mob_type} §7怪物。其數值隨你的{pet2}§7的稀有度而提升。"
           },
           "Horse": {
             "§7After falling {0}§7 or more blocks, absorb your fall damage and deal {1} §7of your weapon's {stats}§7 for every block fallen to mobs within {2} §7blocks.": "§7墜落 {0}§7 格以上後，吸收你所受的墜落傷害，並依墜落的每一格，對 {2} §7格內的怪物造成你武器 {1} §7的{stats}§7。",
@@ -3226,7 +3226,7 @@
             "§7Grants {0}{stats} §7to your pet for each §5Heart of the {area} §7level.": "§7每一級§5{area}之心§7，給予你的寵物 {0}{stats}§7。",
             "§7Grants {0}{stats} §7for each §5Heart of the {area} §7level while in the {island}§7.": "§7在{island}§7時，每一級§5{area}之心§7給予 {0}{stats}§7。",
             "§7Grants {0}{stats} §7to Drills.": "§7為鑽頭增加 {0}{stats}§7。",
-            "§7You gain a good chance to fish up an {mob} §3Sea Creature§7. You and other nearby fishers gain {0}{stats}§7. §8Up to {1}{2}§8 from buckets!": "§7你有很高的機率釣起{mob} §3海怪§7。你與附近其他釣魚的玩家獲得 {0}{stats}§7。 §8由水桶提供，上限 {1}{2}§8！"
+            "§7You gain a good chance to fish up an {mob} §3Sea Creature§7. You and other nearby fishers gain {0}{stats}§7. §8Up to {1}{#}§8 from buckets!": "§7你有很高的機率釣起{mob} §3海怪§7。你與附近其他釣魚的玩家獲得 {0}{stats}§7。 §8由水桶提供，上限 {1}{#}§8！"
           },
           "Baby Yeti": {
             "§7Grants {0}{stats} §7while on {island}§7.": "§7在{island}§7時，獲得 {0}{stats}§7。",
@@ -3319,14 +3319,14 @@
           "Montezuma": {
             "§7Gain {0}{stats} §7per soul piece found.": "§7每找到一塊靈魂碎片，獲得 {0}{stats}§7。",
             "Gain {0}{stats} per soul piece.": "§7每一塊靈魂碎片獲得 {0}{stats}。",
-            "Found: {0}{1}{2} Soul Pieces": "§7已尋得：{0}{1}{2} 塊靈魂碎片"
+            "Found: {0}/{1} Soul Pieces": "§7已尋得：{0}/{1} 塊靈魂碎片"
           },
           "Wisp": {
-            "§7While in combat on the {island}§7, spawn a pool every {timer}§7. Bathing in it heals {0}{1} §7now and {2}{3}§7s for {timer2}§7.": "§7在{island}§7戰鬥時，每 {timer}§7 生成一個水池。浸泡其中可立即治療 {0}{1}§7，並在 {timer2}§7 內每秒治療 {2}{3}§7。",
+            "§7While in combat on the {island}§7, spawn a pool every {timer}§7. Bathing in it heals {0}{#} §7now and {1}{#2}/§7s for {timer2}§7.": "§7在{island}§7戰鬥時，每 {timer}§7 生成一個水池。浸泡其中可立即治療 {0}{#}§7，並在 {timer2}§7 內每秒治療 {1}{#2}§7。",
             "§7Kill Blazes to gain defense against them and demons.": "§7擊殺烈焰使者以獲得對其與惡魔的防禦。",
-            "Bonus: {0}{1} {2} {3}{4}": "加成：{0}{1} {2} {3}{4}",
-            "§7Next Upgrade: {0}{1} {2} {3}{4} §8({5}{6}{7})": "§7下次升級：{0}{1} {2} {3}{4} §8（{5}{6}{7}）",
-            "§7Lets you break fire pillars {0} §7faster, healing you for {1} §7of your max {2} §7over {timer}§7.": "§7使你破壞火柱的速度加快 {0}§7，並在 {timer}§7 內治療你最大 {2} §7的 {1}§7。",
+            "Bonus: {0}{#} & {1}{#2}": "加成：{0}{#} 與 {1}{#2}",
+            "§7Next Upgrade: {0}{#} & {1}{#2} §8({2}/{3})": "§7下次升級：{0}{#} 與 {1}{#2} §8（{2}/{3}）",
+            "§7Lets you break fire pillars {0} §7faster, healing you for {1} §7of your max {#} §7over {timer}§7.": "§7使你破壞火柱的速度加快 {0}§7，並在 {timer}§7 內治療你最大 {#} §7的 {1}§7。",
             "Gain {0} {1} XP against Blazes.": "§7對烈焰使者作戰時獲得 {0} {1} 經驗。",
             "Regenerate mana {0} faster": "§7魔力恢復速度加快 {0}"
           }

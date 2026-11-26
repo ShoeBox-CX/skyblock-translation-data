@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generated": "2026-11-25T00:58:47Z",
-  "notice": "Make unreachable table keys reachable: 118 down to 10",
+  "generated": "2026-11-26T10:25:43Z",
+  "notice": "Migrate 40 entries to the current key rules using NEU item lore",
   "files": {
-    "vocab.json": {"sha256": "f7070bc57963a15696dde6e07ecbd54748cd71ae3f7789532f1bb0b86fb6205e", "size": 349262},
+    "vocab.json": {"sha256": "0a416a32184d5fbe804c7e225fb3deeeb645c541e1e5f9a06a3ba361ba002558", "size": 349254},
     "engine.json": {"sha256": "c46fff47698ddd90b8a878c7c7da9e84306210c04eedae5ea40d7af5928e8251", "size": 4355},
-    "tooltips.json": {"sha256": "d60c740dfc6ac493ddbe67ba04e00206fd3675e2c3d6b4ce81b73cc5a1c73320", "size": 323819},
+    "tooltips.json": {"sha256": "5ba0c21e1db0eca7762f4744107dce9bf5e313ce6cd470199e1a67bf765c3f2b", "size": 323791},
     "guiname.json": {"sha256": "d4d0b66720374eb592e0664dedb6bdeb1fb5e465297b3807fe9a983a934d3b86", "size": 6649},
     "uiname.json": {"sha256": "9773afdf951b8f8f934e8936832c73de002f762db84f650c60a24464b3a851a0", "size": 16380},
     "holograms.json": {"sha256": "dda909507a72787640b033db60e04c91750974697e87cd86b691e52e41c4ea22", "size": 6631},
